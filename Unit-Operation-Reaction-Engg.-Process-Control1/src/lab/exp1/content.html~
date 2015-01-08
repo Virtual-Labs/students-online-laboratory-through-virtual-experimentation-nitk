@@ -26,7 +26,7 @@ edit -->
                 <!-- Write the name of your lab and link it to the home 
       page of your lab (h1 tag is preferred while writing your 
       lab name)-->
-                <a href="../index.html">Physics Lab</a>
+                <a href="../index.html">Chemical Lab</a>
             </div><!-- Add any additional element you want to add to the lab 
     header, For example : Help (Enclosing them with suitable 
     div is recommended)-->
@@ -74,11 +74,7 @@ edit -->
                     <div class="content" id=
                     "experiment-article-section-1-content">
                         <div class="divContent">
-                            <h2 style="color: Red;"><strong style=
-                            "text-decoration: underline"><span style=
-                            "font-family: arial,helvetica,sans-serif; color: rgb(255, 0, 0);">
-                            <span style=
-                            "font-size: large;">Assignment</span></span></strong></h2>
+                           
 
                             <p>&nbsp;</p>
 
