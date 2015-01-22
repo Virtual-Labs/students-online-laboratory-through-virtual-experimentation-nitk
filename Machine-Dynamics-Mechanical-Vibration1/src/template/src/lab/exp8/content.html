@@ -1,0 +1,315 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        
+        <article id="experiment-article">
+            
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                 
+                    <img src="../images/introduction.jpg"></div>
+                   
+
+                    <div class="heading" id="experiment-article-section-1-heading">
+                        Assignment
+                    </div>
+					
+                    <div class="content" id="experiment-article-section-1-content">
+                        <div class="divContent">
+                            
+                        </div>
+                    </div>
+                </section>
+				
+				<!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    
+                    <img src="../images/theory.jpg"></div>
+                    
+
+                    <div class="heading" id="experiment-article-section-2-heading">
+                        Pre Test
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id="experiment-article-section-2-content">
+                        <div class="divQuiz">
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/objective.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-3-content">
+                        <div class="divContent">
+                            
+
+                           
+ 
+
+After completing this simulation experiment one should be able to </br>
+	Model a given real system to an equivalent simplified single degree </br>
+   &nbsp;&nbsp;  of freedom system and reducing the vibration of the main system adding an absorber system with suitable assumptions / idealisations.</br>
+	Determine the amplitude of vibration for both main and additional system.</br>
+	Tune a vibration absorber by varying dynamic system parameters.</br>
+	Study the response of the vibration absorber for different excitation frequency and amplitude.</br>
+<h3 style="color:#997e11">
+Dynamic vibration absorber</h3></br>
+Introduction </br>
+When a structure is externally excited, it will have undesirable vibrations. The amplitude of vibration will be maximal when 
+the system gets excited close to its naturalfrequency and this can cause rapid catastrophic failure. Hence it becomes
+ necessary to neutralizethese vibrations. One of the methods for neutralizing these vibrations is by coupling a vibrating system to
+ it so that the amplitude can be brought down to zero. This kind of vibrating system is known as vibration absorber
+ or dynamic vibration absorber (DVA). DVA are used to control structural vibrations where it concentrates on neutralizing
+ the amplitude of vibration at resonance. Some practical examples of dynamic vibration absorber showed in Fig 1 and 2. 
+
+</p>
+
+<p>
+<figure>
+<img src="../images/dyvb1.png" alt="HTML5 Icon"  class="figure" ></br>
+  <figcaption>Fig 1: Dynamic vibration absorber in steel stack</figcaption>
+</figure>
+
+
+<figure>
+<img src="../images/dyvb2.png" alt="HTML5 Icon"  class="figure"></br>
+  <figcaption>Fig 2: Dynamic vibration absorber PCB</figcaption>
+</figure>
+
+To study the dynamic absorber system, a real system considered as
+ main system is modelled as an equivalent single degree of freedom system
+ and it is  excited by a harmonic excitation force F= F0 sin?t.
+ The steady state response of the system is given by x= X sin (?t+?).
+ Steady state amplitude of vibration of the proposed single degree of freedom system will be maximum 
+ at the resonance. To neutralize the effect at resonance, the main system couples with an absorber system.
+ This coupling will affect (suppress) the amplitude of vibration of the main system. By the addition of absorber system, 
+ single degree of freedom analysis cannot hold. Hence whole system should be considered two degree of freedom system.  
+</p>
+
+<figure><img src="../images/dyvb3.png" alt="HTML5 Icon"  class="figure"></br>
+  <figcaption>
+Fig 3: A single degree of freedom system and vibration absorber system</figcaption>
+</figure>
+
+<figure>
+<img src="../images/dyvb4.png" alt="HTML5 Icon"   class="figure"></br>
+  <figcaption>
+Fig 4: Free body diagram of vibration absorber system</figcaption>
+</figure>
+
+
+</p>
+
+<p>
+The free-body diagrams of the masses and are shown in Fig. 4. By application of Newtons second law of motion to each of the masses gives the equations of motion as:</br>
+		$\begin{array}{l}m_1{\overset{..}x}_1+k_1x_1+k_2\left(x_1-x_2\right)=F_0\sin(\omega t)\\\\\\\;\;\end{array}$		... (1)</br>
+	 $\begin{array}{l}m_2{\overset{..}x}_2+k_2\left(x_2-x_1\right)=0\\\\\\\;\;\end{array}$ 			... (2)</br>
+
+Steady state response of two degree of freedom is assumed as,</br>
+
+$\begin{array}{l}\;\;x_1\;=X_1\sin(\omega t+\phi)\;And\;x_2=X2\sin(\omega t+\phi)\\\\\\\;\;\end{array}$</br>
+
+
+   
+By substituting x1 and x2 in equation 1 and 2 we get,</br>
+	$\left(k_1+k_2-m_1\omega^2\right)X_1-k_2X_2=F_0$		... (3)</br>
+$\begin{array}{l}-k_2X_1+\left(k_2-m_2\omega^2\right)X_2=0\\\\\\\;\;\end{array}$		   ... (3)</br>
+	$\begin{array}{l}-k_2X_1+\left(k_2-m_2\omega^2\right)X_2=0\\\\\\\;\;\end{array}$	... (4)</br>
+By solving the equation 3 and 4, amplitude of vibration of main system and absorber system given by,</br>
+	$X_1=\frac{\left(k_2-m_2\omega^2\right)}{\left[m_1m_2\omega^4-\left\{m_1k_2+m_2\left(k_1+k_2\right)\right\}\omega^2+k_1k_2\right]}$ 	 ... (5)</br>
+and
+ 	$X_2=\frac{k_2F_0}{\left[m_1m_2\omega^4-\left\{m_1k_2+m_2\left(k_1+k_2\right)\right\}\omega^2+k_1k_2\right]}$ ... (6)</br>
+From equation 5 it can be observed that the amplitude of vibration of main system X1 can be zero if numerator becomes zero.
+ 
+	or  			$i.e,\;k_2-m_2\omega^2=0$	</br>
+$or\;\omega^2=\frac{k_2}{m_2}=\omega_{n2}^2$	    &nbsp;...(7)</br>
+From equation 7, it can be concluded that when the excitation frequency is equal to the natural frequency of the absorber, then main system amplitude becomes zero even though it is excited by harmonic force.
+
+Dimensionless form of equation 5 and 6 can be written as,
+	 	$\frac{X_1}{X_{st}}=\frac{\left(1-{\displaystyle\frac{\omega^2}{\omega_2^2}}\right)}{{\displaystyle\frac{\omega^4}{\omega_1^2\omega_2^2}}-\left\{\left(1+\mu\right){\displaystyle\frac{\omega^2}{\omega_1^2}}+{\displaystyle\frac{\omega^2}{\omega_2^2}}\right\}+1}$... (8)</br>
+	 	$\frac{X_2}{X_{st}}=\frac1{{\displaystyle\frac{\omega^4}{\omega_1^2\omega_2^2}}-\left\{\left(1+\mu\right){\displaystyle\frac{\omega^2}{\omega_1^2}}+{\displaystyle\frac{\omega^2}{\omega_2^2}}\right\}+1}$... (9)</br>
+Equations 8 and 9 give the amplitude response of main system and absorber system as a function of exciting frequency.
+
+Where,</br>
+$X_{st}$ = $\frac{F_0}{k1}$= Zero frequency deflection of the main system</br>
+ $\omega1$= Natural frequency of the main system </br>
+$\omega2$= Natural frequency of the absorber system </br>
+$\omega$= Frequency of external excitation </br>
+$\mu$= ratio of absorber mass to the main mass</br>
+
+Fig 5 shows the variation of X1/Xst for different frequency ratios.</br>
+
+
+</p>
+
+<img src="../images/dyvb5.png" alt="HTML5 Icon"   class="figure"></br>
+
+<p>
+Lets try to understand these equations by doing a few simple simulations, go to next tab procedure to find out how to run the simulation to EXPLORE (expR) and to EXPERIMENT (expT).</br>
+ A talking tutorial or a self-running demo with narration can be seen at EXPLAIN (expN).</br>
+
+
+
+
+</p>
+</section>
+
+				<section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    
+						<img src="../images/simulation.jpg">
+					</div>
+
+					<div class="heading" id="experiment-article-section-4-heading">
+                        Simulator
+					</div>
+
+					<div class="content" id="experiment-article-section-4-content">
+                        
+						<div class="divContent">
+							<p><a href="./FreeVibrationSDOF_expN_ver2.swf" target="_blank">FreeVibrationSDOF_expN_ver2</a></p>
+						</div>
+					</div>
+					
+				</section>
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/manual.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+    
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;<b></b></span></p>
+
+                            <p class="MsoNormal" style=
+                            "font-weight: bold; line-height: 150%"><span lang=
+                            "EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            </span></b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:
+                           </span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+
+                            </span></p>
+
+                            
+ </section>
+
+                <section id="experiment-article-section-6">
+                            
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Post Test
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divQuiz">
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Review Questions
+                    </div>
+
+                    <div class="content" id="experiment-article-section-7-content">
+                        <div class="divContent">
+                           
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Reference
+                    </div>
+
+                    <div class="content" id="experiment-article-section-8-content">
+                        <div class="divContent">
+                            
+
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    
+						<img src="../images/quizzes.jpg">
+					</div>
+
+                    <div class="heading" id="experiment-article-section-9-heading">
+                        Photo Gallery
+                    </div>
+
+                    <div class="content" id="experiment-article-section-9-content">
+                        
+                    </div>
+                </section>
+            </div>
+        </article>
+    </div>
+</body>
+</html>

@@ -1,0 +1,305 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        
+        <article id="experiment-article">
+            
+
+            
+
+            <div id="experiment-article-sections">
+                
+				<!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                        Assignment
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+                            
+                    </div>
+                </section>
+				
+				<!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Pre Test
+                    </div>
+
+                    <div class="content" id="experiment-article-section-2-content">
+                        <div class="divQuiz">
+                            
+                        </div>
+                    </div>
+                </section>
+				
+				<!-- Third section of the article-->
+				
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/objective.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-3-content">
+                        
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+ 
+
+After completing this simulation experiment one should be able to </br>
+	Model a given real system to an equivalent simplified model of single degree freedom system with suitable assumptions / idealisations.</br>
+	Calculate the natural frequency of undamped oscillation, critical damping constant and critical damping ratio of the proposed single degree freedom system.</br>  
+	Study the response of the system for different harmonic excitation frequency and amplitude of the base.</br>
+	Calculate the transmissibility ratio and phase angle as a function of forcing frequency</br>
+<h3 style="color:#997e11">
+Forced vibration of single degree of freedom system- Base excitation</h3></br>
+Introduction </br></br>
+In many cases, dynamical system is excited by motion of the support point or base as shown in the Fig 1.
+ The base excitation system may be of vehicle suspension system or earthquake response of a structure or a performance
+ of a precision machine located close proximity of a vibrating structure as shown in Fig 2. The motion of the base causes the main system to vibrate as a function of excitation frequency and amplitude. 
+ Base excitation models the behaviour of a vibration isolation system and is applicable in the analysis of preventing the excitations from passing from a vibrating base through its mount into a structure. 
+</p>
+
+<p>
+<figure>
+<img src="../images/sv1.png" alt="HTML5 Icon"  class="figure" ></br>
+  <figcaption>Fig 1: Dynamic vibration absorber in steel stack</figcaption>
+</figure>
+
+
+<figure>
+<img src="../images/sv2.png" alt="HTML5 Icon"  class="figure"></br>
+  <figcaption>Fig 2: Dynamic vibration absorber PCB</figcaption>
+</figure>
+To study the response of a dynamic system for base excitation, given real system  will be modelled as a equivalent single 
+degree spring-mass system as shown in Fig 3 and it is excited by a harmonic input y(t)=Y sin?t applied at the base. The proposed single degree
+spring-mass system can be thought of as representing a single mode of vibration in a real system, whose natural frequency and damping coefficient coincide with that of proposed spring-mass system.  </p>
+
+<figure><img src="../images/sv3.png" alt="HTML5 Icon"  class="figure"></br>
+  <figcaption>
+Fig 3: A single degree of freedom system and vibration absorber system</figcaption>
+</figure>
+
+Differential equation of motion of the system is given by,</br>
+$m\overset{}{\ddot x+c\overset.x+kx=c\dot y+ky}\;$... (1)</br>
+Since support is excited by a harmonic function y(t)=Y sin?t, substituting y and  in equation 1,</br>
+$m\overset{}{\ddot x+c\overset.x+kx=c\omega Y\cos\left(\omega t\right)}\;+kY\;\sin\left(\omega t\right)$	... (2)</br>
+Equation 2 can be rewritten as,</br>
+     $m\overset{}{\ddot x+c\overset.x+kx=Y\sqrt{k^2+(c\omega)^2}}\;\sin(\omega t+\alpha)$... (3)</br></br>
+where,</br>
+
+$\alpha=\tan^{-1}\left(\frac{c\omega}k\right)=\tan^{-1}\left(2\varsigma\frac\omega{\omega_n}\right)$</br>
+
+The general solution of this mathematical model consists of two parts, the complementary 
+function which is the solution of the homogenous equation, and the particular integral. The particular solution to the preceding equation is a steady-state oscillation of same frequency ? 
+as that of excitation. We can assume particular solution to be of the form
+
+
+$x=X\sin(\omega t+\alpha-\phi)$... (4)</br>
+
+Where X is the amplitude of oscillation and   is the phase of the displacement with respect to the exciting force.</br>
+By substituting the equation 4 in equation 3, steady state amplitude X and phase   given as,</br></br>
+         $X=\frac{Y\sqrt{k^2+(c\omega^2)}}{\sqrt{(k-m\omega^2)^2+(c\omega)^2}}$        ... (5)</br></br>
+$\phi=\tan^{-1}\left(\frac{c\omega}{(k-m\omega^2)}\right)$... (6)</br>
+
+Where,
+	? is the excitation frequency		m is the equivalent mass of the system
+	k is the equivalent spring stiffness 	c is the equivalent damping coefficient 
+
+Equation 5 and 6 written in dimensionless form as,
+$\frac XY=\frac{\sqrt{1+(2\varsigma{\displaystyle\frac\omega{\omega_n}})^2}}{\sqrt{\lbrack1-({\displaystyle\frac\omega{\omega_n}})^2\rbrack^2+(2\varsigma{\displaystyle\frac\omega{\omega_n}})^2}}=\frac{\sqrt{1+(2\varsigma\eta)^2}}{\sqrt{(1-\eta^2)^2+(2\varsigma\eta)^2}}$...(7)</br></br>
+	 
+$\phi=\tan^{-1}\left(\frac{2\varsigma({\displaystyle\frac\omega{\omega_n}})}{(1-({\displaystyle\frac\omega{\omega_n}})^2)}\right)$...(8)</br></br>
+
+Motion of the mass lags the support through an angle  or the angle of lag.</br>
+
+$lag=\phi-\alpha=\tan^{-1}\left(\frac{2\varsigma({\displaystyle\frac\omega{\omega_n}})}{(1-({\displaystyle\frac\omega{\omega_n}})^2)}\right)-\tan^{-1}\left(2\varsigma\frac\omega{\omega_n}\right)$...(9)</br>
+
+Where,</br>
+$\omega_n$ = $\sqrt{\left(\frac km\right)}$ = natural frequency of un-damped oscillation</br>
+$c_c$ = $2m\omega_{nf}$  = critical damping constant </br></br> 
+$\varsigma$ = $\frac c{c_c}$ = damping ratio</br></br>
+$\eta$ is the frequency ratio</br>
+The ratio of the amplitude of response x(t) to that of y(t),  X/Y  is called the displacement transmissibility Td. The variations of  X/Y  and  angle of lag  given by the equation 7 and 9 are shown in Fig 4 for different value of  r and ?</br>
+
+</p>
+
+
+
+<img src="../images/sv4.png" alt="HTML5 Icon"   class="figure"></br>
+
+<p>
+Lets try to understand these equations by doing a few simple simulations, go to next tab procedure to find out how to run the simulation to EXPLORE (expR) and to EXPERIMENT (expT).</br>
+ A talking tutorial or a self-running demo with narration can be seen at EXPLAIN (expN).</br>
+
+</p>
+ </section>
+
+			<section id="experiment-article-section-4">
+			
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Simulator
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                        <div class="divContent">
+                            <p><a href=
+                            "./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">FreeVibrationSDOF_expN_ver2</a></p>
+                        </div>
+                    </div>
+
+			
+
+
+                </section>
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/manual.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+                          
+              
+
+                            
+
+                            <p class="MsoNormal" style=
+                            "font-weight: bold; line-height: 150%"><span lang=
+                            "EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            </span></b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:
+                            </span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+
+                            </span></p>
+</section>
+                          
+
+      <section id="experiment-article-section-6">                       
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Post Test
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divQuiz">
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Review Questions
+                    </div>
+
+                    <div class="content" id="experiment-article-section-7-content">
+                        <div class="divContent">
+                        
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Reference
+                    </div>
+
+                    <div class="content" id="experiment-article-section-8-content">
+                        <div class="divContent">
+                        
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        Photo Gallery
+                    </div>
+
+                    <div class="content" id="experiment-article-section-9-content">
+                        
+                    </div>
+                </section>
+            </div>
+        </article>
+    </div>
+</body>
+</html>

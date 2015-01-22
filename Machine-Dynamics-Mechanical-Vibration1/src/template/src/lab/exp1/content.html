@@ -1,0 +1,361 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+</head>
+
+<body>
+    <div id="experiment">
+        
+
+        
+
+        <article id="experiment-article">
+            
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+			
+            <div id="experiment-article-sections">
+			
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    
+                    <img src="../images/introduction.jpg"></div>
+                    
+
+                    <div class="heading" id= "experiment-article-section-1-heading">
+                        Assignment
+                    </div>
+                    <div class="content" id=
+                    "expostperiment-article-section-1-content">
+                        
+                    </div>
+                </section>
+				
+				<!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                  
+                    <img src="../images/theory.jpg"></div>
+                    
+
+                    <div class="heading" id= "experiment-article-section-2-heading">
+                        Pre Test
+                    </div>
+
+                    
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/objective.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-3-content">
+                        <div class="divContent">
+                            
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            
+After completing this simulation experiment one should be able to</p></br>
+
+	Model a given real system to an equivalent simplified model of a cantilever beam with suitable assumptions / idealisations</br>
+	Calculate the stiffness of a real system which is assumed to be equivalent of a cantilever beam</br>
+	Determine the mass of the system actively participating in dynamics</br>
+	Determine the natural frequency of a given system equated to a cantilever beam</br>
+	Determine the influence of material properties like Youngs modules (E) and density  ( ) in dynamics</br>
+	Determine the influence of cross section, length of cantilever beam  in dynamics</br>
+
+<h3 style="color:#997e11">
+
+Cantilever Beam Introduction</h3></br>
+Look at the few of the real systems shown below,try to make suitable assumptions to deduce the system to a cantilever beam.</br>
+<h4>An aircraft wing as a cantilever beamAn atomic force probe 
+</h4>
+</p>
+</br>
+<p><img src="../images/frvb1.png" alt="HTML5 Icon"  class="figure">
+
+<img src="../images/frvb2.png" alt="HTML5 Icon"   class="figure"></br>
+
+
+</p>
+
+<h4>A tower crane  overhang is like a cantilever beam</h4>
+<p><img src="../images/frvb3.png" alt="HTML5 Icon"  class="figure">
+
+<img src="../images/frvb4.png" alt="HTML5 Icon"   class="figure"></br>
+
+
+</p>
+
+<p>
+	
+A system is said to be a cantilever beam system if one end of the system is rigidly fixed to a support and the other end is free to move.</br>
+Vibration analysis of a cantilever beam system is important as it can explain and help us analyse a number of real life systems. The following</br>
+ few examples can be simplified to a cantilever beam, thereby helping us make design changes accordingly for the most efficient systems.</br>
+
+To understand the effect of free vibration on the cantilever beam, we need to understand and calculate the following parameters.</br>
+	Stiffness of the cantilever beam.</br>
+	Mass of the cantilever beam.</br> 
+We can determine the stiffness of the system through simple equations from strength of material. </br> 
+$$K=\frac{3EI}{L^3}$$ </br> 
+Where</br> </br>
+K = Stiffness of system. (N/m)</br>
+E = Young s Modulus of the material. ($\begin{array}{l}\frac N{M^2}\\\\\\\\\;\;\end{array}$)</br>
+
+
+I = Area moment of inertia.$\begin{array}{l}\;\;(m^4)\\\\\\\\\;\;\end{array}$</br>
+L = Effective length of Cantilever Beam (m)</br>  </br>
+
+Assumptions made during modelling and analysis:</br>
+	The mass (M) of the whole system is considered to be lumped at the free end</br>
+	No energy consuming element (damping ) present in the system ie. undamped vibration </br>
+	The complex cross section and type of material of the real system has been simplified to equate to a cantilever beam</br>
+
+The fundamental natural frequency w , by definition is</br></br>
+
+
+
+$\omega_n=\sqrt{\frac KM}(radians/second)$</br></br>
+
+Since the cantilever beam is undergoing free vibration, the governing differential equation of the system considering undamped free vibration can be given by</br></br>
+$M\overset{..}x+Kx=0\;;\;\overset{}{\overset{..}x+\omega_n^2}x\;=0$</br></br>
+Lets try to understand these equations by doing a few simple simulations, go to next tab procedure</br>
+ to find out how to run the simulation to EXPLORE (expR) and to EXPERIMENT (expT). A talking</br>
+  tutorial or a self-running demo with narration can be seen at EXPLAIN (expN)</br>
+
+
+
+
+	</p>
+
+<br>
+                         
+</section>
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Simulator
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                        <div class="divContent">
+                            <p><a href="./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">expN</a></p>
+                        </div>
+			<div class="divContent">
+                            <p><a href= "./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">expR</a></p>
+                        </div>
+			<div class="divContent">
+                            <p><a href= "./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">expT.Experiment1</a></p>
+                        </div>
+			<div class="divContent">
+                            <p><a href= "./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">expT.Experiment2</a></p>
+                        </div>
+			<div class="divContent">
+                            <p><a href= "./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">expT.Experiment3</a></p>
+                        </div>
+			<div class="divContent">
+                            <p><a href= "./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">expT.Experiment4</a></p>
+                        </div>
+                    </div>
+
+			
+
+
+                </section>
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/manual.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+                          
+                            
+
+                            <h3 style="color: red;">&nbsp;</h3>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;<b></b></span></p>
+
+                            <p class="MsoNormal" style=
+                            "font-weight: bold; line-height: 150%"><span lang=
+                            "EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            </span></b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:
+                           </span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+
+FREE VIBRATION SDOF SYSTEM - expT PROCEDURE
+AIM:
+To find the damping (c) of the given beam.
+PROCEDURE:
+Begin the experiment by clicking the start experiment button.</br>
+<img src="../images/frvpr1.png" alt="HTML5 Icon"  class="figure"></br>
+
+1. Find logarithmic decrement (δ) from displacement v/s time graph.
+The logarithmic decrement is defined as follows.
+δ=
+1
+x
+ln
+n
+x
+Here x and x refer to the displacements at the first and nth peak in the displacement v/s time
+graph. The displacements at the peaks can be found using the location slider.</br>
+<img src="../images/frpr2.png" alt="HTML5 Icon"  class="figure"></br>
+<img src="../images/frpr3.png" alt="HTML5 Icon"  class="figure"></br>
+2. Find the damping ratio (ζ) from the logarithmic decrement (δ). The damping ratio is given by</br>
+ζ=</br>
+<img src="../images/frpr4.png" alt="HTML5 Icon"  class="figure"></br>
+3. Find beam stiffness (k) N/m from Young’s modulus (E), area moment of inertia (I) and length (L).
+The stiffness for different beams is given below
+Cantilever beam
+Simply supported beam
+Fixed Fixed beam
+=
+=
+=
+3
+48
+192</br>
+<img src="../images/frpr5.png" alt="HTML5 Icon"  class="figure"></br>
+
+4. Find natural frequency (ωn) rad/s from ωd and ζ . ωd can found from the FFT in the graph</br>
+window.
+=
+1−</br>
+<img src="../images/frpr6.png" alt="HTML5 Icon"  class="figure"></br>
+
+5. Find equivalent mass (meq) kg from ωn and k.</br>
+=
+<img src="../images/frpr7.png" alt="HTML5 Icon"  class="figure"></br>
+
+6. Find critical damping (cc) Ns/m from meq and k.
+= 2√
+7. Find damping (c) Ns/m from Cc and ζ.
+=</br>
+<img src="../images/frpr8.png" alt="HTML5 Icon"  class="figure"></br>
+RESULT:</br>
+System damping ‘c’ has been found. The basic concepts in free vibration of SDOF systems are
+covered.
+<img src="../images/frpr9.png" alt="HTML5 Icon"  class="figure"></br>
+                            </span></p>
+
+                         
+</section>
+        
+                <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/manual.jpg"></div>
+                    
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Post Test
+                    </div>
+
+                    
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Review Questions
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-7-content">
+                        
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Reference
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        
+                    </div>
+				</section>
+
+                <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        Photo Gallery
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+                        
+                    </div>
+                </section>
+            </div>
+        </article>
+    </div>
+</body>
+</html>

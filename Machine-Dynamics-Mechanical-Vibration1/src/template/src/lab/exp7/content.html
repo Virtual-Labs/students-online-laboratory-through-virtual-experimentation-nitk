@@ -1,0 +1,358 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        
+
+        <article id="experiment-article">
+           
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    
+                    <img src="../images/introduction.jpg"></div>
+                    
+                    <div class="heading" id="experiment-article-section-1-heading">
+                        Assignment
+                    </div>
+
+                    <div class="content" id="experiment-article-section-1-content">
+                        <div class="divContent">
+                            
+
+                        </div>
+                    </div>
+                </section>
+				
+				<!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Pre Test
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id="experiment-article-section-2-content">
+                        <div class="divQuiz">
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/objective.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-3-content">
+                        <div class="divContent">
+                            
+ 
+
+Theory
+Learning objectives
+After completing this simulation experiment one should be able to
+
+
+Model a given real system to an equivalent simplified two degree system and studying
+its free vibration and forced vibration response with suitable assumptions /
+idealisations.
+Calculate the natural frequency vibration and the amplitude of vibration for the give
+excitation force of given two degree freedom system.
+Forced vibration of 2 degree of freedom system
+Introduction
+Analysing real system as a single degree system is an approximate assumption. Because real
+system has more than just one degree of freedom and are also very rarely linear. It requires
+several degrees of freedom for a meaningful model. Hence a simple 1DOF systems analysis
+is not much helpful in studying the characteristics of the system. A natural extension of single
+degree of freedom system is to consider the system as two degree of freedom models.
+A System that requires two independent coordinates to describe their motion is called
+two degree-of-freedom systems. Some practical examples of two degree freedom systems
+shown in Fig 2, like as forging hammer anvil supported in its base, which in turn is
+supported on ground isolators, a reciprocating engine with a damper, a relatively light shaft
+with two disks as in a turbocharger rotor, a generator driving a motor through a coupling. For
+a two degree of freedom system there are two equations of motion, each one describing the
+motion of one of the degrees of freedom. In general, the two equations are in the form of
+coupled differential equations.
+
+
+<img  height="169" src="../images/fvt1.png"  width="261"><br>
+
+<img  height="169" src="../images/fvt2.png"  width="261"><br>
+A simplified two degree of freedom system is shown in Fig 3. The motion of the
+system is completely described by the coordinates and x1(t) and x2 (t) which defines the
+positions of the masses m1 and m2 at any time t from the respective equilibrium positions. The
+external F1 (t) and F2(t) respectively. The free-body diagrams of the masses and are shown in
+Fig. 1(b).
+
+<img  height="169" src="../images/fvt3.png"  width="261"><br>
+
+Equations of motion of 2 degree of freedom system are given by:
+m1 x1  k1 x1  k2 ( x1  x2 )  F1 (t )
+...(1)
+m2 x2  k2 ( x2  x1 )  F2 (t )
+...(2)
+Free vibration analysis:
+For the free-vibration analysis of the system shown in Fig 1, we set F1 (t) =F2(t) =0. The
+equation 1 and 2 reduces to,
+m1 x1  k1 x1  k2 ( x1  x2 )  0
+...(3)
+m2 x2  k2 ( x2  x1 )  0
+Let us assume the solutions for x1 and x2 under steady state conditions as harmonic
+excitations with the same frequency and phase angle but with different amplitudes and are
+given by,
+x1  X1 sin(t   ) and x2  X 2 sin(t   )
+...(5)
+By substituting equation 5 in 3 and 4 we have,
+m 
+2
+1
+ k2 (k1  k2 ) X1  k2 X 2  0
+k2 X1  (m2 2  k2 ) X 2  0
+...(6)
+.
+..(7)
+Natural frequency of vibration of the system found by solving equation 6 and 7 and is given
+by,
+1  (k  k )m  m1k2 ) 
+n12 , n 2 2   1 2 2
+
+2
+m1m2
+
+1/2
+2
+ (k  k )k  k 2 ) 
+1   (k1  k2 )m2  m1k2 ) 
+ 
+ 4  1 2 2 2 
+
+2 
+m1m2
+m1m2
+
+
+
+
+
+Resonance occurs when the exciting frequency coincides with any one of the natural
+frequency of the system.
+Forced vibration analysis:
+For the forced-vibration analysis of the system shown in Fig 3, the system is excited by either
+of harmonic forcing functions F1 (t) and F2(t) or both. But for the specific case, we assume
+the system is excited by harmonic force F1 (t) = F0 sin ωt.
+The equation of motion of the two degree freedom system reduces to,
+m1 x1  k1 x1  k2 ( x1  x2 )  F0 sin t
+...(8)
+m2 x2  k2 ( x2  x1 )  0
+...(9)
+When harmonic forcing function acts on the system, the solution consist of transient part and
+the steady state part. In steady state part the vibration of any point in the system take place
+at the frequency of excitation. Let us assume , for the steady state , the solution as,
+x1  X1 sin(t   ) and x2  X 2 sin(t   )
+...(10)
+Substituting equation 10 in 8 and 9, we will get,
+m 
+1
+2
+ k2 (k1  k2 ) X1  k2 X 2  F0
+k2 X1  (m2 2  k2 ) X 2  0
+...(11)
+...(12)
+By solving equation 11 and 12 we get,
+X1 
+k
+2
+ m2 2 
+ m1m2 4  m1k2  m2 (k1  k2 )  2  k1k2 
+
+
+...(5)
+and
+Forced vibration of 2 degree of freedom system
+X2 
+k2 F0
+ m1m2  m1k2  m2 (k1  k2 )  2  k1k2 
+
+
+4
+...(6)
+The above two equations give the steady state amplitude of vibration of two masses
+respectively as a function of forcing frequency ω.
+Let’s try to understand these equations by doing a few simple simulations, go to next tab
+procedure to find out how to run the simulation to EXPLORE (expR) and to EXPERIMENT
+(expT). A talking tutorial or a self-running demo with narration can be seen at EXPLAIN
+(expN)
+
+</p>
+
+
+                </section>
+
+                           
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Simulator
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                        <div class="divContent">
+                            <p><a href=
+                            "./FreeVibrationSDOF_expN_ver2.swf"
+                            target="_blank">FreeVibrationSDOF_expN_ver2</a></p>
+                        </div>
+                    </div>
+
+			
+
+
+                </section>
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/manual.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+           
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;<b></b></span></p>
+
+                            <p class="MsoNormal" style=
+                            "font-weight: bold; line-height: 150%"><span lang=
+                            "EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            </span></b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:
+                           </span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+							<img  height="1169" src="../images/2DOF_forcedvib_procedure_ver01.jpg"  width="561"><br>
+
+                            </span></p>
+                        </div>    
+					</div>
+				</section>
+
+                <section id="experiment-article-section-6">
+                            
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Post Test
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divQuiz">
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Review Questions
+                    </div>
+
+                    <div class="content" id="experiment-article-section-7-content">
+                        <div class="divContent">
+                            
+                        </div>
+                    </div>
+					
+                </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Reference
+                    </div>
+
+                    <div class="content" id="experiment-article-section-8-content">
+                        <div class="divContent">
+                            
+                          
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-9-heading">
+                        Photo Gallery
+                    </div>
+
+                    <div class="content" id="experiment-article-section-9-content">
+                        
+                    </div>
+                </section>
+            </div>
+        </article>
+    </div>
+</body>
+</html>
