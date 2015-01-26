@@ -26,7 +26,7 @@ edit -->
                 <!-- Write the name of your lab and link it to the home 
       page of your lab (h1 tag is preferred while writing your 
       lab name)-->
-                <a href="../index.html">Chemical Lab</a>
+                <a href="../index.html">Unit-Operation-Reaction-Engg.-Process-Control Lab</a>
             </div><!-- Add any additional element you want to add to the lab 
     header, For example : Help (Enclosing them with suitable 
     div is recommended)-->
@@ -285,13 +285,13 @@ incompressible bed of granular salts, is relatively similar to the structure of 
 Ergun equation.</br></br>
 
 Commonly used Tower packings</br></br>
-<img alt="" height="169" src= "../images/ftpb1.png" width="261"></br></br>
+<img  src= "../images/ftpb1.png" style="width:96px;height:78px"></br></br>
 Raschig rings</br>
 
-<img alt="" height="169" src= "../images/ftpb2.png" width="261"></br></br>
+<img  src= "../images/ftpb2.png" style="width:361px;height:175px"></br></br>
 
 Pall rings</br>
-<img alt="" height="169" src="../images/ftpb3.png" width="261"></br></br>
+<img  src="../images/ftpb3.png" style="width:361px;height:175px"></br></br>
 Intalox saddles
 
 

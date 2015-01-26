@@ -26,7 +26,7 @@ edit -->
                 <!-- Write the name of your lab and link it to the home 
       page of your lab (h1 tag is preferred while writing your 
       lab name)-->
-                <a href="../index.html">Chemical </a>
+                <a href="../index.html">Unit-Operation-Reaction-Engg.-Process-Control Lab</a>
             </div><!-- Add any additional element you want to add to the lab 
     header, For example : Help (Enclosing them with suitable 
     div is recommended)-->
@@ -187,7 +187,8 @@ expression for theoretical flow rate is obtained by applying the continuity equa
 and energy equation at inlet and throat section.
 </div></br>
 <div style="text-indent: 30px;">
-<img alt="" height="169" src= "../images/fvm1.png" width="261"></br>
+<img  src= "../images/fvm1.png" style="width:362px;height:260px"></br>
+
 </div></br>
 <div style="text-indent: 30px;">
 For measuring discharge we should apply Bernoulli’s equation at point 1 and at point 2.The
@@ -252,13 +253,14 @@ The disadvantages compared to the orifice are :
  
 </ul> 
 </br>
-<img alt="" height="169" src="../images/fvm2.png" width="261"></br></br>
+<img  src="../images/fvm2.png" style="width:611px;height:346px"></br></br>
 Discharge Coefficients against Reynold’s Number <math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mfrac><mrow><mi>&#961;</mi><msub><mi>D</mi><mi>t</mi></msub><msub><mi>V</mi><mi>t</mi></msub></mrow><mi>&#956;</mi></mfrac></mfenced></math>
 <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>D</mi><mi>t</mi></msub></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>V</mi><mi>t</mi></msub></math> are the thoat diameter and velocity at the throat respectevily.</br></br>
-<img alt="" height="169" src="../images/fvm3.png" width="261"></br></br>
+<img  src="../images/fvm3.png"  style="width:667px;height:596px"></br></br>
 Comparison of permanent head loss caused by different head meters
 Venturimeter</br></br>
-<img alt="" height="169" src= "../images/fvm4.png" width="261"></br></br>
+<img  src= "../images/fvm4.png"style="width:611px;height:346px"></br></br>
+576*432
 Venturimeter
  <ul>
   <li>Throat to diameter ratio 0.25 to 0.75</li>
@@ -311,18 +313,7 @@ Venturimeter
                     "experiment-article-section-5-content">
                         <div class="divContent">
                   
-                            <p class="MsoNormal" style=
-                            "font-weight: bold; line-height: 150%"><span lang=
-                            "EN-IN" style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                            &nbsp;</span></p>
-
-                            <p class="MsoNormal" style="line-height: 150%;">
-                            <b><span lang="EN-IN" style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                            </span></b><span lang="EN-IN" style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:
-                            </span></p>
+                         
 
                             <p class="MsoNormal" style="line-height: 150%;">
                             <span lang="EN-IN" style=

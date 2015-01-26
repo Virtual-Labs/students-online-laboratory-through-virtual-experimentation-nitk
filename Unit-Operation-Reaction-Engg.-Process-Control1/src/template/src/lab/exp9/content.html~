@@ -26,7 +26,7 @@ edit -->
                 <!-- Write the name of your lab and link it to the home 
       page of your lab (h1 tag is preferred while writing your 
       lab name)-->
-                <a href="../index.html">Chemical Lab</a>
+                <a href="../index.html">Unit-Operation-Reaction-Engg.-Process-Control Lab</a>
             </div><!-- Add any additional element you want to add to the lab 
     header, For example : Help (Enclosing them with suitable 
     div is recommended)-->
@@ -180,7 +180,8 @@ and outflow of materias. In the tubular reactor, the feed enters at one end of a
 and the product stream leaves at the other end. The long tube and the lack of provision for
 stirring prevents complete mixing of the fluid in the tube. Hence the properties of the flowing
 stream will vary from one point to another, namely in both radial and axial directions.<br>
-<img alt="" height="169" src="../images/rkp1.png" width="261"><br>
+<img src="../images/rkp1.png" style="width:1410px;height:122px"><br>
+1410*122
 Ideal tubular reactor is referred as a plug flow reactor(PFR). PFRs are frequently referred<br>
 to as piston flow reactors. The key assumption is that as a plug flows through a tubular reactor ,
 the fluid is perfectly mixed in the radial direction but not in the axial direction (forwards or

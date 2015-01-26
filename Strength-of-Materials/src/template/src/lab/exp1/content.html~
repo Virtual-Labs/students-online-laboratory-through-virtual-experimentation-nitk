@@ -26,7 +26,7 @@ edit -->
                 <!-- Write the name of your lab and link it to the home 
       page of your lab (h1 tag is preferred while writing your 
       lab name)-->
-                <a href="../index.html">Physics Lab</a>
+                <a href="../index.html">Strength-of-Materials Lab</a>
             </div><!-- Add any additional element you want to add to the lab 
     header, For example : Help (Enclosing them with suitable 
     div is recommended)-->
@@ -161,7 +161,7 @@ We conclude that the circle obtained is Mohr’s circle for plane stress. Thus t
 B where the circles intersect the σ axis represent respectively the principal stresses σmax and σmin at
 the point considered.
 
-<img alt="" height="169" src= "../images/mc1.png" width="261"><br>
+<img  src= "../images/mc1.png" style="width:506px;height:201px"><br>
 We also note that, since $\tan\left(XCA\right)=\frac{2tauxy}{\sigma x-\sigma y}$ (the angle XCA is eqal in magnitude to one of the
 
 angles 2 that satisfies equation
@@ -186,7 +186,7 @@ element counterclockwise, the point corresponding to that face is located below 
 normal stresses are concerned, the usual convention holds, i.e., a tensile stress is considered as
 positive and is plotted to the right, while a compressive stress is considered as negative and is plotted
 to the left.
-<img alt="" height="169" src= "../images/mc2.png" width="261">
+<img  src= "../images/mc2.png" style="width:506px;height:201px">
 
 
 </p>

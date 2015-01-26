@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Position analysis of Scotch Yoke mechanism </title>
+    <title>Position analysis of Scotch Yoke Mechanism</title>
 </head>
 
 <body>
@@ -112,59 +112,7 @@
                             
 
                             <p class="MsoNormal" style="line-height: 150%;">
-                            
-FREE VIBRATION OF CANTILEVER BEAM	Theory
-Learning objectives
-After completing this simulation experiment one should be able to
-Model a given real system to an equivalent simplified model of a cantilever beam with suitable assumptions / idealisations
-Calculate the stiffness of a real system which is assumed to be equivalent of a cantilever beam
-Determine the mass of the system actively participating in dynamics
-Determine the natural frequency of a given system equated to a cantilever beam
-Determine the influence of material properties like Youngs modules (E) and density  ( ) in dynamics
-Determine the influence of cross section, length of cantilever beam  in dynamics
-Cantilever Beam Introduction
-Look at the few of the real systems shown below,try to make suitable assumptions to deduce the system to a cantilever beam.
-
-An aircraft wing as a cantilever beamAn atomic force probe 
-
-<img src="../images/im2.jpg">
-<img src="../images/im1.jpg">
-
-
-
-
-
-
-
-A tower crane  overhang is like a cantilever beam
-
-						A double overhang folding bridge
-A system is said to be a cantilever beam system if one end of the system is rigidly fixed to a support and the other end is free to move.
-Vibration analysis of a cantilever beam system is important as it can explain and help us analyse a number of real life systems. The following few examples can be simplified to a cantilever beam, thereby helping us make design changes accordingly for the most efficient systems.
-
-To understand the effect of free vibration on the cantilever beam, we need to understand and calculate the following parameters.
-Stiffness of the cantilever beam.
-Mass of the cantilever beam. 
-We can determine the stiffness of the system through simple equations from strength of material.  
-
-Where
-K = Stiffness of system. (N/m)
-E = Young s Modulus of the material. ()
-I = Area moment of inertia. ()
-L = Effective length of Cantilever Beam (m) 
-
-Assumptions made during modelling and analysis:
-The mass (M) of the whole system is considered to be lumped at the free end
-No energy consuming element (damping ) present in the system ie. undamped vibration 
-The complex cross section and type of material of the real system has been simplified to equate to a cantilever beam
-
-The fundamental natural frequency  , by definition is
-(radians/second)
-
-Since the cantilever beam is undergoing free vibration, the governing differential equation of the system considering undamped free vibration can be given by
- ;
-
-Lets try to understand these equations by doing a few simple simulations, go to next tab procedure to find out how to run the simulation to EXPLORE (expR) and to EXPERIMENT (expT). A talking tutorial or a self-running demo with narration can be seen at EXPLAIN (expN)
+          
 
 
 </p>

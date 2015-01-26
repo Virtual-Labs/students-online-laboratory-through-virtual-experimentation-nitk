@@ -176,44 +176,7 @@ font-family:"Times New Roman","serif";
 mso-fareast-font-family:"Times New Roman";}
 &lt;/style&gt;
 &lt;![endif]--></p>
-<div id="page1-div" style="position:relative;width:918px;height:1188px;">
-<img width="918" height="1188" src="o_f5e2d6aa84965dde001.png" alt="background image"/>
-<p style="position:absolute;top:114px;left:372px;white-space:nowrap" class="ft00"><b>Experiment No.1 &#160;</b></p>
-<p style="position:absolute;top:142px;left:320px;white-space:nowrap" class="ft00"><b>FLOW THROUGH PIPES&#160;&#160;</b></p>
-<p style="position:absolute;top:169px;left:333px;white-space:nowrap" class="ft00"><b>Background and Theory&#160;</b></p>
-<p style="position:absolute;top:195px;left:108px;white-space:nowrap" class="ft04"><b>&#160;<br/>&#160;</b></p>
-<p style="position:absolute;top:254px;left:108px;white-space:nowrap" class="ft05">&#160; &#160; &#160; &#160; &#160; &#160;Pipe&#160;&#160;flow&#160;under pressure is used for a lot of purposes. A fundamental&#160;<br/>understanding of fluid flow&#160;is essential to almost every industry related with&#160;<br/>chemical engineering. In&#160;the chemical and &#160;manufacturing industries, large flow&#160;<br/>networks are necessary to achieve continuous transport of products and raw&#160;<br/>materials from&#160;different processing units.&#160;This requires a detailed understanding of&#160;<br/>fluid flow in pipes. &#160;Energy input to the&#160;gas or liquid is needed to make it flow&#160;<br/>through the pipe. This energy input is needed because there is frictional energy loss&#160;<br/>(also called frictional head loss or frictional pressure drop) due to the&#160;friction&#160;<br/>between the fluid and the pipe wall and&#160;internal friction within the fluid. In pipe&#160;<br/>flow substantial energy is lost&#160;due to frictional resistances.&#160;</p>
-<p style="position:absolute;top:516px;left:108px;white-space:nowrap" class="ft05">&#160; &#160; &#160; &#160; &#160;One&#160;of&#160;the&#160;most&#160;common problem&#160;in fluid mechanics is the estimation of this&#160;<br/>pressure loss. Calculating pressure losses is necessary for determining the&#160;<br/>appropriate size pump. &#160; &#160;Knowledge of the magnitude&#160;of frictional losses is of&#160;<br/>great importance because it determines&#160;the power requirements of the pump&#160;<br/>forcing the fluid through the pipe. For example, in refining and petrochemical&#160;<br/>industries, these losses have to be calculated accurately to determine where booster&#160;<br/>pumps have to be placed when pumping crude oil or other fluids in pipes to&#160;<br/>distances thousands of&#160;kilometres away. &#160;<br/>&#160;<br/>&#160;<br/>&#160; &#160; &#160; Pipe&#160;losses&#160;in&#160;a&#160;piping&#160;system&#160;result from&#160;a number of system characteristics,&#160;<br/>which include among others; pipe friction, changes in direction of flow,&#160;<br/>obstructions in flow path,&#160;and sudden or gradual changes in the cross-section and&#160;<br/>shape of flow path. &#160;</p>
-<p style="position:absolute;top:872px;left:122px;white-space:nowrap" class="ft02">&#160;</p>
-<p style="position:absolute;top:918px;left:122px;white-space:nowrap" class="ft06">&#160;In this experiment, pressure&#160;loss measurements are made&#160;as a function of&#160;<br/>flowrate on different pipe components namely; a) straight&#160;pipe, (b)globe valve (c)&#160;</p>
-<p style="position:absolute;top:983px;left:122px;white-space:nowrap" class="ft02">gate valve (d)an Expander &#160;(e)Reducer (f)standard elbow &#160;(g) 90</p>
-<p style="position:absolute;top:971px;left:661px;white-space:nowrap" class="ft03">o&#160;</p>
-<p style="position:absolute;top:983px;left:671px;white-space:nowrap" class="ft02">Bend &#160;</p>
-<p style="position:absolute;top:1025px;left:108px;white-space:nowrap" class="ft05">&#160;<br/>&#160;</p>
 
-
-<img width="918" height="1188" src="o_f5e2d6aa84965dde002.png" alt="background image"/>
-<p style="position:absolute;top:114px;left:108px;white-space:nowrap" class="ft00"><b>Resistance to flow in a pipe&#160;</b></p>
-<p style="position:absolute;top:136px;left:108px;white-space:nowrap" class="ft04">&#160; &#160; &#160; &#160; &#160; When&#160;a&#160;fluid&#160;flows&#160;through&#160;a&#160;&#160;pipe, the internal roughness of the pipe wall&#160;<br/>can create local eddy&#160;currents within the&#160;fluid adding a resistance to flow of the&#160;<br/>fluid. The velocity profile in a pipe will&#160;show that the fluid elements in the center&#160;<br/>of the pipe will move at a higher speed than those closer to&#160;the wall. . Therefore&#160;<br/>friction will occur between layers within the fluid. This movement of fluid&#160;<br/>elements relative to each other is associated with pressure drop, called&#160;frictional&#160;<br/>losses. Pipes with smooth walls such as glass, copper, brass and polyethylene have&#160;<br/>only a small effect on the frictional resistance. Pipes with less smooth walls such as&#160;<br/>concrete, cast iron and steel will create&#160;larger eddy currents&#160;which will sometimes&#160;<br/>have a significant effect on the frictional resistance. Rougher the inner wall of the&#160;<br/>pipe, &#160;more will be the pressure loss due to friction.&#160;&#160;</p>
-<p style="position:absolute;top:423px;left:108px;white-space:nowrap" class="ft04">&#160; &#160; &#160; &#160; As&#160;&#160;the&#160;&#160;average&#160;&#160;velocity&#160;&#160;increases, pressure losses increase. Velocity is&#160;<br/>directly related to flow rate. &#160;</p>
-<p style="position:absolute;top:492px;left:135px;white-space:nowrap" class="ft01">Velocity=Volumetric flow rate /Cross sectional area of the pipe&#160;</p>
-<p style="position:absolute;top:537px;left:108px;white-space:nowrap" class="ft04">&#160; &#160; &#160; &#160; &#160;An&#160;increase&#160;or&#160;decrease&#160;in&#160;flow rate will result in a corresponding increase or&#160;<br/>decrease in&#160;velocity. Smaller pipe causes a&#160;greater proportion of the &#160;liquid to&#160;be in&#160;<br/>contact with the pipe, which creates friction. Pipe size also affects velocity. Given&#160;<br/>a constant flow rate, decreasing pipe size&#160;increases the velocity, which increases&#160;<br/>friction. The friction losses are cumulative as&#160;the fluid travels through the length of&#160;<br/>pipe. The greater the distance, the greater the friction losses will be. &#160; Fluids with a&#160;<br/>high viscosity will flow more slowly and will generally not support eddy currents&#160;<br/>and therefore the internal roughness of the&#160;pipe will have no effect on the frictional&#160;<br/>resistance. This condition is&#160;known as laminar flow.&#160;</p>
-<p style="position:absolute;top:776px;left:108px;white-space:nowrap" class="ft01">There are in&#160;general three types of fluid flow in pipes&#160;</p>
-<p style="position:absolute;top:825px;left:135px;white-space:nowrap" class="ft02">•&#160;</p>
-<p style="position:absolute;top:825px;left:162px;white-space:nowrap" class="ft03"><b>laminar &#160;</b></p>
-<p style="position:absolute;top:849px;left:135px;white-space:nowrap" class="ft02">•&#160;</p>
-<p style="position:absolute;top:850px;left:162px;white-space:nowrap" class="ft03"><b>turbulent &#160;</b></p>
-<p style="position:absolute;top:873px;left:135px;white-space:nowrap" class="ft02">•&#160;</p>
-<p style="position:absolute;top:874px;left:162px;white-space:nowrap" class="ft03"><b>transient &#160;</b></p>
-<p style="position:absolute;top:919px;left:108px;white-space:nowrap" class="ft00"><b>Laminar flow&#160;</b></p>
-<p style="position:absolute;top:963px;left:108px;white-space:nowrap" class="ft04">Laminar flow generally happens when&#160;dealing with small pipes , low flow&#160;<br/>velocities and with highly &#160;&#160;viscous fluids. At low velocities fluids tend to flow&#160;<br/>without lateral mixing,and adjacent layers&#160;slide past one another like playing cards.&#160;<br/>There are neither cross currents nor eddies. Laminar flow can be regarded as a&#160;</p>
-
-
-
-
-
-
-</div>
                             <p class="MsoNormal" style="line-height: 150%;">
                             
 Experiment No.1</br>
@@ -330,7 +293,9 @@ density and average velocity of the liquid. He found that these four factors can
 combined into one group and that the change in kind of flow occurs at a definite
 value of the group. The grouping of the variables so found was Reynolds Number
 .Turbulent or laminar flow is determined by Reynolds Number.</br></br>
-<img alt="" height="169" src= "../images/ftp1.png" width="261"></br></br>
+<img  src= "../images/ftp1.png"style="width:268px;height:326px"></br></br>
+
+
 The Reynolds number expresses the ratio of inertial (resistant to change or
 motion) forces to viscous forces.</br></br>
 <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>N</mi><mrow><mi>R</mi><mi>e</mi></mrow></msub><mo>=</mo><mfrac><mrow><msub><mi>D</mi><mi>&#961;</mi></msub><mi>V</mi></mrow><mi>&#956;</mi></mfrac><mo>=</mo><mfrac><mrow><mi>i</mi><mi>n</mi><mi>e</mi><mi>r</mi><mi>t</mi><mi>i</mi><mi>a</mi><mo>&#160;</mo><mi>f</mi><mi>o</mi><mi>r</mi><mi>c</mi><mi>e</mi></mrow><mrow><mi>v</mi><mi>i</mi><mi>s</mi><mi>c</mi><mi>o</mi><mi>u</mi><mi>s</mi><mo>&#160;</mo><mi>f</mi><mi>o</mi><mi>r</mi><mi>c</mi><mi>e</mi></mrow></mfrac></math>

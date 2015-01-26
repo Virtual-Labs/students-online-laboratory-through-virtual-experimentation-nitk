@@ -97,7 +97,7 @@ body
 
 nav#lab-article-navigation, nav#experiment-article-navigation 
 {
-	height:100px;
+	height:190px;
 	margin: 0 auto;
 	width:1024px;
 	background: url(../images/content_bg.jpg);
@@ -205,7 +205,7 @@ nav#lab-article-navigation ul li a:focus, nav#experiment-article-navigation ul l
 {
 	width:600px;
 	height:400px;
-	padding-left:40px;
+	padding-left:180px;
 	padding-bottom:10px;
 }
 

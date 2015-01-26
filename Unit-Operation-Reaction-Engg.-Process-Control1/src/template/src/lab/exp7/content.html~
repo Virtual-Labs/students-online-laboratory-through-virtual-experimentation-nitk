@@ -7,7 +7,7 @@ edit -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title> Reaction kinetic studies in a batch reactor </title>
 </head>
 
 <body>
@@ -26,7 +26,7 @@ edit -->
                 <!-- Write the name of your lab and link it to the home 
       page of your lab (h1 tag is preferred while writing your 
       lab name)-->
-                <a href="../index.html">Chemical Lab</a>
+                <a href="../index.html">Unit-Operation-Reaction-Engg.-Process-Control Lab</a>
             </div><!-- Add any additional element you want to add to the lab 
     header, For example : Help (Enclosing them with suitable 
     div is recommended)-->
@@ -90,6 +90,32 @@ edit -->
 
 
 
+
+
+</p>
+                            <p><span style=
+                            "font-size: medium; font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To
+                           1. The thermal decomposition of hydrogen iodide to hydrogen and iodine is conducted in a batch
+reactor. The following data are given
+<table><tr>
+<td>T, 0C</td>
+<td>508
+</td><td>427
+</td><td>393
+</td><td>356
+</td><td>283
+</td></tr>
+<tr>
+<td>k, cm 3/mol/s</td><td>0.1059
+</td><td>0.00310
+</td><td>0.000588
+</td><td>80.9 x 10 -6
+</td><td>0.942 x 10 -6
+</td></tr></table>
+Show that the temperature dependency of rate equation follows Arrhenius equation. Find the activation
+energy and frequency factor.
+2. The following data were obtained on the reaction 2 A  B in a batch reactor
 <table><tr>
 <td>Time, s
 </td>
@@ -117,43 +143,6 @@ edit -->
 </td><td>0.004
 
 </td></tr></table>
-
-</p>
-                            <p><span style=
-                            "font-size: medium; font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To
-                           1. The thermal decomposition of hydrogen iodide to hydrogen and iodine is conducted in a batch
-reactor. The following data are given
-<table><tr>
-<td>T, 0C</td>
-<td>508
-</td><td>427
-</td><td>393
-</td><td>356
-</td><td>283
-</td></tr>
-<tr>
-<td>k, cm 3/mol/s</td><td>0.1059
-</td><td>0.00310
-</td><td>0.000588
-</td><td>80.9 x 10 -6
-</td><td>0.942 x 10 -6
-</td></tr></table>
-Show that the temperature dependency of rate equation follows Arrhenius equation. Find the activation
-energy and frequency factor.
-2. The following data were obtained on the reaction 2 A  B in a batch reactor
-Time, s
-[A], mol L-1
-0
-0.100
-5
-0.0141
-10
-0.0078
-15
-0.0053
-20
-0.004
 Using a suitable plot, show that the reaction is second order. Find the rate constant.
 </span></p>
 
@@ -265,8 +254,8 @@ A typical batch reactor consists of a tank with an agitator and integral
 heating/cooling system. Liquids and solids are usually charged via connections in
 the top cover of the reactor. Vapors and gases also discharge through connections
 in the top. Liquids are usually discharged out of the bottom.</br></br>
-<img alt="" height="169" src= "../images/Btr1.png" width="261"></br></br>
-
+<img  src= "../images/Btr1.png" style="width:289px;height:309px"></br></br>
+289*309
 The advantages of a batch reactor lies in its versatility. A single vessel can
 carry out a sequence of different operations without the need to break containment.
 This is particularly useful when processing, toxic or highly potent compounds.

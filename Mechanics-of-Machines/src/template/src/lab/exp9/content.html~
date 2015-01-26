@@ -41,7 +41,7 @@ edit -->
             <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
 
             <header class="heading" id="experiment-article-heading">
-              Position analysis of Slider crank mechanism
+             Acceleration analysis of Slider crank mechanism
             </header><!-- Navigation menu is useful to organize the view of 
       multiple sections inside the article-->
 
@@ -124,7 +124,7 @@ edit -->
                             <p class="MsoNormal" style="line-height: 150%;">
 
 Acceleration analysis of slider crank mechanism Theory<br>
- <img src="../images/poscr1.png">Learning objectives<br>
+ <img  style="height:50px; width:50px;" src="../images/poscr1.png">Learning objectives<br>
 After completing this simulation experiment one should be able to <br>
 
 
@@ -159,14 +159,14 @@ The slider crank mechanism is one of the most useful mechanisms in modern techno
 internal combustion engines including automobiles, trucks and small engines.The slider crank kinematic chain <br>
 consists of four bodies linked with three cylindrical joints and one sliding or prismatic joint.It is used to<br>
 change circular into reciprocating motion, or reciprocating into circular motion.<br>
-<img  height="300" src="../images/accesr1.png"  width="400"><br>
+<img src="../images/accesr1.png" style="width:794px;height:500px"><br>
 The arm may be a bent portion of the shaft, or a separate arm attached to it. Attached to the end of<br>
 
 
 the crank by a pivot is a rod, usually called a connecting rod. The end of the rod attached to the crank moves <br>
 in a circular motion, while the other end is usually constrained to move in a linear sliding motion, in and out.<br>
 Position Analysis<br>
-<img  height="300" src="../images/accesr2.png"  width="400"><br>
+<img  src="../images/accesr2.png" style="width:794px;height:500px"><br>
 Figure 1 shows a slider<br>
 -
 crank mechanism in which the stroke<br>
@@ -181,7 +181,7 @@ Where,
 $$c_1=-2ac\cos\left(\theta_3\right)$$<br>
 $$c_2=a^2-b^2+c^2-2ca\sin\left(\theta_2\right)$$<br>
 Velocity Analysis<br>
-<img  height="300" src="../images/accesr3.png"  width="400"><br>
+<img  src="../images/accesr3.png" style="width:794px;height:500px"><br>
 Acceleration analysis of slider crank mechanism<br>
 
 Velocity Analysis<br>
@@ -195,7 +195,7 @@ $$\omega_3=\frac{a\omega_2\cos\left(\theta_2\right)}{\cos\left(\theta_3\right)}$
 
 Acceleration Analysis<br>
 
-<img  height="300" src="../images/accesr4.png"  width="400"><br>
+<img src="../images/accesr4.png" style="width:794px;height:500px"><br>
 
 Differentiating the earlier equations from velocity analysis, we end up with the acceleration<br>
 data of the slider crank. With the prior knowledge of the angular acceleration of the crank, α<br>
@@ -208,7 +208,7 @@ $$\ddot d=\frac{a\alpha_2\sin\left(\theta_3-\theta_2\right)-a\omega_2^2\cos\left
 
 $$\alpha_3=\frac{a\alpha_2\cos\theta_2-a\omega_2^2\sin\theta_2-b\omega_3^2\sin\left(\theta_3\right)}{\cos\left(\theta_3\right)}$$<br>
 Inversions<br>
-<img  height="300" src="../images/accesr5.png"  width="400"><br>
+<img  src="../images/accesr5.png" style="width:794px;height:500px"><br>
 Different mechanisms obtained by fixing different links of a kinematics chain are known as its inversions.A slider–crank chain has the following inversions:<br>
 -1. First inversion (i.e., Reciprocating engine and compressor)<br>
 2. Second inversion (i.e., Whitworth quick return mechanism and Rotary engine)<br>
@@ -218,14 +218,14 @@ Different mechanisms obtained by fixing different links of a kinematics chain ar
 
 First Inversion<br>
 In this type of inversionCE is held fixed and A rotates around C along a circle and B slides back and forth along CE<br>
-<img  height="300" src="../images/accesr6.png"  width="400"><br>
-<img  height="300" src="../images/accesr7.png"  width="400"><br>
+<img  src="../images/accesr6.png" style="width:794px;height:500px"><br>
+<img   src="../images/accesr7.png" style="width:794px;height:500px"><br>
 This is the most common type of inversion. It is used in reciprocating engine and compressor.<br>
 
 Second Inversion <br>
 In this type of inversion ‘C’ and ‘A’ are both held fixed and the link CErotates in a circle<br>
 around C.The slider B slides back and forth along the rotating CE.<br>
-<img  height="300" src="../images/accesr8.png"  width="400"><br>
+<img src="../images/accesr8.png" style="width:794px;height:500px"><br>
 
 Second Inversion<br>
 In this type of inversion ‘C’ and ‘A’ are both held fixed and the link CE<br>
@@ -236,19 +236,19 @@ In this inversion of the slider-crank the slider guide link is made to rotate. T
 This linkage also converts rotary motion of the crank into oscillatory angular motion of the slider guide link.<br>
  This mechanism is used in shaper machine tools for cutting metals. Joseph Whitworth was a 19th century British<br>
  engineer and invento<br>
-<img  height="300" src="../images/accesr9.png"  width="400"><br>
+<img   src="../images/accesr9.png"  style="width:794px;height:500px"><br>
 
 Third Inversion<br>
 
-<img  height="300" src="../images/accesr12.png"  width="400">
-<img  height="300" src="../images/accesr10.png"  width="400"><br>
+<img src="../images/accesr12.png" style="width:794px;height:500px">
+<img  src="../images/accesr10.png"  style="width:794px;height:500px"><br>
 
 The oscillating cylinder engine is a form of a
 slider
 -
 crank mechanism. This mechanism is used often in door damper mechanisms. In the 19th century the oscillating cylinder was used on steam locomotives.<br>
 Fourth Inversion<br>
-<img  height="300" src="../images/accesr11.png"  width="400"><br>
+<img   src="../images/accesr11.png"  style="width:794px;height:500px"><br>
 </p>
 
                             <br>

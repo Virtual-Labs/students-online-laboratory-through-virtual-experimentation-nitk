@@ -125,17 +125,17 @@ Look at the few of the real systems shown below,try to make suitable assumptions
 </h4>
 </p>
 </br>
-<p><img src="../images/frvb1.png" alt="HTML5 Icon"  class="figure">
+<p><img src="../images/frvb1.png" style="width:350px;height:188px">
 
-<img src="../images/frvb2.png" alt="HTML5 Icon"   class="figure"></br>
+<img src="../images/frvb2.png"   style="width:497px;height:393px"></br>
 
 
 </p>
 
 <h4>A tower crane  overhang is like a cantilever beam</h4>
-<p><img src="../images/frvb3.png" alt="HTML5 Icon"  class="figure">
+<p><img src="../images/frvb3.png"   style="width:564px;height:405px">
 
-<img src="../images/frvb4.png" alt="HTML5 Icon"   class="figure"></br>
+<img src="../images/frvb4.png"    style="width:672px;height:374px"></br>
 
 
 </p>
@@ -273,7 +273,7 @@ AIM:
 To find the damping (c) of the given beam.
 PROCEDURE:
 Begin the experiment by clicking the start experiment button.</br>
-<img src="../images/frvpr1.png" alt="HTML5 Icon"  class="figure"></br>
+<img src="../images/frvpr1.png" style="width:799px;height:597px"></br>
 
 1. Find logarithmic decrement (δ) from displacement v/s time graph.
 The logarithmic decrement is defined as follows.
@@ -285,11 +285,11 @@ n
 x
 Here x and x refer to the displacements at the first and nth peak in the displacement v/s time
 graph. The displacements at the peaks can be found using the location slider.</br>
-<img src="../images/frpr2.png" alt="HTML5 Icon"  class="figure"></br>
-<img src="../images/frpr3.png" alt="HTML5 Icon"  class="figure"></br>
+<img src="../images/frpr2.png" style="width:800px;height:600px"></br>
+<img src="../images/frpr3.png" style="width:800px;height:600px"></br>
 2. Find the damping ratio (ζ) from the logarithmic decrement (δ). The damping ratio is given by</br>
 ζ=</br>
-<img src="../images/frpr4.png" alt="HTML5 Icon"  class="figure"></br>
+<img src="../images/frpr4.png" style="width:800px;height:600px"></br>
 3. Find beam stiffness (k) N/m from Young’s modulus (E), area moment of inertia (I) and length (L).
 The stiffness for different beams is given below
 Cantilever beam
@@ -301,23 +301,23 @@ Fixed Fixed beam
 3
 48
 192</br>
-<img src="../images/frpr5.png" alt="HTML5 Icon"  class="figure"></br>
+<img src="../images/frpr5.png"  style="width:800px;height:600px"></br>
 
 4. Find natural frequency (ωn) rad/s from ωd and ζ . ωd can found from the FFT in the graph</br>
 window.
 =
 1−</br>
-<img src="../images/frpr6.png" alt="HTML5 Icon"  class="figure"></br>
+<img src="../images/frpr6.png" style="width:800px;height:600px"></br>
 
 5. Find equivalent mass (meq) kg from ωn and k.</br>
 =
-<img src="../images/frpr7.png" alt="HTML5 Icon"  class="figure"></br>
+<img src="../images/frpr7.png" style="width:800px;height:600px"></br>
 
 6. Find critical damping (cc) Ns/m from meq and k.
 = 2√
 7. Find damping (c) Ns/m from Cc and ζ.
 =</br>
-<img src="../images/frpr8.png" alt="HTML5 Icon"  class="figure"></br>
+<img src="../images/frpr8.png" style="width:800px;height:600px"></br>
 RESULT:</br>
 System damping ‘c’ has been found. The basic concepts in free vibration of SDOF systems are
 covered.
