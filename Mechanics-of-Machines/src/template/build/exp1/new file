@@ -1,0 +1,261 @@
+  <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/objective.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-3-content">
+                        <div class="divContent">
+                            <p><!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;w:WordDocument&gt;
+&lt;w:View&gt;Normal&lt;/w:View&gt;
+&lt;w:Zoom&gt;0&lt;/w:Zoom&gt;
+font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman";}
+&lt;/style&gt;
+&lt;![endif]--></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            
+Position analysis of Grashoffour bar mechanism<br>
+	Theory
+Learning objectives<br>
+After completing this simulation experiment one should be able toDetermine the location CG of any given link in a Grashof four bar<br>
+mechanismDetermine the output link angle of a G<br>
+rashof four bar mechanism for any given crank angle <br>
+Calculate the transmission angle of a given Grashof four bar mechanism atany given crank angle<br>
+
+Synthesis length of a Grashof four bar mechanism for a given conditionsBasic theory is given under different subsections in the same document. <br>
+
+
+INTRODUCTION<br>
+
+Four Bar Mechanism Grashof Inversions Double crank mechanism<br>
+Crank-rocker mechanism Double-rocker mechanism Parallel crank<br>
+mechanism Position analysis,Velocity analysis Acceleration analysis<br>
+
+
+Four Bar M<br>
+
+
+
+
+
+<img  height="169" src="../images/pos1.png"  width="261"><br>
+
+
+
+position analysis of Grashof four bar mechanism<br>
+
+
+<img  height="169" src="../images/pos3.png"  width="261"><br>
+
+
+Grashoff’s Law:
+For a planar four bar linkage, the sum of the shortest and longest links cannot be greater<br>
+than the sum of the remaining links if there is to be continuous relative rotation between two<br>
+member<br>
+
+
+
+
+Inversions<br>
+
+<img  height="169" src="../images/pos4.png"  width="261"><br>
+A mechanism has been defined above as a kinematic<br>
+chain in which one of the links is fixed. From<br>
+the four bar mechanism, different versions of each of them can be obtained by fixing<br>
+any one of the links p, q l or s<br>
+. Such different versions, which can be obtained by fixing any of the different<br>
+links, are called its “Inversions”. Many a time, a particular inversion of a mechanism may give<br>
+rise to different mechanisms of practical utility, when the proportions of the link lengths are<br>
+changed.<br>
+By this principle of inversion of a fourbar chain, several useful<br>
+mechanisms can be obtained.<br>
+There are three inversions of four bar mechanisms, which are obtained by fixing different links of<br>
+the kinematic chain. They are:
+
+a)Double Crank Mechanism<br>
+b)Crank Rocker Mechanism<br>
+c)Double Rocker Mechanism<br>
+
+
+
+Double Crank Mechanism<br>
+
+
+<img  height="169" src="../images/pos5.png"  width="261"><br>
+A double crank converts rotary motion from a crank to a second crank or link in a different<br>
+plane or axis. It is also known as crank- crank, drag<br>
+-
+crank or rotary<br>
+-
+rotary converter. The links p,<br>
+q and l shown above rotate through one complete revolution. This is one of the<br>
+first inversions of four<br>
+-bar mechanisms.
+In this discussion, let’s call the link‘s’ the frame as the fixed link. We will call the link ‘q’ the crank,<br>
+‘p’ the coupler and ‘l’ the lever for now. Crank is not defined as the link, which is attached to the<br>
+driver shaft; rather it’s the link, which does a complete revolution. And in this configuration, as<br>
+there are two links, both q and l, which revolves completely about the hinged point on the frame,<br>
+both of them, is cranks.The term is commonly used in automotive technology for the link in a four bar steering linkage<br>
+that converts rotation of a steering arm to a center link and eventually to tie-rod links which<br>
+pivot the wheels to be steered. A double crank is used when the steering arm operates in a plane<br>
+above the other links. The double crank converts the sweeping arc of the steering arm to linear<br>
+motion in the plane of the other steering links<br>
+
+
+
+Crank-Rocker Mechanism<br>
+
+
+<img  height="169" src="../images/pos6.png"  width="261"><br>
+
+In a four bar linkage, if the shorter side link revolves and the other rocks (i.e., oscillates), it iscalled a crank-rocker mechanism.<br>
+In this case, there is only a slight change, leavethe smallest side and connect any of its adjacent<br>
+side as the frame. Then (in figure) the smallest side ‘s’ will have full 360 degree revolution while<br>
+the other link adjacent to the frame has only oscillating motion (link p). This kind of mechanism<br>
+is hence called a crank-lever mechanism or a crank-rocker mechanism or a rotary-oscillatingconverter<br>
+
+Double-Rocker Mechanism<br>
+
+
+<img  height="169" src="../images/pos7.png"  width="261"><br>
+A linkage in which no link undergoes entire 360-degree revolution but only oscillations is known<br>
+as adouble-levermechanism.This linkage results when the shortest side in the mechanism is made the coupler. The other t<br>
+wo links only get to oscillate in their place. A linkage in which the sum of the longest and shortest<br>
+link is less than the sum of the other two sides, is known as a Class I mechanism, otherwise it’s<br>
+Class II. This mechanism is achieved when it is Class II. It’s also called rocker-rocker mechanism,double-rocker mechanism or oscillating oscillating-converter<br>
+
+Parallel Crank Mechanism<br>
+
+
+<img  height="169" src="../images/pos8.png"  width="261"><br>
+If in a 4 bar linkage, two opposite links are parallel and equal in length, then any of the links can<br>
+be made fixed, regardless, the two adjacent links will always act as a pair of cranks, i.e. , both w
+ill have complete revolution about their joints on the frame.<br>
+The use of such mechanism is made in coupled wheels of locomotives in which the rotary motion<br>
+of one wheel is transmitted to the other wheel.<br>
+
+Position analysis of four bar mechanism<br>
+
+
+<img  height="169" src="../images/pos9.png"  width="261"><br>
+
+
+ <section>
+ <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/manual.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+                          
+                            <h3 style="color: red;">&nbsp;</h3>
+
+                            <h3 style="color: red;">&nbsp;</h3>
+
+                            <h3 style="color: red;">
+                            <!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;w:WordDocument&gt;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin:0in;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman","serif";}
+&lt;/style&gt;
+&lt;![endif]--><big></big></h3>
+
+                            <h3 style="color: red;"><big>
+                            <!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;w:WordDocument&gt;
+&lt;w:View&gt;Normal&lt;/w:View&gt;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin-top:0in;
+mso-para-margin-right:0in;
+mso-para-margin-bottom:10.0pt;
+mso-para-margin-left:0in;
+line-height:115%;
+mso-pagination:widow-orphan;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;}
+&lt;/style&gt;
+&lt;![endif]--></big></h3>
+
+                            <h3 style="color: red;">&nbsp;</h3>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;<b>Expt. 1:  MDV_Expt1_Procedure_FreeVib_CantiBeam-kvg-ver01</b></span></p>
+
+                            <p class="MsoNormal" style=
+                            "font-weight: bold; line-height: 150%"><span lang=
+                            "EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            Aim</span></b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:
+                            Study the change in resistance of RTD probe
+                            depending on the process temperature.</span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+
+
+
+
+Position Analysis of Four Bar Mechanism (
+Grashof
+)
+-
+expT PROCEDURE
+
+objective:<br>
+To complete<br>
+ly determine the position of four bar linkage given and t
+hereby find out θ 4 and γ (transmission angle).
+PROCEDURE<br>
+
+1.Read the values of link lengths under variables.<br>
+2.Read the value of θ2 under variables<br>
+3.Calculate the value ofθ 3 and θ<br>
+4.Calculate Transmission angle<br>
+
+equations<br>
+
+
+
+
+                            </span>

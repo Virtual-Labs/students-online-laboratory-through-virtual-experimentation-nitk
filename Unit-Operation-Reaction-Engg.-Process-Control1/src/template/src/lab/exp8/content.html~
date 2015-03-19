@@ -8,6 +8,15 @@ edit -->
 <html>
 <head>
     <title></title>
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+#wrap {
+    width:85%;
+}
+
+</style>
 </head>
 
 <body>
@@ -57,147 +66,19 @@ edit -->
 
             <div id="experiment-article-sections">
                 <!-- First section of the article-->
-
-                <section id="experiment-article-section-1">
+ <section id="experiment-article-section-1">
                     <div class="icon" id="experiment-article-section-1-icon">
-                    <!-- Enclose the icon image of your lab -->
-                    <img src="../images/introduction.jpg"></div>
-                    <!-- The heading for the section can be enclosed in a 
-          div tag. -->
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-1-heading">
-                        Assignment
-                    </div><!-- Write the section content inside a paragraph 
-          element, You can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id=
-                    "experiment-article-section-1-content">
-                        <div class="divContent">
-                            <h2 style="color: Red;"><strong style=
-                            "text-decoration: underline"><span style=
-                            "font-family: arial,helvetica,sans-serif; color: rgb(255, 0, 0);">
-                            <span style=
-                            "font-size: large;">Assignment</span></span></strong></h2>
-
-                            <p>&nbsp;1. A liquid phase reaction is to be carried out in a suitable reactor. The stoichiometry of the
-reaction is A
-→ R. The feed concentraƟon is 0.90 mol A/liter
-and is available at a rate of 100
-mol A/min. The following reactors may be considered for choice.
-a) Mixed flow reactor.
-b) Tubular flow reactor
-c) Recycle reactor with a recycle ratio of 0.50.
-It is desirable to achieve a fractional conversion of 0.7
-78. Which one of the above
-mentioned reactors do you recommend and why? The following data, available for the
-reaction, may be used in your calculations.
-Rate,
-mol A/lit. min.
-0.1
-0.3
-0.5
-0.6
-0.5
-0.25
-0.1
-0.06
-0.05
-Concentration,
-mol A/lit.
-0.1
-0.2
-0.3
-0.4
-0.5
-0.6
-0.7
-0.8
-1.0
-2. The liquid phase reaction A
-→ R + S follows first
--
-order kinetics with a reaction velocity
-constant of 0.80 k sec
--
-1
-. A feed having a concentration of 1 k mol A/m
-3
-at a rate of 1.60 m
-3
-/k
-sec. is available for processing.
-A cascade having three equal sized back mix reactors, with
-each vessel having a hold
--
-up volume of 50 liters, is available for service. When this reaction
-is carried out in the cascade, find the final conversion which can be achieved.</p>
-
-                         
-
-                            <p>&nbsp;</p>
-
-                            <p><span style=
-                            "font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">
-                            <strong><span style=
-                            "font-size: large;"></span></strong></span></p>
-
-                            <p>&nbsp;</p>
-
-                            <p>&nbsp;</p>
-
-                            <p><!-- p { margin-bottom: 0.21cm; } --></p>
-
-                         
-                            <p style="margin-bottom: 0cm;">&nbsp;</p>
-
-                            <p><span style=
-                            "font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(0, 0, 0);">
-                            <br></span></p>
-                        </div>
-                    </div>
-                </section><!-- Second section of the article-->
-
-                <section id="experiment-article-section-2">
-                    <div class="icon" id="experiment-article-section-2-icon">
-                    <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/theory.jpg"></div>
-                    <!-- The heading for the section can be enclosed in a 
-        div tag. -->
-
-                    <div class="heading" id=
-                    "experiment-article-section-2-heading">
-                        Pre Test
-                    </div><!-- Write the section content inside a paragraph 
-        element, we can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id=
-                    "experiment-article-section-2-content">
-                        <div class="divQuiz">
-                            <div id="displayQuiz">
-                                <form id="form11" method="post" name="form11">
-                                   
-                             
-                         
-                                </form><br>
-                            </div><br>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="experiment-article-section-3">
-                    <div class="icon" id="experiment-article-section-3-icon">
-                    <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/objective.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-3-heading">
                         Theory
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-3-content">
-                        <div class="divContent">
+                    "experiment-article-section-1-content">
+                        <div class="divContent"  id="wrap">
                             <p><!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
 &lt;w:View&gt;Normal&lt;/w:View&gt;
@@ -208,9 +89,11 @@ mso-fareast-font-family:"Times New Roman";}
 &lt;![endif]--></p>
 
                             <p class="MsoNormal" style="line-height: 150%;">
+
+ <p style="text-align:center;">   
 </br><b>Experiment No.8</b></br></br>
 <b>Reaction kinetic studies in a mixed flow reactor</b></br></br>
-<b>Background and Theory</b></br>
+<b>Background and Theory</b></br></p>
 <div style="text-indent: 30px;">
 Flow Reactors: There are two types of flow reactors in common use in the
 chemical industry. They are the continuous stirred tank reactor (CSTR) and
@@ -300,44 +183,20 @@ proceed as above.
 
                           
       </section>
-
-                <section id="experiment-article-section-4">
-                    <div class="icon" id="experiment-article-section-4-icon">
+            
+ <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/simulation.jpg"></div>
+                    <img src="../images/procedure.jpg"></div>
 
                     <div class="heading" id=
-                    "experiment-article-section-4-heading">
-                        Simulator
-                    </div>
-
-                    <div class="content" id=
-                    "experiment-article-section-4-content">
-                        <div class="divContent">
-                            <p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">FreeVibrationSDOF_expN_ver2</a></p>
-                        </div>
-                    </div>
-
-			
-
-
-                </section>
-
-                <section id="experiment-article-section-5">
-                    <div class="icon" id="experiment-article-section-5-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/manual.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-5-heading">
+                    "experiment-article-section-2-heading">
                         Procedure
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-5-content">
-                        <div class="divContent">
+                    "experiment-article-section-2-content">
+                        <div class="divContent"  id="wrap">
                           
                         
 
@@ -355,240 +214,463 @@ proceed as above.
                             <span lang="EN-IN" style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
 
-Mixed flow reactor
-Aim:
+ <p style="text-align:center;">   
+<b>Mixed flow reactor</b></p>
+<b>Aim:</b><br>
 Conduct simulation based experiments to determine the rate constant for the
 saponification of ethyl acetate with NaOH at different temperatures using a mixed
 flow reactor(continuous stirred tank reactor). Also calculate the frequency factor
 and activation energy for the reaction. Discuss on temperature dependency of rate
-constant
-CH3COOC2H5 (A)+ NaOH (B)
-CH3COONa + C2H5OH. It is an elementary reaction
-Ethyl acetate is the limiting reactant
-Apparatus: conductivity meter
-Procedure:
-1.
-2.
-3.
-4.
-5.
-Standardise the NaOH stock solution and note down its concentration.
-Calculate the concentration of ethyl acetate in stock solution
-Fill the reservoirs with NaOH and ethyl acetate stock solutions
-Measure the volume of the reactor.
-Switch on the pump and allow ethyl acetate to flow into the reactor at certain
-flowrate and measure the flowrate(VA) using rotameter.
+constant</br>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mtext>C</mtext>
+  <msub>
+    <mtext>H</mtext>
+    <mn>3</mn>
+  </msub>
+  <mtext>COO</mtext>
+  <msub>
+    <mtext>C</mtext>
+    <mn>2</mn>
+  </msub>
+  <msub>
+    <mtext>H</mtext>
+    <mn>5</mn>
+  </msub>
+  <mo>(</mo>
+  <mtext>A</mtext>
+  <mo>)</mo>
+  <mo>+</mo>
+  <mtext>NaOH</mtext>
+  <mo>(</mo>
+  <mtext>B</mtext>
+  <mo>)</mo>
+  <mo>
+    &#x2192;
+    <!--rarr, RightArrow, ShortRightArrow, srarr, rightarrow-->
+  </mo>
+  <mtext>C</mtext>
+  <msub>
+    <mtext>H</mtext>
+    <mn>3</mn>
+  </msub>
+  <mtext>COONa</mtext>
+  <mo>+</mo>
+  <msub>
+    <mtext>C</mtext>
+    <mn>2</mn>
+  </msub>
+  <msub>
+    <mtext>H</mtext>
+    <mn>5</mn>
+  </msub>
+  <mtext>OH</mtext>
+</math>
+ It is an elementary reaction</br>
+Ethyl acetate is the limiting reactant</br>
+Apparatus: conductivity meter</br>
+Procedure:</br>
+1.Standardise the NaOH stock solution and note down its concentration.</br>
+2.Calculate the concentration of ethyl acetate in stock solution</br>
+3.Fill the reservoirs with NaOH and ethyl acetate stock solutions</br>
+4.Measure the volume of the reactor.</br>
+5.Switch on the pump and allow ethyl acetate to flow into the reactor at certain
+flowrate and measure the flowrate(<img src="../images/equations/eq8.PNG" style="width:50px;height:25px;">) using rotameter.</br>
+
+
+
+
 6. Set the required temperature to be maintained in the reactor.Switch on the
-heater to heat the reactor contents to the required temperature .
-7. Calculate the flowrate of NaOH(VB) required to keep the desired value of
-M(M=CBo/CAo). M may be greater than or equal to one. Calculate the total
-flowrate (Q).
+heater to heat the reactor contents to the required temperature .</br>
+7. Calculate the flowrate of NaOH(<img src="../images/equations/eq9.PNG" style="width:30px;height:20px;">) required to keep the desired value of
+<img src="../images/equations/eq10.PNG" style="width:120px;height:30px;">. M may be greater than or equal to one. Calculate the total
+flowrate (Q).</br>
 8. Adjust the flowrate of NaOH to the calculated value, without changing the
-EA flowrate.
-9. Calculate the actual value of M obtained after adjusting the flowrates.
-10. Calculate the space time using the total flow rate.
+EA flowrate.</br>
+9. Calculate the actual value of M obtained after adjusting the flowrates.</br>
+10. Calculate the space time using the total flow rate.</br>
 11. Start the stirrer in the reactor. Close the drain valve completely. Allow the
 reaction to proceed till steady state is attained, as indicated by constant
-reading in the conductivity meter.
+reading in the conductivity meter.</br>
 12. Note down the conductivity (in mS/cm) of the reaction mixture in, after
 steady state is attained. Note: Some conductivity meters may display
 conductance (mS) not the conductivity(mS/cm) [Refer theory for more
-information].
+information].</br>
 13. Determine the concentration of unreacted NaOH in the reaction mixture by
-using the conductivity meter calibration equation.
-14. Repeat steps (6) to (12) for different EA flowrates .
-15. Conduct the experiment at different temperatures
+using the conductivity meter calibration equation.</br>
+14. Repeat steps (6) to (12) for different EA flowrates .</br>
+15. Conduct the experiment at different temperatures</br>
 Observations and calculations:
 Aà Ethyl acetate
 B àNaOH
-Strength of Ethyl acetate in stock = CAS = ------------------------ gmol/L
-Strength of NaOH in stock solution=CBS= ------------------------ gmol/L
-Diameter of the reaction vessel, d = -----------------------cm
-Height of the vessel upto reactor outlet, h = -----------------------cm
-V = volume of teh reactor= d2h/4 =
-= -----------------------cm3
-<table></table>
-Calculations:
-Ethyl acetate flow rate = VA = ------------------------------LPH
+Strength of Ethyl acetate in stock = <img src="../images/equations/eq11.PNG" style="width:35px;height:20px;"> = ------------------------ gmol/L</br></br>
+Strength of NaOH in stock solution=<img src="../images/equations/eq12.PNG" style="width:35px;height:25px;">= ------------------------ gmol/L</br></br>
+Diameter of the reaction vessel, d = -----------------------cm</br></br>
+Height of the vessel upto reactor outlet, h = -----------------------cm</br></br>
+V = volume of teh reactor=<img src="../images/equations/eq13.PNG" style="width:65px;height:30px;">=
+= -----------------------cm3</br>
+=     L<br>
+
+<img  src= "../images/prmf1.png" style="width:589px;height:158px"></br></br>
+
+<img  src= "../images/prmf2.png" style="width:964px;height:200px"></br></br>
+<b>Calculations:</b><br>
+Ethyl acetate flow rate = <img src="../images/equations/eq8.PNG" style="width:45px;height:20px;">= ------------------------------LPH</br>
 VB/VA = M(CAS/CBS)
-Flow rate of NaOH required to keep the desired M , VB = M*VA(CAS/CBS)
+Flow rate of NaOH required to keep the desired M ,<img src="../images/equations/eq15.PNG" style="width:150px;height:35px;"></br>
 Flow rate of NaOH set, =
 LPH
 Total flow rate Q= VA+VB =
 Space time , = V/Q =
 min
-Actual value of M(obtained in the experiment) = VB*CBS/VA*CAS
+Actual value of M(obtained in the experiment) = <img src="../images/equations/eq16.PNG" style="width:155px;height:40px;"></br>
 =
-Initial concentartion of ethyl acetate in the feed mixture,
-CAo= (VA*CAS)/Q
-CAo = --------------------gmol/L
-Concentartion of NaOH in the feed mixture,
+Initial concentartion of ethyl acetate in the feed mixture,</br>
+ <img src="../images/equations/eq17.PNG" style="width:150px;height:35px;"></br>
+CAo = --------------------gmol/L</br>
+Concentartion of NaOH in the feed mixture,</br>
 CBO = (VB*CBS)/Q
-CBO = --------------------gmol/L
-As the conductivity meter calibration is available only at 280C, the conductivity
-meter reading obtained at a given temperature of reaction is to be corrected for 280C.
-Temperature compensation for conductivity meter
-YT = Y28 / (1+0.0145(T-28))
-Where ,
-YT =conductivity meter reading at any temperature T in mS/cm
-Y28 = conductivity meter reading at a temperature of 280C in mS/cm
-Obtain Y28 corresponding to measured conductivity meter reading ( YT) using the
-equation above.
+CBO = --------------------gmol/L</br>
+As the conductivity meter calibration is available only at 280C, the conductivity</br>
+meter reading obtained at a given temperature of reaction is to be corrected for 280C.</br>
+Temperature compensation for conductivity meter</br>
+
+ <img src="../images/equations/eq19.PNG" style="width:180px;height:35px;"></br>
+Where ,</br>
+YT =conductivity meter reading at any temperature T in mS/cm</br>
+
+ <img src="../images/equations/eq24.PNG" style="width:35px;height:20px;">= conductivity meter reading at a temperature of 280C in mS/cm</br>
+Obtain 
+ <img src="../images/equations/eq24.PNG" style="width:35px;height:20px;"> corresponding to measured conductivity meter reading ( YT) using the
+equation above.</br>
 Conductivity meter is calibrated for concentrations of NaOH in the reaction mixture at a
 temperature of 280C.
-Obtain the Concentration of NaOH at 280C using the calibration equation given below
-Conductivitymeter calibration equation for 280C.
-CB =0.00026 Y28 -0.000063
-Where,
-CB= Concentration of NaOH in the reaction mixture at steady state
+Obtain the Concentration of NaOH at 280C using the calibration equation given below</br>
+Conductivitymeter calibration equation for 280C.</br>
+
+ <img src="../images/equations/eq20.PNG" style="width:185px;height:40px;"><br>
+Where,<br>
+
+ <img src="../images/equations/eq25.PNG" style="width:27px;height:20px;">= Concentration of NaOH in the reaction mixture at steady state
 Y28 = Conductivity meter reading for solution, corrected for 280C
 Concentartion of unreacted NaOH in the reaction mixture at steady state,
 CB=
 gmol/L (obtained from the conductivity meter calibration
-graph)
-Concentartion of ethyl acetate in the reaction mixture at steady state,
-CA = CAo - CBo+ CB
-CA
-Conversion of ethyl acetate, XA = 1
-= --------------------gmol/L
-(CA/ CAo)=
-Performance equation for MFR with rate equation of the form rA = kCACB
+graph)</br>
+Concentartion of ethyl acetate in the reaction mixture at steady state,</br></br>
+
+ <img src="../images/equations/eq21.PNG" style="width:167px;height:30px;"></br>
+
+ <img src="../images/equations/eq26.PNG" style="width:40px;height:20px;">= --------------------gmol/L<br>
+Conversion of ethyl acetate,  <img src="../images/equations/eq22.PNG" style="width:150px;height:35px;"><br>
+
+
+Performance equation for MFR with rate equation of the form  <img src="../images/equations/eq23.PNG" style="width:140px;height:30px;"><br>
 can be written as
 =
 (
 )
 (B)
-for MFR
+for MFR<br>
 Plotting
 (
 )
 vs
 yields a straightline passing through origin. The
 slope=k . The equation holds good for M=1 or greater than 1.
-Plot a graph of XA/((1-XA)(M-XA)) Vs CAo
-<img  src= "../images/mfrp1.png" style="width:378px;height:245px">
+Plot a graph of ns  = 
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mfrac>
+    <msub>
+      <mtext>X</mtext>
+      <mtext>A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mo>(</mo>
+      <mn>1</mn>
+      <mo>-</mo>
+      <msub>
+        <mtext>X</mtext>
+        <mtext>A</mtext>
+      </msub>
+      <mo>)</mo>
+      <mo>(</mo>
+      <mtext>M</mtext>
+      <mo>-</mo>
+      <msub>
+        <mtext>X</mtext>
+        <mtext>A</mtext>
+      </msub>
+      <mo>)</mo>
+      <mo>)</mo>
+      <msub>
+        <mtext>V</mtext>
+        <mi>s</mi>
+      </msub>
+      <msub>
+        <mtext>C</mtext>
+        <mtext>A0</mtext>
+      </msub>
+      <mtext>&#x3c4;</mtext>
+    </mrow>
+  </mfrac>
+</math><br>
 
+
+
+<img  src= "../images/mfrp1.png" style="width:378px;height:245px">
+<br>
 From the graph get,
 k = -------------------------------litre/((gmol)(min))
 Similarly the experiment may be performed with different temperatures and the
 rate constants at these temperatures may be determined.
-Obtain the rate constant at three or more different temperatures.
-<table></table>
+Obtain the rate constant at three or more different temperatures.</br>
+
+<img  src= "../images/pmfr4.png" style="width:394px;height:101px"></br>
 From Arrhenius Equation,
-k = koe
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>k</mi>
+  <mo>=</mo>
+  <msub>
+    <mi>k</mi>
+    <mn>0</mn>
+  </msub>
+  <msup>
+    <mi>e</mi>
+    <mrow>
+      <mo>(</mo>
+      <mfrac>
+        <mrow>
+          <mo>-</mo>
+          <mtext>E</mtext>
+        </mrow>
+        <mtext>RT</mtext>
+      </mfrac>
+      <mo>)</mo>
+    </mrow>
+  </msup>
+</math><br>
 Plot
-æ -E ö
-ç
-÷
-è RT ø
+
 lnk vs 1/T
-Determine the activation energy (E) and the frequency factor (ko) from the slope and
-intercept of the above plot.
+Determine the activation energy (E) and the frequency factor (ko) from the slope and<br>
+intercept of the above plot.<br>
 Intercept= lnk0
 Slope=-E/R
 R is the gas constant
-Frequency factor , ko=
-Activation energy= E=
-min-1(litre / gmol)
-J/mol
+Frequency factor , ko=<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msup>
+    <mrow>
+      <mi>m</mi>
+      <mi>i</mi>
+      <mi>n</mi>
+    </mrow><mrow> <mo>-</mo> <mn>1</mn>  </mrow></msup> <mo>(</mo><mfrac bevelled="true"><mrow> <mi>l</mi><mi>i</mi> <mi>t</mi><mi>r</mi><mi>e</mi></mrow> <mrow><mi>g</mi><mi>m</mi>
+      <mi>o</mi> <mi>l</mi>
+    </mrow> </mfrac> <mo>)</mo>
+</math><br>
+Activation energy= E=J/mol<br>
+
+
 Results:
 The rate constant for the saponification of Ethy acetate with NaOH at a temp of
 ToC,
 k = -------------------------------litre/((mol)(min))
 Discuss and conclude on the temperature dependency of rate constant.
-The activation energy (E) for the reaction=
+The activation energy (E) for the reaction=J/mol<br>
 The frequency factor (ko)=
-J/mol
-min-1(litre / gmol)
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msup>
+    <mrow>
+      <mi>m</mi>
+      <mi>i</mi>
+      <mi>n</mi>
+    </mrow><mrow> <mo>-</mo> <mn>1</mn>  </mrow></msup> <mo>(</mo><mfrac bevelled="true"><mrow> <mi>l</mi><mi>i</mi> <mi>t</mi><mi>r</mi><mi>e</mi></mrow> <mrow><mi>g</mi><mi>m</mi>
+      <mi>o</mi> <mi>l</mi>
+    </mrow> </mfrac> <mo>)</mo>
+</math>
 
                      </span></p>
 
                            
           </section>
 
-                <section id="experiment-article-section-6">                  
+ <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/selfevaluation.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
 
                     <div class="heading" id=
-                    "experiment-article-section-6-heading">
-                        Post Test
-                    </div>
+                    "experiment-article-section-3-heading">
+                        Self Evaluation
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
 
                     <div class="content" id=
-                    "experiment-article-section-6-content">
+                    "experiment-article-section-3-content">
                         <div class="divQuiz">
                             <div id="displayQuiz">
                                 <form id="form11" method="post" name="form11">
-                                    
-                                        
-                                         
-                                
+                                   
+                             
+                         
                                 </form><br>
                             </div><br>
                         </div>
                     </div>
                 </section>
-
-                <section id="experiment-article-section-7">
-                    <div class="icon" id="experiment-article-section-7-icon">
+ <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+                    <img src="../images/simulation.jpg"></div>
 
                     <div class="heading" id=
-                    "experiment-article-section-7-heading">
-                        Review Questions
+                    "experiment-article-section-4-heading">
+                        Simulator
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-7-content">
+                    "experiment-article-section-4-content">
                         <div class="divContent">
-                           
-                            <h2>&nbsp;</h2>
+                           <p multilinks-noscroll="true">
+	<a href="../images/videoSim/mixed_flow_reactor.zip" multilinks-noscroll="true" target="_blank">Download</a>&nbsp;(matlab files)</p>
+<p>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" /><param name="movie" value="../images/videoSim/CSTR.swf" /><embed allowfullscreen="true" allowscriptaccess="always" height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/CSTR.swf" type="application/x-shockwave-flash" width="800"></embed></object></p>
 
-                        
-                            <p>&nbsp;</p><!--[if gte mso 9]&gt;&lt;xml&gt;
-font-size:11.0pt;
-font-family:"Calibri","sans-serif";
-mso-ascii-font-family:Calibri;
-mso-ascii-theme-font:minor-latin;
-mso-hansi-font-family:Calibri;
-mso-hansi-theme-font:minor-latin;
-mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:minor-bidi;}
-&lt;/style&gt;
-&lt;![endif]-->
-
-                           
-
-                            <p>&nbsp;</p>
-
-                          
-                            <p>&nbsp;</p>
-
-                            
-                            <h1>&nbsp;</h1>
-
-                            <p style="text-align: center;">&nbsp;</p>
-
-                            <p style="text-align: center;">&nbsp;</p>
-
-                            
                         </div>
                     </div>
-                </section>
 
-                <section id="experiment-article-section-8">
-                    <div class="icon" id="experiment-article-section-8-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+			
+
+
+                </section>
+    <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/assignment.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
 
                     <div class="heading" id=
-                    "experiment-article-section-8-heading">
+                    "experiment-article-section-5-heading">
+                        Assignment
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent"  id="wrap">
+                            <h2 style="color: Red;"><strong style=
+                            "text-decoration: underline"><span style=
+                            "font-family: arial,helvetica,sans-serif; color: rgb(255, 0, 0);">
+                            <span style=
+                            "font-size: large;"></span></span></strong></h2>
+
+                            <p>&nbsp;1. A liquid phase reaction is to be carried out in a suitable reactor. The stoichiometry of the
+reaction is A
+→ R. The feed concentraƟon is 0.90 mol A/liter
+and is available at a rate of 100
+mol A/min. The following reactors may be considered for choice.<br><br>
+a) Mixed flow reactor.<br><br>
+b) Tubular flow reactor<br><br>
+c) Recycle reactor with a recycle ratio of 0.50.<br><br>
+It is desirable to achieve a fractional conversion of 0.7
+78. Which one of the above
+mentioned reactors do you recommend and why? The following data, available for the
+reaction, may be used in your calculations.
+
+
+<table><tr>
+<td>Rate,
+mol A/lit. min.</td>
+<td>0.1
+</td><td>0.3
+</td><td>0.5
+</td><td>0.6
+</td><td>0.5
+</td><td>0.25</td><td>0.1</td><td>0.06</td><td>0.05</td></tr>
+<tr>
+<td>
+Concentration,
+mol A/lit.</td><td>0.1
+</td><td>0.2
+</td><td>0.3
+</td><td>0.4
+</td><td>0.5
+</td>
+<td>0.6
+</td><td>0.7
+</td><td>
+0.8
+</td><td>
+1.0
+</td></tr></table><br>
+
+
+
+2. The liquid phase reaction A
+→ R + S follows first
+-
+order kinetics with a reaction velocity
+constant of 0.80 k sec
+-
+1
+. A feed having a concentration of 1 k mol A/m
+3
+at a rate of 1.60 m
+3
+/k
+sec. is available for processing.
+A cascade having three equal sized back mix reactors, with
+each vessel having a hold
+-
+up volume of 50 liters, is available for service. When this reaction
+is carried out in the cascade, find the final conversion which can be achieved.</p>
+
+                         
+
+                            <p>&nbsp;</p>
+
+                            <p><span style=
+                            "font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">
+                            <strong><span style=
+                            "font-size: large;"></span></strong></span></p>
+
+                            <p>&nbsp;</p>
+
+                            <p>&nbsp;</p>
+
+                            <p><!-- p { margin-bottom: 0.21cm; } --></p>
+
+                         
+                            <p style="margin-bottom: 0cm;">&nbsp;</p>
+
+                            <p><span style=
+                            "font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(0, 0, 0);">
+                            <br></span></p>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+               
+
+               
+
+               <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/reference.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
                         Reference
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-8-content">
-                        <div class="divContent">
+                    "experiment-article-section-6-content">
+                        <div class="divContent"  id="wrap">
                             <p><!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
 &lt;w:View&gt;Normal&lt;/w:View&gt;
@@ -607,39 +689,15 @@ font-family:"Times New Roman","serif";}
 &lt;/style&gt;
 &lt;![endif]-->
 
-                            <p class="PreformattedText">&nbsp;</p>
-
-                            <p class="PreformattedText">&nbsp;</p>
+                          
                             <!--[if gte mso 9]&gt;&lt;xml&gt;
 font-family:"Times New Roman","serif";}
 &lt;/style&gt;
 &lt;![endif]-->
 
-                            <p class="MsoNormal">
-                            <!--[if gte mso 9]&gt;&lt;xml&gt;
-&lt;w:WordDocument&gt;
-mso-para-margin-right:0in;
-mso-para-margin-bottom:10.0pt;
-mso-para-margin-left:0in;
-line-height:115%;
-mso-pagination:widow-orphan;
-font-size:11.0pt;
-font-family:"Calibri","sans-serif";
-mso-ascii-font-family:Calibri;
-mso-ascii-theme-font:minor-latin;
-mso-hansi-font-family:Calibri;
-mso-hansi-theme-font:minor-latin;
-mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:minor-bidi;}
-&lt;/style&gt;
-&lt;![endif]--></p>
+                         
 
                            
-                            <p class="MsoNormal" style="line-height: normal;">
-                            <span style=
-                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
-                            &nbsp;</span></p>
-
                            
                           
                           
@@ -2266,32 +2324,202 @@ mso-bidi-theme-font:minor-bidi;}
                     </div>
                 </section>
 
-                <section id="experiment-article-section-9">
-                    <div class="icon" id="experiment-article-section-9-icon">
+                 <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+                    <img src="../images/video.jpg"></div>
 
                     <div class="heading" id=
-                    "experiment-article-section-9-heading">
-                        Photo Gallery
+                    "experiment-article-section-7-heading">
+                        Video 
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-9-content">
-                        <p><b>Q1.</b> Time taken for one complete oscillation
-                        is called Time Period of the oscillator.<br>
-                        <input id="q1" name="q1" type="radio" value="1">
-                        True<br>
-                        <input id="q1" name="q1" type="radio" value="0">
-                        False<br>
-                        <br>
-                        <b>Q2.</b> Time period of the oscillator is constant
-                        for given values of mass, length and initial
-                        conditions.<br>
-                        <input id="q2" name="q2" type="radio" value="1">
-                        True<br></p>
+                    "experiment-article-section-7-content">
+                        <div class="divContent">
+                        
+
+                        
+                          
+                           
+
+	
+
+<!-- JoomlaWorks "AllVideos" Plugin (v3.1) starts here -->
+
+<span class="avPlayerContainer">
+	<span style="width:800px;" class="avPlayerSubContainer">
+	
+		<span id="AVPlayerID_571d597a" class="avPlayerBlock" style="padding-bottom:8px;">
+
+<object type="application/x-shockwave-flash" style="width:800px;height:600px;" data="http://solve.nitk.ac.in/plugins/content/jw_allvideos/includes/players/mediaplayer/player.swf" title="JoomlaWorks AllVideos Player">
+	<param name="movie" value="http://solve.nitk.ac.in/plugins/content/jw_allvideos/includes/players/mediaplayer/player.swf" />
+	<param name="quality" value="high" />
+	<param name="wmode" value="transparent" />
+	<param name="bgcolor" value="#010101" />
+	<param name="autoplay" value="false" />
+	<param name="allowfullscreen" value="true" />
+	<param name="allowscriptaccess" value="always" />
+	<param name="flashvars" value="file=http://solve.nitk.ac.in/images/stories/videos/demo_mfr.flv&amp;image=http://solve.nitk.ac.in/images/stories/videos/demo_mfr.jpg&amp;autostart=false&amp;fullscreen=true" />
+</object>		</span><br>
+
+				<a class="avLightbox" href="#AVPlayerID_571d597a" title="Click to view video in a lightbox popup">Dim lights</a>
+				
+				<!--<a class="avDownload" href="../images/videoSim/demo_mfr.flv" title="Click to download media">Download</a>-->
+		
+				Embed <span class="avEmbed" id="embed_AVPlayerID_571d597a" title="Click to select"><b>Embed this video on your site</b></span>
+				
+	</span>
+</span>
+
+<!-- JoomlaWorks "AllVideos" Plugin (v3.1) ends here -->
+
+</p>
+<p>
+	
+
+<!-- JoomlaWorks "AllVideos" Plugin (v3.1) starts here -->
+
+<span class="avPlayerContainer">
+	<span style="width:800px;" class="avPlayerSubContainer">
+	
+		<span id="AVPlayerID_94cb4fe9" class="avPlayerBlock" style="padding-bottom:8px;">
+			
+
+	<!--<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="800" height="600">
+
+<object type="application/x-shockwave-flash" data="http://localhost/images/videoSim/player.swf" width="800" height="600">
+
+<param name="movie" value="http://localhost/images/videoSim/player.swf" />
+<param name="wmode" value="transparent" />
+<param name="bgcolor" value="#FFFFFF" />
+<param name="quality" value="high" />
+<param name="allowFullScreen" value="true" />
+<param name="allowscriptaccess" value="always" />
+<a href="http://www.adobe.com/go/getflash">
+<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+</a>
+<param name="flashvars" value="vdo=http://localhost/images/videoSim/mixedflowreactor.flv&amp;autoplay=false" />
+
+</object>
+
+</object>-->
+
+<iframe width="800" height="600" src="https://www.youtube.com/embed/NiGnHCoNz44?rel=0" frameborder="0" allowfullscreen></iframe>
+
+	</span><br>
+
+				<a class="avLightbox" href="#AVPlayerID_94cb4fe9" title="Click to view video in a lightbox popup">Dim lights</a>
+				
+				<a class="avDownload" href="../images/videoSim/mixedflowreactor.flv" title="Click to download media">Download</a>
+		
+				Embed <span class="avEmbed" id="embed_AVPlayerID_94cb4fe9" title="Click to select"><b>Embed this video on your site</b></span>
+				
+	</span>
+</span>
+
+<!-- JoomlaWorks "AllVideos" Plugin (v3.1) ends here -->
+
+</p></p>
+
+                          
+                            <p>&nbsp;</p>
+
+                            
+                            <h1>&nbsp;</h1>
+
+                            <p style="text-align: center;">&nbsp;</p>
+
+                            <p style="text-align: center;">&nbsp;</p>
+
+                            
+                        </div>
                     </div>
                 </section>
+ 
+
+                <section id="experiment-article-section-8">                  
+<div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quiz.jpg"></div>    
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Quiz 
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        <div class="divQuiz">
+                            <div id="displayQuiz" >
+                                <form id="form11" method="post" name="form11">
+                                    
+                                        
+                              
+<!--
+<p>	
+
+
+  <OL  id="wrap"><LI> In a continuous flow stirred tank reactor, the concentration of the exit stream
+<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=a >
+                    &nbsp; <B>(a)</B>is same as that in the reactor.<BR>
+                    <input type="radio" name="vehicle4" value="Car4" checked>
+                    &nbsp; <B>(b)</B>is different than that in the reactor<br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B>depends upon the flow rate of inlet stream	<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B> time-1 <BR> 
+</LI><BR>
+<LI>For the gaseous reaction 2A  B where the feed consist of 50 mol% A and 50 mol% inert, the expansion factor is,
+<BR>
+                    <input type="radio" name="vehicle5" value="Car5" checked>
+                    &nbsp; <B>(a)</B>1<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=d >
+                    &nbsp; <B>(b)</B>-0.5<br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B>-0.25<BR><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B>0<br> 
+</LI><BR><LI>
+
+
+
+
+Liquid A decomposes in a batch reactor by a second order kinetics.  If 50% of A is converted in a five minute run, how long would it take to reach 75% conversion
+
+<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=e >
+                    &nbsp; <B>(a)</B>7.5 min	<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=f checked="">
+                    &nbsp; <B>(b)</B>15min<br><input type="radio" name="vehicle6" value="Car6" checked>&nbsp; <B>(c)</B> 30min<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B>10min
+</LI><BR><LI>
+
+Two identical pressure gauges at the foot of two storage tanks that are at the same elevation, the water levels in the tanks are the same, one tank holds 1,00,000 litre (tank 1), the other holds 1000 litre (tank 1),. Say which one is true
+<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=g checked="">
+                    &nbsp; <B>(a)</B>Pressure gauge reading of tank 1 is greater than that of tank 2<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=h >
+                    &nbsp; <B>(b)</B>Pressure gauge reading of tank 2 is greater than that of tank 1<br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B> Pressure gauge reading of tank 1 and that of tank 2 are same<BR> <input type="radio" name="vehicle7" value="Car7" checked>&nbsp; <B>(d)</B>Reynolds number and relative roughness.
+
+
+</LI><BR>
+                  <LI>
+For hydraulically smooth pipe, the resistance to flow depends only on the<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=i checked="">
+                    &nbsp; <B>(a)</B> flow Reynolds number<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=j>
+                    &nbsp; <B>(b)</B> relative roughness. <br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B> absolute roughness<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B>Reynolds number and relative roughness.
+</LI>
+
+
+
+</OL>
+   </p>   --> 
+
+        
+                                
+                                </form><br>
+                            </div><br>
+                        </div>
+                    </div>
+                </section>
+
+             
+                
+
+              
             </div>
         </article>
     </div>

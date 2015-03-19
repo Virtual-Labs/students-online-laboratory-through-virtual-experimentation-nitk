@@ -3,6 +3,14 @@
 <html>
 <head>
     <title>Position analysis of Scotch Yoke Mechanism</title>
+
+	<style type="text/css">
+#wrap {
+    width:85%;
+}
+
+
+</style>
 </head>
 
 <body>
@@ -53,62 +61,19 @@
             <div id="experiment-article-sections">
                 <!-- First section of the article-->
 
-                <section id="experiment-article-section-1">
+  <section id="experiment-article-section-1">
                     <div class="icon" id="experiment-article-section-1-icon">
-                    <!-- Enclose the icon image of your lab -->
-                    <img src="../images/introduction.jpg"></div>
-                    <!-- The heading for the section can be enclosed in a 
-          div tag. -->
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-1-heading">
-                        Assignment
-                    </div><!-- Write the section content inside a paragraph 
-          element, You can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id=
-                    "experiment-article-section-1-content">
-                        <div class="divContent">
-                            
-                        </div>
-                    </div>
-                </section>
-				<!-- Second section of the article-->
-
-                <section id="experiment-article-section-2">
-                    <div class="icon" id="experiment-article-section-2-icon">
-                    <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/theory.jpg"></div>
-                    <!-- The heading for the section can be enclosed in a 
-        div tag. -->
-
-                    <div class="heading" id=
-                    "experiment-article-section-2-heading">
-                        Pre Test
-                    </div><!-- Write the section content inside a paragraph 
-        element, we can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id=
-                    "experiment-article-section-2-content">
-                        <div class="divQuiz">
-                            
-                        </div>
-                    </div>
-                </section>
-
-                <section id="experiment-article-section-3">
-                    <div class="icon" id="experiment-article-section-3-icon">
-                    <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/objective.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-3-heading">
                         Theory
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-3-content">
-                        <div class="divContent">
+                    "experiment-article-section-1-content">
+                        <div class="divContent" id="wrap">
                             
 
                             <p class="MsoNormal" style="line-height: 150%;">
@@ -117,13 +82,57 @@
 
 </p>
    </section>
-                            
- 
 
-                <section id="experiment-article-section-4">
+   <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg" style="padding-left: 20px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-2-content">
+                        <div class="divContent" id="wrap">
+                          
+                           
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+
+ 
+  </span></p>
+
+        </section>
+
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/selfevaluation.jpg" style="padding-left:50px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Self Evaluation
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-3-content">
+                        <div class="divQuiz">
+                            
+                        </div>
+                    </div>
+                </section>
+
+<section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/simulation.jpg"></div>
+                    <img src="../images/simulation.jpg" style="padding-left: 20px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-4-heading">
@@ -133,17 +142,36 @@
                     <div class="content" id=
                     "experiment-article-section-4-content">
                         <div class="divContent">
-                            <p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expN</a></p>
-				 <p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expR</a></p>
-			 <p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expT</a></p>
+                           <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div> EXPLAIN for talking tutorial</p>
+<p>
+	
+
+<!-- JoomlaWorks "AllVideos" Plugin (v3.1) starts here -->
+
+<span class="avPlayerContainer">
+	<span style="width:800px;" class="avPlayerSubContainer">
+	
+		<span id="AVPlayerID_16bdb122" class="avPlayerBlock" style="padding-bottom:8px;">
+<iframe width="800" height="600" src="https://www.youtube.com/embed/GF4fJIIyVEQ?rel=0" frameborder="0" allowfullscreen></iframe>
+		</span><br>
+
+				<a class="avLightbox" href="#AVPlayerID_16bdb122" title="Click to view video in a lightbox popup">Dim lights</a>
+				
+				<a class="avDownload" href="../images/swf/Scotch Yoke Mechanism Position Analysis.flv" title="Click to download media">Download</a>
+		
+				Embed <span class="avEmbed" id="embed_AVPlayerID_16bdb122" title="Click to select"><b>Embed this video on your site</b></span>
+				
+	</span>
+</span>
+
+<!-- JoomlaWorks "AllVideos" Plugin (v3.1) ends here -->
+
+</p>
+<p>
+	</div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/ScotchYoke_Pos_Expl.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/ScotchYoke_Pos_Expl.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment<br> </div></div> </div></p>
+
                         </div>
-                    </div>
+                    
 
 			
 
@@ -152,228 +180,91 @@
 
                 <section id="experiment-article-section-5">
                     <div class="icon" id="experiment-article-section-5-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/manual.jpg"></div>
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/assignment.jpg" style="padding-left: 20px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
 
                     <div class="heading" id=
                     "experiment-article-section-5-heading">
-                        Procedure
-                    </div>
+                        Assignment
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
 
                     <div class="content" id=
                     "experiment-article-section-5-content">
                         <div class="divContent">
-                          
-                           
-                            <p class="MsoNormal" style="line-height: 150%;">
-                            <span lang="EN-IN" style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-
-
-Free Vibration Of Cantilever Beam    Procedure 
-There Are Three Modes Of Simulation Provided (i) Explain (expN) (ii) Explore (expR) And (iii) Experiemnt (expT)
-
-Explain (expN):  The Simulation Is Explained With Narration, How To Use The Simulation, It Is A Self-Running Demo Or A Talking Tutorial.
-
-Explore (expR): Where In The User Is Allowed To Vary All The Parameter And Try Out How The Result Is Varying And Explore All The Possible Combinations.
-
-Experiment (expT): A Selected Few Parameters Are User Modifiable And Few Parameters Are Set By The System. Then The User Is Asked Run The Experiment And Based On The Observation, Find Out The Numerical Value Of The Given Parameter And Submit The Results. The System Checks The Correctness Of The Value Entered. 
-
-Aim Of The Experiment: Determine The Natural Frequency Of A Given Beam, Repeat The Experiment For Various Cross Sections And Material Combination Along With Different Length Of The Beam.
-
-Procedure To Conduct The Experiment:
-The Following Parameters Can Be Changed In The Simulation Platform:
-Cross Section Of The Cantilever Beam.
-
-
-
-
-
-
-
-
-
-Material Of The Cantilever Beam.
-
-User Can Choose Own Material And Provide Required Material Property 
-Effective Length Of Cantilever Beam. 
-The Results That We Arrive At Are:
-Natural Frequency Of The System.
-
-
-In The Explore (expR) Mode Of Simulation For Any Given Combination Of Material, Cross Section And Beam Length, System Calculate The Natural Frequency And Give To The User.
-In The Experiment (expT) Mode, User Can Choose Material, Cross Section And Length Of The Beam, The System Calculates Mass And Area Moment And Display, User Is Expected To Calculate The Natural Frequency And Enter The Calculated Value And Submits The Answer. The Correctness Of The Answer Will Be Informed To The User.
-
-Observation 
-Slno
-Cross Section
-Section Property (b,h, Or Diameter )
-Length
-Young’s Modulus (E)
-Density ()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Calculations
-Slno
-Area (A)
-Area Moment (I)
-Mass (M )
-Stiffness (K)
-Natural Frequency (N)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Inference And Conclusions
-{find Out How The Natural Frequency Varies With Each Of The Variables , And Write In Your Own Word The Collusion From The Experiment}
-
-Further Reading Beyond This Experiment:
-Effective Mass Of A Continuous System
-In An Experimental Set Up However, The Cantilever Beam Acts As A Continuous Mass System. Hence An Effective Mass For The System Needs To Be Calculated.
-By Referring To Http://Teaching.Ust.Hk, We Have Arrived At The Following Soln. For The Effective Mass.
-
-Where
-M= End Mass (sensing Element Etc.) (kg)
-  = Mass Density Of Material Of Cantilever System (mass/unlit Length)(Kg/M)
- = Length Of The Cantilever Beam (m)
-
-Energy Consuming Element – Damping 
-If We Introduce Energy Consuming Element Called Damping Then The Equation Get Modified To 
- ;  
-Where
-X = Displacement Of The Free End Of The Cantilever Beam (m)
-C = Damping Present In The System (Kg/s)
- = Damping Coefficient Of The System
-The Solution For Sdof Damped Free Vibration Governing Equation 
-The Solution To The Above System Changes Depending On The Initial Conditions = Initial Displacement And  = Initial Velocity, The Damping Coefficient =  
-
-Let Us Consider The 3 Cases:
-Case 1:   = Damping Coefficient < 1 (Underdamped Systems.)
-
-
-
-
-Where = Damped Natural Frequency = 
-
-Case 2:   = Damping Coefficient = 1 (Critically Damped Systems.)
-
-
-
-Case 3:   = Damping Coefficient > 1 (Overdamped Systems.)
- 
-  </span></p>
-
-        </section>
-
-                <section id="experiment-article-section-6">                    
                             
+                        </div>
+                    </div>
+                </section>
+				<!-- Second section of the article-->
+
+              
+                            
+ 
+
+                 <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/reference.jpg" style="padding-left: 15px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-6-heading">
-                        Post Test
+                        Reference
                     </div>
 
                     <div class="content" id=
                     "experiment-article-section-6-content">
-                        <div class="divQuiz">
+                        <div class="divContent">
+                            
                             
                         </div>
                     </div>
                 </section>
+
+             
 
                 <section id="experiment-article-section-7">
                     <div class="icon" id="experiment-article-section-7-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+                    <img src="../images/video.jpg"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-7-heading">
-                        Review Questions
+                        Video 
                     </div>
 
                     <div class="content" id=
                     "experiment-article-section-7-content">
-                        <div class="divContent">
-                           
-                           
-                            
-                        </div>
+                        
                     </div>
                 </section>
+              
+
 
                 <section id="experiment-article-section-8">
                     <div class="icon" id="experiment-article-section-8-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+                    <img src="../images/quiz.jpg"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-8-heading">
-                        Reference
+                        Quiz
                     </div>
 
                     <div class="content" id=
                     "experiment-article-section-8-content">
                         <div class="divContent">
-                            
+                           
+                           
                             
                         </div>
                     </div>
                 </section>
 
-                <section id="experiment-article-section-9">
-                    <div class="icon" id="experiment-article-section-9-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+               
 
-                    <div class="heading" id=
-                    "experiment-article-section-9-heading">
-                        Photo Gallery
-                    </div>
-
-                   
-                </section>
             </div>
         </article>
     </div>

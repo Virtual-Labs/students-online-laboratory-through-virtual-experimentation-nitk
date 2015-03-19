@@ -8,6 +8,13 @@ edit -->
 <html>
 <head>
     <title>Acceleration analysis of NonGrashof four bar mechanism </title>
+<style type="text/css">
+#wrap {
+    width:85%;
+}
+
+
+</style>
 </head>
 
 <body>
@@ -41,7 +48,7 @@ edit -->
             <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
 
             <header class="heading" id="experiment-article-heading">
-             Velocity analysis of NonGrashof four bar mechanism:
+             Acceleration analysis of NonGrashof four bar mechanism:
             </header><!-- Navigation menu is useful to organize the view of 
       multiple sections inside the article-->
 
@@ -58,21 +65,109 @@ edit -->
             <div id="experiment-article-sections">
                 <!-- First section of the article-->
 
-                <section id="experiment-article-section-1">
+  <section id="experiment-article-section-1">
                     <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id="experiment-article-section-1-content">
+                        <div class="divContent"  id="wrap">
+                         
+						</div>  
+					</div>						 
+
+                </section>
+
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg" style="padding-left: 20px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-2-content">
+                        <div class="divContent" id="wrap">
+                          
+						</div>
+                         
+					</div>
+                </section>
+	     <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/selfevaluation.jpg" style="padding-left:50px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Self Evaluation
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-3-content">
+                        <div class="divQuiz">
+                            <div id="displayQuiz">
+                                <form id="form11" method="post" name="form11">
+                                   
+                             
+                               
+                                </form><br>
+                            </div><br>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg" style="padding-left: 20px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Simulator
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                        <div class="divContent">
+                           <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div> EXPLAIN for talking tutorial<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarNonGrashofAcceleration.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarNonGrashofAcceleration.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities&nbsp;<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarNonGrashof_Acc_Expl.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarNonGrashof_Acc_Expl.swf" type="application/x-shockwave-flash" width="800"></embed></object></div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment <br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarNonGrashof_Acc_Expt.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarNonGrashof_Acc_Expt.swf" type="application/x-shockwave-flash" width="800"></embed></object></div></div> </div></p>
+
+
+                        
+                    </div>
+
+			
+
+
+                </section>			
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
                     <!-- Enclose the icon image of your lab -->
-                    <img src="../images/introduction.jpg"></div>
+                    <img src="../images/assignment.jpg" style="padding-left: 20px;"></div>
                     <!-- The heading for the section can be enclosed in a 
           div tag. -->
 
                     <div class="heading" id=
-                    "experiment-article-section-1-heading">
+                    "experiment-article-section-5-heading">
                         Assignment
                     </div><!-- Write the section content inside a paragraph 
           element, You can also include images with &lt;img&gt; tag -->
 
                     <div class="content" id=
-                    "experiment-article-section-1-content">
+                    "experiment-article-section-5-content">
                         <div class="divContent">
                             <h2 style="color: Red;"><strong style=
                             "text-decoration: underline"><span style=
@@ -92,133 +187,40 @@ edit -->
                     </div>
                 </section><!-- Second section of the article-->
 
-                <section id="experiment-article-section-2">
-                    <div class="icon" id="experiment-article-section-2-icon">
-                    <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/theory.jpg"></div>
-                    <!-- The heading for the section can be enclosed in a 
-        div tag. -->
-
-                    <div class="heading" id=
-                    "experiment-article-section-2-heading">
-                        Pre Test
-                    </div><!-- Write the section content inside a paragraph 
-        element, we can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id=
-                    "experiment-article-section-2-content">
-                        <div class="divQuiz">
-                            <div id="displayQuiz">
-                                <form id="form11" method="post" name="form11">
-                                   
-                             
-                               
-                                </form><br>
-                            </div><br>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="experiment-article-section-3">
-                    <div class="icon" id="experiment-article-section-3-icon">
-                    <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/objective.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-3-heading">
-                        Theory
-                    </div>
-
-                    <div class="content" id="experiment-article-section-3-content">
-                        <div class="divContent">
-                         
-						</div>  
-					</div>						 
-
-                </section>
-
-                <section id="experiment-article-section-4">
-                    <div class="icon" id="experiment-article-section-4-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/simulation.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-4-heading">
-                        Simulator
-                    </div>
-
-                    <div class="content" id=
-                    "experiment-article-section-4-content">
-                        <div class="divContent">
-                            <p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expN</a></p>
- <p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expR</a></p>
- <p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expT</a></p>
-                        </div>
-                    </div>
-
-			
-
-
-                </section>
-
-                <section id="experiment-article-section-5">
-                    <div class="icon" id="experiment-article-section-5-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/manual.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-5-heading">
-                        Procedure
-                    </div>
-
-                    <div class="content" id=
-                    "experiment-article-section-5-content">
-                        <div class="divContent">
-                          
-						</div>
-                         
-					</div>
-                </section>
-				
-				<section id="experiment-article-section-6">
+           
+ <section id="experiment-article-section-6">
                     <div class="icon" id="experiment-article-section-6-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/manual.jpg"></div>                          
+                    <img src="../images/reference.jpg" style="padding-left: 15px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-6-heading">
-                        Post Test
+                        Reference
                     </div>
 
                     <div class="content" id=
                     "experiment-article-section-6-content">
-                        <div class="divQuiz">
+                        <div class="divContent">
                             
                         </div>
                     </div>
                 </section>
+              
 
-                <section id="experiment-article-section-7">
+
+				<section id="experiment-article-section-7">
                     <div class="icon" id="experiment-article-section-7-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+                    <img src="../images/video.jpg"></div>                          
 
                     <div class="heading" id=
                     "experiment-article-section-7-heading">
-                        Review Questions
+                        Video 
                     </div>
 
                     <div class="content" id=
                     "experiment-article-section-7-content">
-                        <div class="divContent">
-                           
-                     
+                        <div class="divQuiz">
                             
                         </div>
                     </div>
@@ -227,33 +229,26 @@ edit -->
                 <section id="experiment-article-section-8">
                     <div class="icon" id="experiment-article-section-8-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+                    <img src="../images/quiz.jpg"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-8-heading">
-                        Reference
+                        Quiz
                     </div>
 
                     <div class="content" id=
                     "experiment-article-section-8-content">
                         <div class="divContent">
+                           
+                     
                             
                         </div>
                     </div>
                 </section>
 
-                <section id="experiment-article-section-9">
-                    <div class="icon" id="experiment-article-section-9-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+               
 
-                    <div class="heading" id=
-                    "experiment-article-section-9-heading">
-                        Photo Gallery
-                    </div>
-
-                    
-                </section>
+              
             </div>
         </article>
     </div>

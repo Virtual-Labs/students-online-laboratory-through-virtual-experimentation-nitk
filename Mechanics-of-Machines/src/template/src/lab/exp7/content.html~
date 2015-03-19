@@ -8,7 +8,13 @@ edit -->
 <html>
 <head>
     <title></title>
+<style type="text/css">
+#wrap {
+    width:85%;
+}
 
+
+</style>
 </head>
 
 <body>
@@ -59,98 +65,52 @@ edit -->
 
             <div id="experiment-article-sections">
                 <!-- First section of the article-->
-
-                <section id="experiment-article-section-1">
+ <section id="experiment-article-section-1">
                     <div class="icon" id="experiment-article-section-1-icon">
-                    <!-- Enclose the icon image of your lab -->
-                    <img src="../images/introduction.jpg"></div>
-                    <!-- The heading for the section can be enclosed in a 
-          div tag. -->
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-1-heading">
-                        Assignment
-                    </div><!-- Write the section content inside a paragraph 
-          element, You can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id=
-                    "expostperiment-article-section-1-content">
-                        <div class="divContent">
-                            
-                        </div>
-                    </div>
-                </section><!-- Second section of the article-->
-
-                <section id="experiment-article-section-2">
-                    <div class="icon" id="experiment-article-section-2-icon">
-                    <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/theory.jpg"></div>
-                    <!-- The heading for the section can be enclosed in a 
-        div tag. -->
-
-                    <div class="heading" id=
-                    "experiment-article-section-2-heading">
-                        Pre Test
-                    </div><!-- Write the section content inside a paragraph 
-        element, we can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id=
-                    "experiment-article-section-2-content">
-                        <div class="divQuiz">
-                            <div id="displayQuiz">
-                                <form id="form11" method="post" name="form11">
-
-                           
-                                </form><br>
-                            </div><br>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="experiment-article-section-3">
-                    <div class="icon" id="experiment-article-section-3-icon">
-                    <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/objective.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-3-heading">
                         Theory
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-3-content">
-                        <div class="divContent">
+                    "experiment-article-section-1-content">
+                        <div class="divContent" id="wrap"> 
                             
 
                             <p class="MsoNormal" style="line-height:150%;">
 <h3>Position analysis of slider crank mechanism</h3>
-
-<img style="height:50px; width:50px;" src="../images/poscr1.png" >
-
-Learning objectives
+<img  src= "../images/poscr1.png" style="width:80px;height:57px">
+<b>Learning objectives</b></div><br>
 
 After completing this simulation experiment one should be able to
-
- Determine the location of the piston of a reciprocating engine or compressor at
-   any given crank angle, for a given crank and connecting rod length
-  Determine the swing angle of connecting rod of a slider crank mechanism
- Determine the minimum bore diameter required for a given
- Explain the effect of
-ratio
-ratio
-Basic theory is given under different subsections in the same document.
+<ul><li>
+ Determine the location of the piston of a reciprocating engine or compressor at
+   any given crank angle, for a given crank and connecting rod length</li>
+<li>  Determine the swing angle of connecting rod of a slider crank mechanism</li>
+<li> Determine the minimum bore diameter required for a given <img src="../images/exp9/scJntR3N.png" style="width:27px;height:36px ; position: relative; bottom: -15px; " > ratio</li>
+<li>Explain the effect of <img src="../images/exp9/scJntR3N.png" style="width:27px;height:36px ; position: relative; bottom: -15px; " >
 
-Slider crank mechanism
-analysis
-Inversions
-Fourth inversion
-Position analysis
-First inversion
-Velocity analysis
-Second inversion
-Acceleration
-Third inversion
-Slider Crank Mechanism
+ratio</li><ul>
+<br>
+Basic theory is given under different subsections in the same document.<br><br>
+<table><tr><td><a href="#sld">Slider crank mechanism&nbsp;</a></td><td><a href="#pos">Position analysis&nbsp;</a></td><td><a href="#vel">Velocity analysis&nbsp;</a></td><td><a href="#acc">Acceleration&nbsp;</a></td></tr>
+<tr><td><a href="#anl">analysis
+Inversions</a></td><td><a href="#fst">First inversion&nbsp;</a></td><td><a href="#sec">Second inversion&nbsp;</a></td><td><a href="#thrd">Third inversion&nbsp;</a>
+</td></tr>
+<tr><td><a href="#four">Fourth inversion&nbsp;</a>
+</td></tr></table>
+
+
+
+
+
+
+<a name="thrd"><b>Slider Crank Mechanism</b></a>
+<br>
+<br>
 The slider-crank mechanism is one of the most useful mechanisms in modern technology since it
 appears in most of the internal combustion engines including automobiles, trucks and small engines.
 The slider-crank kinematic chain consists of four bodies linked with three cylindrical joints and one
@@ -158,60 +118,80 @@ sliding or prismatic joint. It is used to change circular into reciprocating mot
 circular motion.<br>
 
 
-<img  src="../images/poscr2.png"  style="width:1154px;height:644px"><br>
+<img  src="../images/poscr2.png"  style="width:654px;height:344px"><br>
 
 
 The arm may be a bent portion of the shaft, or a separate arm attached to it. Attached to the end of
 the crank by a pivot is a rod, usually called a connecting rod. The end of the rod attached to the
 crank moves in a circular motion, while the other end is usually constrained to move in a linear
-Position Analysis
-<img src="../images/poscr3.png" style="width:1314px;height:801px"><br>
-Figure 1 shows a slider-crank mechanism in which the stroke-line of the slider doesn’t pass
-through the axis of rotation of the crank. θ3 in clockwise direction from x-axis is taken as
+Position Analysis<br>
+<img src="../images/poscr3.png" style="width:714px;height:401px"><br>
+Figure 1 shows a slider-crank mechanism in which the stroke-line of the slider doesn<sup>,</sup>t pass
+through the axis of rotation of the crank. <img src="../images/exp3/YEQXbFAA.png" style="width:27px;height:30px ; position: relative; bottom: -15px; " > in clockwise direction from x-axis is taken as
 negative.
-Then,
-equa
-Velocity Analysis<br>
+Then,<br>
 
-<img src="../images/poscr4.png" style="width:974px;height:591px"><br>
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp7/eqn1.jpg" style="width:194px;height:71px ; position: relative; bottom: -15px; " ><br><br>
+and <br>
+
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp7/eqn2.jpg" style="width:259px;height:69px ; position: relative; bottom: -15px; " ><br><br>
+Where,&nbsp; &nbsp; &nbsp;
+<img src="../images/exp7/eqn3.jpg" style="width:146px;height:36px ; position: relative; bottom: -15px; " ><br><br>
+
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp7/eqn4.jpg" style="width:263px;height:37px ; position: relative; bottom: -15px; " ><br><br>
+
+<a name="vel"><b>Velocity Analysis</b></a>
+<br>
 
 
-Let ̇ be the velocity of the slider, and ω3 be the angular velocity of the coupler link. Then,
-from the data gleaned from the position analysis and the crank velocity, ω2, we have
-$$\dot d=\frac{a\omega_2\sin\left(\theta_3-\theta_2\right)}{\cos\left(\theta_3\right)}$$
+<img src="../images/poscr4.png" style="width:776px;height:441px"><br>
 
-$$\omega_3=\frac{a\omega_2\cos\left(\theta_2\right)}{\cos\left(\theta_3\right)}$$
-Acceleration Analysis<br>
 
-<img  src="../images/poscr5.png" style="width:976px;height:590px"><br>
+Let ̇d<sup>.</sup> be the velocity of the slider, and <img src="../images/exp3/FJESEGeK.png" style="width:27px;height:30px ; position: relative; bottom: -15px; " > be the angular velocity of the coupler link. Then,
+from the data gleaned from the position analysis and the crank velocity, <img src="../images/exp3/aIHTo2Yn.png" style="width:27px;height:30px ; position: relative; bottom: -15px; " >, we have<br>
+
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp7/eqn5.jpg" style="width:192px;height:67px ; position: relative; bottom: -15px; " ><br><br>
+
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp7/eqn6.jpg" style="width:151px;height:67px ; position: relative; bottom: -15px; " ><br><br>
+
+<a name="acc"><b>Acceleration Analysis</b></a>
+<br>
+<img  src="../images/poscr5.png" style="width:776px;height:441px"><br>
 
 Differentiating the earlier equations from velocity analysis, we end up with the acceleration
-data of the slider crank. With the prior knowledge of the angular acceleration of the crank, α2,
-the parameters such as the linear acceleration of the slider, ̈ , and the angular acceleration of
-the coupler, α3.
-$$
-\ddot d=\frac{a\alpha_2\sin\left(\theta_3-\theta_2\right)-a\omega_2^2\cos\left(\theta_3-\theta_2\right)-b\omega_3^2}{\cos\left(\theta_3\right)}
+data of the slider crank. With the prior knowledge of the angular acceleration of the crank,<img src="../images/exp3/yCMdMdJh.png" style="width:27px;height:36px ; position: relative; bottom: -15px; " >,
+the parameters such as the linear acceleration of the slider,<img src="../images/exp3/qIGCZVpK.png" style="width:27px;height:36px ; position: relative; bottom: -15px; " >, and the angular acceleration of
+the coupler, <img src="../images/exp3/OafyInCQ.png" style="width:27px;height:36px ; position: relative; bottom: -15px; " >.<br>
 
 
-$$
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp7/eqn7.jpg" style="width:433px;height:71px ; position: relative; bottom: -15px; " ><br><br>
 
-$$\alpha_3=\frac{a\alpha_2\cos\left(\theta_2\right)-a\omega_2^2\sin\left(\theta_2\right)-b\omega_3^2\sin\left(\theta_3\right)}{\cos\left(\theta_3\right)}
-$$
-Inversions<br>
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp7/eqn8.jpg" style="width:386px;height:71px ; position: relative; bottom: -15px; " ><br><br>
+<a name="anl"><b>Inversions </b></a>
+<br>
+<br>
 
-<img   src="../images/poscr6.png"  style="width:1174px;height:648px"><br>
+<img   src="../images/poscr6.png"  style="width:774px;height:348px"><br>
 
 Different mechanisms obtained by fixing different links of a kinematics chain are known as its
-inversions.
-A slider–crank chain has the following inversions: -
-1. First inversion (i.e., Reciprocating engine and compressor)
-2. Second inversion (i.e., Whitworth quick return mechanism and Rotary engine)
-3. Third inversion (i.e., Oscillating cylinder engine and crank & slotted – lever mechanism)
-4. Fourth inversion (Hand pump)
+inversions.<br>
+A slider-crank chain has the following inversions: -<br><br>
+1. First inversion (i.e., Reciprocating engine and compressor)<br><br>
+2. Second inversion (i.e., Whitworth quick return mechanism and Rotary engine)<br><br>
+3. Third inversion (i.e., Oscillating cylinder engine and crank & slotted – lever mechanism)<br><br>
+4. Fourth inversion (Hand pump)<br><br>
 
 
-
-First Inversion
+<a name="fst"><b> First Inversion </b></a>
+<br>
+<br>
 In this type of inversion CE is held fixed and A rotates around C along a circle and B slides back and
 forth along CE.<br>
 
@@ -219,35 +199,37 @@ forth along CE.<br>
 
 
 <img  src="../images/poscr8.png" style="width:334px;height:311px"><br>
-This is the most common type of inversion. It is used in reciprocating engine and compressor.
+This is the most common type of inversion. It is used in reciprocating engine and compressor.<br>
+<a name="sec"><b> Second Inversion </b></a>
+<br>
 
-Second Inversion
-In this type of inversion ‘C’ and ‘A’ are both held fixed and the link CE rotates in a circle
+In this type of inversion <sup>,</sup>C <sup>,</sup> and  <sup>,</sup>A <sup>,</sup>are both held fixed and the link CE rotates in a circle
 around C. The slider B slides back and forth along the rotating CE.<br>
 
 
 <img   src="../images/poscr9.png" style="width:320px;height:308px"><br>
 
-
-Whitworth Quick-Return Mechanism<br>
+<u>Whitworth Quick-Return Mechanism</u><br>
 In this inversion of the slider-crank the slider guide link is made to rotate. This is called a quick-return
 mechanism. This linkage also converts rotary motion of the crank into oscillatory angular motion of
 the slider guide link. This mechanism is used in shaper machine tools for cutting metals. Joseph
 Whitworth was a 19th century British engineer and inventor.<br>
 
 <img  src="../images/poscr10.png" style="width:334px;height:441px"><br>
-
-Third Inversion<br>
+<a name="thrd"><b> Third Inversion </b></a>
+<br>
+<br>
 In this type of inversion A and B are both held fixed but the slider is allowed to swivel.<br>
 
 
-<img src="../images/poscr11.png" style="width:378px;height:384px"><br>
+<img src="../images/poscr11.png" style="width:378px;height:384px">
 
-<img  src="../images/poscr12.png" style="width:378px;height:384px"><br>
+<img  src="../images/accesr10.png" style="width:178px;height:282px"><br>
 The oscillating cylinder engine is a form of a slider-crank mechanism. This mechanism is used often in door<br>
-damper mechanisms. In the 19th century the oscillating cylinder was used on steam locomotives.
+damper mechanisms. In the 19th century the oscillating cylinder was used on steam locomotives.<br><br>
 
-Fourth Inversion
+
+<a name="four"><b> Fourth Inversion </b></a><br>
 In this type of inversion the slider B is held fixed and CE slides back and forth through the slider.<br>
 
 <img  src="../images/poscr13.png" style="width:423px;height:224px"><br>
@@ -258,89 +240,159 @@ In this type of inversion the slider B is held fixed and CE slides back and fort
                            
  </section>
 
-                <section id="experiment-article-section-4">
+         <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg" style="padding-left: 20px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-2-content">
+                        <div class="divContent" id="wrap">
+                          
+                        </div>  
+					</div>	
+
+				</section>
+  <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/selfevaluation.jpg" style="padding-left:50px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Self evaluation
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-3-content">
+                        <div class="divQuiz">
+                            <div id="displayQuiz">
+                                <form id="form11" method="post" name="form11">
+
+                           
+                                </form><br>
+                            </div><br>
+                        </div>
+                    </div>
+                </section>
+   <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/simulation.jpg"></div>
+                    <img src="../images/simulation.jpg" style="padding-left: 20px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-4-heading">
-                        Simulator
+                        Simulation
                     </div>
 
                     <div class="content" id=
                     "experiment-article-section-4-content">
                         <div class="divContent">
-                            <p><a href="./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expN</a></p>
+                       <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div> EXPLAIN for talking tutorial<br></p>
+<p>
+	
+
+<!-- JoomlaWorks "AllVideos" Plugin (v3.1) starts here -->
+
+<span class="avPlayerContainer">
+	<span style="width:800px;" class="avPlayerSubContainer">
+	
+		<span id="AVPlayerID_956d1d5e" class="avPlayerBlock" style="padding-bottom:8px;">
+			
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OOHsw3X-CAw?rel=0" frameborder="0" allowfullscreen></iframe>
+		</span><br>
+
+				<a class="avLightbox" href="#AVPlayerID_956d1d5e" title="Click to view video in a lightbox popup">Dim lights</a>
+				
+				<!--<a class="avDownload" href="../images/swf/Slider Crank Mechanism position.flv" title="Click to download media">Download</a>-->
+		
+				Embed <span class="avEmbed" id="embed_AVPlayerID_956d1d5e" title="Click to select"><b>Embed this video on your site</b></span>
+				
+	</span>
+</span>
+
+<!-- JoomlaWorks "AllVideos" Plugin (v3.1) ends here -->
+
+</p>
+<p>
+	</div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/SliderCrank_Pos_ExpL.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/SliderCrank_Pos_ExpL.swf" type="application/x-shockwave-flash" width="800"></embed></object> <param name="quality" value="high" /><param name="movie" value="../images/swf/SliderCrank_Pos_ExpL_Ver08.swf" /></div></div><param name="quality" value="high" /><param name="movie" value="../images/swf/SliderCrank_Pos_ExpL_Ver08.swf" /> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment <br></div></div> </div></p>
+     
                         </div>
-			<div class="divContent">
-                            <p><a href= "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expR</a></p>
-                        </div>
-			<div class="divContent">
-                            <p><a href= "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expT</a></p>
-                        </div>
-                    </div>
+			
+			
+                    
 
 			
 
 
                 </section>
 
-                <section id="experiment-article-section-5">
+        <section id="experiment-article-section-5">
                     <div class="icon" id="experiment-article-section-5-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/manual.jpg"></div>
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/assignment.jpg" style="padding-left: 20px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
 
                     <div class="heading" id=
                     "experiment-article-section-5-heading">
-                        Procedure
-                    </div>
+                        Assignment
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
 
                     <div class="content" id=
-                    "experiment-article-section-5-content">
+                    "expostperiment-article-section-5-content">
                         <div class="divContent">
-                          
-                        </div>  
-					</div>	
+                            
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
 
-				</section>
-        
-                <section id="experiment-article-section-6">
+              
+
+                 <section id="experiment-article-section-6">
                     <div class="icon" id="experiment-article-section-6-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/manual.jpg"></div>
-                    
+                    <img src="../images/reference.jpg" style="padding-left: 15px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-6-heading">
-                        Post Test
+                        Reference
                     </div>
 
                     <div class="content" id=
                     "experiment-article-section-6-content">
-                        <div class="divQuiz">
+                        <div class="divContent">
                             
+
                         </div>
                     </div>
                 </section>
-
+             
+               
+        
                 <section id="experiment-article-section-7">
                     <div class="icon" id="experiment-article-section-7-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+                    <img src="../images/video.jpg"></div>
+                    
 
                     <div class="heading" id=
                     "experiment-article-section-7-heading">
-                        Review Questions
+                        Video
                     </div>
 
                     <div class="content" id=
                     "experiment-article-section-7-content">
-                        <div class="divContent">
-                          
+                        <div class="divQuiz">
                             
                         </div>
                     </div>
@@ -349,34 +401,32 @@ In this type of inversion the slider B is held fixed and CE slides back and fort
                 <section id="experiment-article-section-8">
                     <div class="icon" id="experiment-article-section-8-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+                    <img src="../images/quiz.jpg"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-8-heading">
-                        Reference
+                        Quiz
                     </div>
 
                     <div class="content" id=
                     "experiment-article-section-8-content">
                         <div class="divContent">
+                           <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index1.html">Get Started</a>
                             
-
                         </div>
                     </div>
                 </section>
 
-                <section id="experiment-article-section-9">
-                    <div class="icon" id="experiment-article-section-9-icon">
-                    
-                    <img src="../images/quizzes.jpg"></div>
+              
 
-                    <div class="heading" id=
-                    "experiment-article-section-9-heading">
-                        Photo Gallery
-                    </div>
-
-                   
-                </section>
+              
             </div>
         </article>
     </div>

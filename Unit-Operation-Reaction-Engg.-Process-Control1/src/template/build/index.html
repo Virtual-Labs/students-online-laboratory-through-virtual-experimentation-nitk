@@ -2,6 +2,7 @@
 
 <html class="no-js" lang="en">
 <head>
+
     <!--It is a good practice to declare the encoding even for an 
   English Web site. One function of this is to tag is to "reset"
   the user's browser back to Latin-1 and ensure proper font 
@@ -39,12 +40,38 @@
     <!-- ***************************************************** -->
     <!-- All JavaScript at the bottom, except for Modernizr which
   enables HTML5 elements & feature detects -->
+ <style type="text/css">
+  
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:none;
+	
+}
 
-    <script src="js/modernizr-1.5.min.js" type="text/javascript"></script>
-    <script src="js/jquery-1.7.1.min.js"></script>
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+background:none;
+}</style>
+
+    <script type="text/javascript" src="js/modernizr-1.5.min.js" ></script>
+   
+<script type="text/javascript" src="js/mootools.js"></script>
+  <script type="text/javascript" src="js/caption.js"></script>
+ <script type="text/javascript" src="js/jquery-1.2.6.js"></script>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.event.hover.js"></script>
+  <script type="text/javascript" src="js/supersubs.js"></script>
+  <script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/ga.js"></script>
+
+ 
+
+
+
     <script type="text/javascript">
 $(document).ready(function() 
     {
+
+
     //the function is called once the document loads                
 
     $('#hidden-content').load('default.html #lab', function(response,status,xhr)
@@ -111,22 +138,25 @@ $(document).ready(function()
         });
       });       
     });
-    });
+    
+
+});
     </script>
+
+
+
 </head>
 
 <body>
+ 
     <div id="container"></div>
-	
-
-<footer  class="footer">
-    <!-- Put the content here-->
-  </footer>
-    <div id="hidden-content">
+    <div id="hidden-content"></div>
     <!-- Javascript at the bottom for fast page loading -->
     <!--<script type="text/javascript" src="js/MathJax/MathJax.js"> -->
     <!-- </script> -->
     <!-- ******* ADD/OVERRIDE JAVASCRIPT FILES HERE ********** -->
     <!-- ***************************************************** -->
+
+
 </body>
 </html>

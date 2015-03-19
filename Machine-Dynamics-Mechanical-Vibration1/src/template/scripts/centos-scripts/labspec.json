@@ -33,51 +33,9 @@
                     "title": "", 
                     "web": ""
                 }, 
-                {
-                    "contact": {
-                        "alternate_email": "", 
-                        "email": "phani@iiit.ac.in", 
-                        "mobile_number": "", 
-                        "office_number": ""
-                    }, 
-                    "department": "", 
-                    "institute": "IIIT Hyderabad", 
-                    "name": "Phani Phani", 
-                    "organization": "", 
-                    "role": "Lab RA", 
-                    "title": "", 
-                    "web": ""
-                }, 
-                {
-                    "contact": {
-                        "alternate_email": "", 
-                        "email": "kumarsrijan@students.iiit.ac.in", 
-                        "mobile_number": "", 
-                        "office_number": ""
-                    }, 
-                    "department": "", 
-                    "institute": "IIIT Hyderabad", 
-                    "name": "Kumar Srijan", 
-                    "organization": "", 
-                    "role": "Lab RA", 
-                    "title": "", 
-                    "web": ""
-                }, 
-                {
-                    "contact": {
-                        "alternate_email": "", 
-                        "email": "jayaguru.pandaug08@students.iiit.ac.in", 
-                        "mobile_number": "", 
-                        "office_number": ""
-                    }, 
-                    "department": "", 
-                    "institute": "IIIT Hyderabad", 
-                    "name": "Jay Panda", 
-                    "organization": "", 
-                    "role": "Lab RA", 
-                    "title": "", 
-                    "web": ""
-                }, 
+               
+              
+              
                 {
                     "contact": {
                         "alternate_email": "", 
@@ -95,11 +53,11 @@
                 }
             ], 
             "discipline": [
-                "Computer Science & Engineering"
+                "Machine-Dynamics-Mechanical-Vibration"
             ], 
-            "id": "cse02", 
+            "id": "me01", 
             "integration_level": 5, 
-            "name": "Computer Programming", 
+            "name": " Mechanical", 
             "server-side": true, 
             "status": "Released", 
             "type": ""

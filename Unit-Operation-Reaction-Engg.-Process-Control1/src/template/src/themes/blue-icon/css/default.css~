@@ -86,7 +86,7 @@ body { font:13px sans-serif; *font-size:small; *font:x-small;
         line-height:1.22; }
 
 table { font-size:inherit; font:100%;
-width: 1025px; }
+width: 900px; }
 
 select, input, textarea { font:99% sans-serif; }
 

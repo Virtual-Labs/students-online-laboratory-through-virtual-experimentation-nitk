@@ -9,7 +9,12 @@ edit -->
 <head>
     <title></title>
 
+<style type="text/css">
+#wrap {
+    width:85%;
+}
 
+</style>
 
 
 </head>
@@ -45,7 +50,7 @@ edit -->
             <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
 
             <header class="heading" id="experiment-article-heading">
-                Position analysis of Grashof four bar mechanism 
+               Position analysis of Grashof four bar mechanism:
             </header><!-- Navigation menu is useful to organize the view of 
       multiple sections inside the article-->
 
@@ -58,74 +63,29 @@ edit -->
                 </ul>
             </nav><!-- All the sections of your lab or experiment can be 
       enclosed together with a div element as shown below-->
+      
 
             <div id="experiment-article-sections">
                 <!-- First section of the article-->
-
-                <section id="experiment-article-section-1">
+<section id="experiment-article-section-1">
                     <div class="icon" id="experiment-article-section-1-icon">
-                    <!-- Enclose the icon image of your lab -->
-                    <img src="../images/introduction.jpg"></div>
-                    <!-- The heading for the section can be enclosed in a 
-          div tag. -->
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-1-heading">
-                        Assignment
-                    </div>
-
-                    <div class="content" id="experiment-article-section-1-content">
-                        
-                    </div>
-                </section>
-				
-				<!-- Second section of the article-->
-
-                <section id="experiment-article-section-2">
-                    <div class="icon" id="experiment-article-section-2-icon">
-                    <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/theory.jpg"></div>
-                    <!-- The heading for the section can be enclosed in a 
-        div tag. -->
-
-                    <div class="heading" id=
-                    "experiment-article-section-2-heading">
-                        Pre Test
-                    </div>
-
-                    <div class="content" id=
-                    "experiment-article-section-2-content">
-                        <div class="divQuiz">
-                            <div id="displayQuiz">
-                                <form id="form11" method="post" name="form11">
-                                    
-                           <a href='http://solve.nitk.ac.in/index.php?option=com_user&view=login&return=aHR0cDovL3NvbHZlLm5pdGsuYWMuaW4vaW5kZXgucGhwP29wdGlvbj1jb21fYXJpcXVpeiZ0YXNrPXF1aXomcXVpeklkPTMxJkl0ZW1pZD05MQ=='>link</a>     
-
-                                    
-                                </form>
-                            </div><br>
-                        </div>
-                    </div>
-                </section>
-
-  <section id="experiment-article-section-3">
-                    <div class="icon" id="experiment-article-section-3-icon">
-                    <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/objective.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-3-heading">
                         Theory
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-3-content">
-                        <div class="divContent">
+                    "experiment-article-section-1-content">
+                        <div class="divContent" id="wrap">
                             
                             <p class="MsoNormal" style="line-height: 150%;">
-       Position analysis of Grashoffour bar mechanism
-Position analysis of Grashoffour bar mechanism Theory
-Learning objectives
+      
+<b>Position analysis of Grashoffour bar mechanism Theory</b><br>
+<img  src= "../images/poscr1.png" style="width:80px;height:57px">
+<b>Learning objectives</b></div><br>
 After completing this simulation experiment one should be able to
 
 <ul><li>Determine the location CG of any given link in a Grashof four bar
@@ -247,103 +207,93 @@ of one wheel is transmitted to the other wheel.
 <h3>Position analysis of four bar mechanism
 </h3><br>
 <img  src="../images/pos9.png" style="width:794px;height:500px"><br>
-The position of the points on the links A (Ax, Ay) and B (Bx, By)</br>
+The position of the points on the links A (A<sub>x</sub>, A<sub>y</sub>) and B (B<sub>x</sub>, B<sub>y</sub>)</br>
 The coordinates of the point A are found using trigonometry as follows:</br>
-$$A_x=a\cos\left(\theta_2\right)$$
-$$A_y=a\sin\left(\theta_2\right)$$
+
+
+
+<img src="../images/exp1/eqn1.jpg" style="width:124px;height:35px ; position: relative; bottom: -15px; " ><br><br>
+
+
+<img src="../images/exp1/eqn2.jpg" style="width:124px;height:35px ; position: relative; bottom: -15px; " ><br><br>
+
 Similarly coordinates of point B are found using the equations of circle around A and O4.</br>
-$$b^2=(B_x-A_x)^2+(B_y-A_y)^2$$
-$$c^2=(B_x-d)^2+B_y^2$$
 
 
-$$B_x=\frac{a^2-b^2+c^2-d^2}{2(A_x-d)}-\frac{2A_yB_y}{2(A_x-d)}=S-\frac{2A_yB_y}{2(A_x-d)}$$
-$$B_y=\frac{-Q\pm\sqrt{Q^2-4PR}}{2P}$$
-where,
-$$P=\frac{{A^2}_y}{(A_x-d)^2}+1\;\;Q=\frac{2A_y(d-S)}{A_x-d}\;\;R=(d-S^2)-c^2\;\;S=\frac{a^2-b^2+c^2-d^2}{2(A_x-d)}$$</br>
-The link angles are given by
-$$\theta_3=\tan^{-1}\left(\frac{B_y-A_y}{B_x-A_x}\right)$$
-$$\theta_4=\tan^{-1}\left(\frac{B_y}{B_x-d}\right)$$                     
+
+<img src="../images/exp1/eqn3.jpg" style="width:263px;height:39px ; position: relative; bottom: -15px; " ><br><br>
+
+
+<img src="../images/exp1/eqn4.jpg" style="width:210px;height:39px ; position: relative; bottom: -15px; " > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Eq.2<br><br>
+
+<img src="../images/exp1/eqn5.jpg" style="width:472px;height:71px ; position: relative; bottom: -15px; " > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Eq.3<br><br>
+
+<img src="../images/exp1/eqn6.jpg" style="width:224px;height:71px ; position: relative; bottom: -15px; " >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Eq.4<br><br><br><br>
+
+<img src="../images/exp1/eqn7.jpg" style="width:163px;height:73px ; position: relative; bottom: -15px; " >&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="../images/exp1/eqn8.jpg" style="width:155px;height:70px ; position: relative; bottom: -15px; " >&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="../images/exp1/eqn9.jpg" style="width:161px;height:38px ; position: relative; bottom: -15px; " >&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="../images/exp1/eqn10.jpg" style="width:200px;height:71px ; position: relative; bottom: -15px; " ><br><br>
+The link angles are given by<br>
+<img src="../images/exp1/eqn11.jpg" style="width:200px;height:74px ; position: relative; bottom: -15px; " ><br><br>
+
+<img src="../images/exp1/eqn12.jpg" style="width:187px;height:74px ; position: relative; bottom: -15px; " ><br><br>
+                    
 </p>
 
- </section>             
-                <section id="experiment-article-section-4">
-                    <div class="icon" id="experiment-article-section-4-icon">
+ </section>  
+    <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/simulation.jpg"></div>
+                    <img src="../images/procedure.jpg" style="padding-left: 20px;"></div>
 
                     <div class="heading" id=
-                    "experiment-article-section-4-heading">
-                        Simulator
-                    </div>
-
-                    <div class="content" id=
-                    "experiment-article-section-4-content">
-                        <div class="divContent">
-                            <p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expN</a></p>
-				<p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expR</a></p>
-<p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expT</a></p>
-                        </div>
-                    </div>
-		 
-			
-
-
-                </section>
-
-                 <section id="experiment-article-section-5">
-                    <div class="icon" id="experiment-article-section-5-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/manual.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-5-heading">
+                    "experiment-article-section-2-heading">
                         Procedure
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-5-content">
-                        <div class="divContent">
+                    "experiment-article-section-2-content">
+                        <div class="divContent"  id="wrap">
                     
-                            <p class="MsoNormal" style="line-height: 150%;">
-                            <span lang="EN-IN" style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                            &nbsp;<b></b></span></p>
-
-                            <p class="MsoNormal" style=
-                            "font-weight: bold; line-height: 150%"><span lang=
-                            "EN-IN" style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                            &nbsp;</span></p>
-
-                            <p class="MsoNormal" style="line-height: 150%;">
-                            <b><span lang="EN-IN" style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                            </span></b><span lang="EN-IN" style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:
-                            </span></p>
-
-                            <p class="MsoNormal" style="line-height: 150%;">
-                            <span lang="EN-IN" style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+           
+<h2><b>Position Analysis of Four Bar Mechanism (Grashof) - expT PROCEDURE</b></h2></br>
+<h3>Objective:</h3></br>
+<p style="padding-left:50px;">
+To completely determine the position of four bar linkage given and thereby find out <img src="../images/exp3/Jg8DHTUJ.png" style="width:27px;height:30px ; position: relative; bottom: -15px; " >  and <img src="../images/exp3/LXINO81p.png" style="width:15px;height:28px ; position: relative; bottom: -5px; " > </br>
+(transmission angle).</br></br></p>
 
 
+<h3>PROCEDURE:</h3></br>
 
-
-
-Position Analysis of Four Bar Mechanism (Grashof) - expT PROCEDURE</br></br></br>
-Objective:</br></br>
-To completely determine the position of four bar linkage given and thereby find out θ4 and γ</br>
-(transmission angle).</br></br>
-PROCEDURE:</br>
+<p style="padding-left:50px;">
 1. Read the values of link lengths under variables.</br></br>
-2. Read the value of θ2 under variables</br></br>
-3. Calculate the value of θ3 and θ4.</br></br>
+2. Read the value of <img src="../images/exp1/nW11hRdS.png" style="width:27px;height:30px ; position: relative; bottom: -15px; " >  under variables</br></br>
+3. Calculate the value of <img src="../images/exp1/YEQXbFAA.png" style="width:27px;height:30px ; position: relative; bottom: -15px; " > and <img src="../images/exp3/Jg8DHTUJ.png" style="width:27px;height:30px ; position: relative; bottom: -15px; " >.</br></br>
+</p>
+
+
+
+<p style="padding-left:100px;">
+<img src="../images/exp1/procedure 1/eqn 1.png" style="width:81px;height:61px ; position: relative; bottom: -15px; " > &nbsp;&nbsp;&nbsp;
+<img src="../images/exp1/procedure 1/eqn 2.png" style="width:81px;height:61px ; position: relative; bottom: -15px; " >&nbsp;&nbsp;&nbsp;
+<img src="../images/exp1/procedure 1/eqn 3.png" style="width:212px;height:65px ; position: relative; bottom: -15px; " ><br><br>
+<img src="../images/exp1/procedure 1/eqn 4(set of 3).png" style="width:297px;height:106px ; position: relative; bottom: -15px; " >&nbsp;&nbsp;&nbsp;
+<img src="../images/exp1/procedure 1/eqn 5.png" style="width:328px;height:88px ; position: relative; bottom: -15px; " ><br><br><br>
+<img src="../images/exp1/procedure 1/eqn 6.png" style="width:76px;height:61px ; position: relative; bottom: -15px; " >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="../images/exp1/procedure 1/eqn 7.png" style="width:212px;height:65px ; position: relative; bottom: -15px; " ><br><br>
+<img src="../images/exp1/procedure 1/eqn 8(set of 3).png" style="width:301px;height:106px ; position: relative; bottom: -15px; " >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="../images/exp1/procedure 1/eqn 9.png" style="width:330px;height:82px ; position: relative; bottom: -15px; " ><br><br><br>
+</p>
+4. Calculate Transmission angle.</br>
+
+<img src="../images/exp1/procedure 1/eqn 10.png" style="width:102px;height:35px ; position: relative; bottom: -15px; " >
+
+<!--
 $K_1=\frac da$&nbsp&nbsp
 &nbsp$K_2=\frac dc$&nbsp&nbsp
 &nbsp
@@ -358,26 +308,139 @@ $K_5=\frac{c^2-d^2-a^2-b^2}{2ab}$</br>
 $$D=\cos\left(\theta_2\right)-K_1-K_4\cos\left(\theta_2\right)+K_5$$</br>
 $E=-2\sin\left(\theta_2\right)$&nbsp&nbsp&nbsp&nbsp
 $\theta_{3_{1.2}}=2\;arc\tan\left(\frac{-E\pm\sqrt{E^2-4DF}}{2D}\right)$</br>
-$$F=K_1+(K_4-1)\cos\left(\theta_2\right)+K_5$$
-4. Calculate Transmission angle.</br>
-$$\gamma=\theta_4-\theta_3$$</br>
+$$F=K_1+(K_4-1)\cos\left(\theta_2\right)+K_5$$<br><br>
 
+$$\gamma=\theta_4-\theta_3$$</br>
+-->
 
 
                             </span>
 </section>
-               
- <section id="experiment-article-section-8">
-                    <div class="icon" id="experiment-article-section-8-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
-     <div class="heading" id=
-                    "experiment-article-section-6-heading">
-                        Post Test
+   <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/selfevaluation.jpg" style="padding-left:50px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Self Evaluation
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-6-content">
+                    "experiment-article-section-3-content">
+                        <div class="divQuiz">
+                            <div id="displayQuiz">
+                                <form id="form11" method="post" name="form11">
+                                    
+                         
+                                    
+                                </form>
+                            </div><br>
+                        </div>
+                    </div>
+                </section>
+
+   
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"  style="padding-left: 20px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Simulator
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                        <div class="divContent">
+                            
+
+<div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div> EXPLAIN for talking tutorial<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashofPosition.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashofPosition.swf" type="application/x-shockwave-flash" width="800"></embed></object></p>
+<p>
+	</div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashof_Pos_Expl.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashof_Pos_Expl.swf" type="application/x-shockwave-flash" width="800"></embed></object> <param name="quality" value="high" /> <param name="movie" value="../images/swf/FourBarGrashof_Pos_Expl_Step1.swf" /> </div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashof_Pos_Expt.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashof_Pos_Expt.swf" type="application/x-shockwave-flash" width="800"></embed></object> <param name="quality" value="high" /> <param name="movie" value="/images/flash/FourBarGrashof_Pos_Expt_Step5.swf" /> </div></div> </div></p>
+
+
+                        </div>
+                
+		 
+			
+
+
+                </section>
+              <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/assignment.jpg" style="padding-left: 20px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Assignment
+                    </div>
+
+                    <div class="content" id="experiment-article-section-5-content">
+                        
+                    </div>
+                </section>
+				
+				<!-- Second section of the article-->
+
+             
+
+          
+   <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                   
+                    <img src="../images/reference.jpg" style="padding-left: 15px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Reference
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            
+                           
+                        </div>
+                    </div>
+                </section>
+
+               
+               
+
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    
+                    <img src="../images/video.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Video 
+                    </div>
+
+                    <div class="content" id="experiment-article-section-7-content">
+                        <div class="divContent">
+                        
+                        </div>
+                    </div>
+                </section>
+ <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quiz.jpg"></div>
+     <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Quiz
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
                         <div class="divQuiz">
                             <div id="displayQuiz">
                                 <form id="form11" method="post" name="form11">
@@ -387,54 +450,8 @@ $$\gamma=\theta_4-\theta_3$$</br>
                         </div>
                     </div>
                 </section>
-
-                <section id="experiment-article-section-7">
-                    <div class="icon" id="experiment-article-section-7-icon">
-                    
-                    <img src="../images/quizzes.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-7-heading">
-                        Review Questions
-                    </div>
-
-                    <div class="content" id="experiment-article-section-7-content">
-                        <div class="divContent">
-                        
-                        </div>
-                    </div>
-                </section>
-
-                <section id="experiment-article-section-8">
-                    <div class="icon" id="experiment-article-section-8-icon">
-                   
-                    <img src="../images/quizzes.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-8-heading">
-                        Reference
-                    </div>
-
-                    <div class="content" id="experiment-article-section-8-content">
-                        <div class="divContent">
-                            
-                           
-                        </div>
-                    </div>
-                </section>
-
-                <section id="experiment-article-section-9">
-                    <div class="icon" id="experiment-article-section-9-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-9-heading">
-                        Photo Gallery
-                    </div>
-
-                
-                </section>
+        
+               
             </div>
         </article>
     </div>

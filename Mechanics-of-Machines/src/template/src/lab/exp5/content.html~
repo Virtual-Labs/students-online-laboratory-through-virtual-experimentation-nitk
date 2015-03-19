@@ -8,6 +8,15 @@ edit -->
 <html>
 <head>
     <title>Velocity analysis of NonGrashof four bar mechanism</title>
+
+	<style type="text/css">
+#wrap {
+    width:85%;
+}
+
+
+</style>
+	
 </head>
 
 <body>
@@ -59,81 +68,44 @@ edit -->
             <div id="experiment-article-sections">
                 <!-- First section of the article-->
 
-                <section id="experiment-article-section-1">
+
+ <section id="experiment-article-section-1">
                     <div class="icon" id="experiment-article-section-1-icon">
-                    <!-- Enclose the icon image of your lab -->
-                    <img src="../images/introduction.jpg"></div>
-                    <!-- The heading for the section can be enclosed in a 
-          div tag. -->
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-1-heading">
-                        Assignment
-                    </div><!-- Write the section content inside a paragraph 
-          element, You can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id="experiment-article-section-1-content">
-                        <div class="divContent">
-                            
-                        </div>
-                    </div>
-                </section><!-- Second section of the article-->
-
-                <section id="experiment-article-section-2">
-                    <div class="icon" id="experiment-article-section-2-icon">
-                    <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/theory.jpg"></div>
-                    <!-- The heading for the section can be enclosed in a 
-        div tag. -->
-
-                    <div class="heading" id=
-                    "experiment-article-section-2-heading">
-                        Pre Test
-                    </div><!-- Write the section content inside a paragraph 
-        element, we can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id=
-                    "experiment-article-section-2-content">
-                        <div class="divQuiz">
-                            
-                        </div>
-                    </div>
-                </section>
-
-                <section id="experiment-article-section-3">
-                    <div class="icon" id="experiment-article-section-3-icon">
-                    <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/objective.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-3-heading">
                         Theory
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-3-content">
-                        <div class="divContent">
+                    "experiment-article-section-1-content">
+                        <div class="divContent" id="wrap">
                             
 
                             <p class="MsoNormal" style="line-height: 150%;">
   
 
-Velocity analysis of four bar mechanism<br>
+<h3>Velocity analysis of four bar mechanism</h3><br>
 
 
-An aircraft wing as a cantilever beamAn atomic force probe <br>
+
 
 <img src="../images/pos9.png" style="width:794px;height:500px"><br>
 
 
-Let <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#969;</mi></math>2, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#969;</mi></math>3 and <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#969;</mi></math>4 be the angular velocities of the links 2,3 and 4 respectively. <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#969;</mi></math>2 is the<br>
+Let <img src="../images/exp3/aIHTo2Yn.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " >, <img src="../images/exp3/FJESEGeK.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " > and <img src="../images/exp3/ab53vusY.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " > be the angular velocities of the links 2,3 and 4 respectively.<img src="../images/exp3/aIHTo2Yn.png" style="width:27px;height:30px ; position: relative; bottom: -15px; " > is the<br>
 input angular velocity of the link 2. Since the link lengths a, b and c are known and<br>
-for the given <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#952;</mi></math>2 value, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#952;</mi></math>3 and <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#952;</mi></math>4 can be determined using position analysis. The<br>
-angular velocities <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#969;</mi></math>3 and <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#969;</mi></math>4 are given by<br></br>
+for the given <img src="../images/exp3/nW11hRdS.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " >value, <img src="../images/exp3/YEQXbFAA.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " > and <img src="../images/exp3/Jg8DHTUJ.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " > can be determined using position analysis. The<br>
+angular velocities <img src="../images/exp3/FJESEGeK.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " > and <img src="../images/exp3/ab53vusY.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " >  are given by<br></br>
 
 
-<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>&#969;</mi><mn>4</mn></msub><mo>=</mo><mo>-</mo><mfrac><mrow><mi>a</mi><msub><mi>&#969;</mi><mn>2</mn></msub><mi>sin</mi><mfenced><mrow><msub><mi>&#952;</mi><mn>3</mn></msub><mo>-</mo><msub><mi>&#952;</mi><mn>2</mn></msub></mrow></mfenced></mrow><mrow><mi>c</mi><mi>sin</mi><mfenced><mrow><msub><mi>&#952;</mi><mn>4</mn></msub><mo>-</mo><msub><mi>&#952;</mi><mn>3</mn></msub></mrow></mfenced></mrow></mfrac></math><br></br>
-<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>&#969;</mi><mn>3</mn></msub><mo>=</mo><mo>-</mo><mfrac><mrow><mi>a</mi><msub><mi>&#969;</mi><mn>2</mn></msub><mi>sin</mi><mfenced><mrow><msub><mi>&#952;</mi><mn>4</mn></msub><mo>-</mo><msub><mi>&#952;</mi><mn>2</mn></msub></mrow></mfenced></mrow><mrow><mi>b</mi><mi>sin</mi><mfenced><mrow><msub><mi>&#952;</mi><mn>4</mn></msub><mo>-</mo><msub><mi>&#952;</mi><mn>3</mn></msub></mrow></mfenced></mrow></mfrac></math><br>
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp2/eqn1.jpg" style="width:218px;height:67px ; position: relative; bottom: -15px; " >&nbsp;&nbsp;&nbsp;&nbsp;       Eq.1<br>
+
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp2/eqn2.jpg" style="width:218px;height:67px ; position: relative; bottom: -15px; " >&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;       Eq.2<br>
 
 
 
@@ -141,50 +113,19 @@ angular velocities <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#969;</
 
                                 <br>
  </section>
-
-                <section id="experiment-article-section-4">
-                    <div class="icon" id="experiment-article-section-4-icon">
+   <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/simulation.jpg"></div>
+                    <img src="../images/procedure.jpg" style="padding-left: 20px;"></div>
 
                     <div class="heading" id=
-                    "experiment-article-section-4-heading">
-                        Simulator
-                    </div>
-
-                    <div class="content" id=
-                    "experiment-article-section-4-content">
-                        <div class="divContent">
-                            <p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expN</a></p>
-<p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expR</a></p>
-<p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expT</a></p>
-                        </div>
-                    </div>
-
-			
-
-
-                </section>
-
-                <section id="experiment-article-section-5">
-                    <div class="icon" id="experiment-article-section-5-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/manual.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-5-heading">
+                    "experiment-article-section-2-heading">
                         Procedure
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-5-content">
-                        <div class="divContent">
+                    "experiment-article-section-2-content">
+                        <div class="divContent" id="wrap">
                         
 
                           
@@ -197,7 +138,7 @@ angular velocities <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#969;</
                            
 
 
-<img  height="1400" src="../images/fourbar_nongrashof_procedure_ver01.jpg"  width="600"><br>853*2472
+<img  src="../images/fourbar_nongrashof_procedure_ver01.jpg"  style="width:853px;height:2472px"><br>
 
 
 
@@ -208,41 +149,106 @@ angular velocities <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#969;</
 
                        
 </section>
-              <section id="experiment-article-section-6">
-                    <div class="icon" id="experiment-article-section-6-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/manual.jpg"></div>
-                
+       
+   <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/selfevaluation.jpg" style="padding-left:50px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
 
                     <div class="heading" id=
-                    "experiment-article-section-6-heading">
-                        Post Test
-                    </div>
+                    "experiment-article-section-3-heading">
+                        Self Evaluation
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
 
                     <div class="content" id=
-                    "experiment-article-section-6-content">
+                    "experiment-article-section-3-content">
                         <div class="divQuiz">
                             
                         </div>
                     </div>
                 </section>
+    
+  <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg" style="padding-left: 20px;"></div>
 
-                <section id="experiment-article-section-7">
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Simulation
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                        <div class="divContent">
+                           <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div> EXPLAIN for talking tutorial <br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarNonGrashofVelocity.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarNonGrashofVelocity.swf" type="application/x-shockwave-flash" width="800"></embed></object></div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities<br> <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarNonGrashof_Vel_Expl.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarNonGrashof_Vel_Expl.swf" type="application/x-shockwave-flash" width="800"></embed></object></div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment<br> <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarNonGrashof_Vel_Expt.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarNonGrashof_Vel_Expt.swf" type="application/x-shockwave-flash" width="800"></embed></object></div></div> </div></p>
+
+                        </div>
+                    
+
+			
+
+
+                </section>
+
+     <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/assignment.jpg " style="padding-left: 20px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Assignment
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id="experiment-article-section-5-content">
+                        <div class="divContent">
+                            
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+             
+
+               
+     <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/reference.jpg" style="padding-left: 15px;"></div>
+
+                    <div class="heading" id="experiment-article-section-6-heading">
+                        Reference
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                        
+                        </div>
+                    </div>
+                </section>
+              
+
+             
+              <section id="experiment-article-section-7">
                     <div class="icon" id="experiment-article-section-7-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+                    <img src="../images/video.jpg"></div>
+                
 
                     <div class="heading" id=
                     "experiment-article-section-7-heading">
-                        Review Questions
+                        Video
                     </div>
 
                     <div class="content" id=
                     "experiment-article-section-7-content">
-                        <div class="divContent">
-                            
-
-                            
+                        <div class="divQuiz">
                             
                         </div>
                     </div>
@@ -251,31 +257,27 @@ angular velocities <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#969;</
                 <section id="experiment-article-section-8">
                     <div class="icon" id="experiment-article-section-8-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+                    <img src="../images/quiz.jpg"></div>
 
-                    <div class="heading" id="experiment-article-section-8-heading">
-                        Reference
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Quiz
                     </div>
 
-                    <div class="content" id="experiment-article-section-8-content">
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
                         <div class="divContent">
-                        
+                            
+
+                            
+                            
                         </div>
                     </div>
                 </section>
 
-                <section id="experiment-article-section-9">
-                    <div class="icon" id="experiment-article-section-9-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+           
 
-                    <div class="heading" id=
-                    "experiment-article-section-9-heading">
-                        Photo Gallery
-                    </div>
-
-                 
-                </section>
+              
             </div>
         </article>
     </div>

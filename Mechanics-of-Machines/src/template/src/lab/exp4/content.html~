@@ -8,6 +8,13 @@ edit -->
 <html>
 <head>
     <title></title>
+<style type="text/css">
+#wrap {
+    width:85%;
+}
+
+
+</style>
 </head>
 
 <body>
@@ -58,64 +65,26 @@ edit -->
             <div id="experiment-article-sections">
                 <!-- First section of the article-->
 
-                <section id="experiment-article-section-1">
+<section id="experiment-article-section-1">
                     <div class="icon" id="experiment-article-section-1-icon">
-                    <!-- Enclose the icon image of your lab -->
-                    <img src="../images/introduction.jpg"></div>
                     
+                    <img src="../images/theory.jpg"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-1-heading">
-                        Assignment
-                    </div><!-- Write the section content inside a paragraph 
-          element, You can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id="experiment-article-section-1-content">
-                        <div class="divContent">
-                            
-                        </div>
-                    </div>
-                </section><!-- Second section of the article-->
-
-                <section id="experiment-article-section-2">
-                    <div class="icon" id="experiment-article-section-2-icon">
-                    <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/theory.jpg"></div>
-                    <!-- The heading for the section can be enclosed in a 
-        div tag. -->
-
-                    <div class="heading" id=
-                    "experiment-article-section-2-heading">
-                        Pre Test
-                    </div><!-- Write the section content inside a paragraph 
-        element, we can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id=
-                    "experiment-article-section-2-content">
-                        <div class="divQuiz">
-                            
-                        </div>
-                    </div>
-                </section>
-
-                <section id="experiment-article-section-3">
-                    <div class="icon" id="experiment-article-section-3-icon">
-                    
-                    <img src="../images/objective.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-3-heading">
                         Theory
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-3-content">
-                        <div class="divContent">
+                    "experiment-article-section-1-content">
+                        <div class="divContent" id="wrap">
                            
 
                             <p class="MsoNormal" style="line-height: 150%;">
-      <h3>Position analysis of Non Grashoffour bar mechanism Theory</h3>
-Learning objectives
+      <h3>Position analysis of Non Grashoffour bar mechanism Theory</h3><br>
+<div>
+<img  src= "../images/poscr1.png" style="width:80px;height:57px">
+<b>Learning objectives</b></div><br>
 After completing this simulation experiment one should be able to
 
 <ul><li>Determine the location CG of any given link in a Non Grashof four bar
@@ -177,9 +146,9 @@ plane or axis. It is also known as crank-crank, drag-crank or rotary-rotary conv
 q and l shown above rotate through one complete revolution. This is one of the first inversions of
 four-bar mechanisms.
 <br><br>
-In this discussion, let$’$s call the link‘s’ the frame as the fixed link. We will call the link ‘q’ the crank,
-‘p’ the coupler and ‘l’ the lever for now. Crank is not defined as the link, which is attached to the
-driver shaft; rather it’s the link, which does a complete revolution. And in this configuration, as
+In this discussion, let<sup>,</sup>s call the link<sup>,</sup>s<sup>,</sup>the frame as the fixed link. We will call the link <sup>,</sup>q<sup>,</sup> the crank,
+<sup>,</sup>p<sup>,</sup> the coupler and <sup>,</sup>l<sup>,</sup> the lever for now. Crank is not defined as the link, which is attached to the
+driver shaft; rather it<sup>,</sup>s the link, which does a complete revolution. And in this configuration, as
 there are two links, both q and l, which revolves completely about the hinged point on the frame,
 both of them, is cranks.
 <br><br>
@@ -197,7 +166,7 @@ motion in the plane of the other steering links.
 <p>In a four bar linkage, if the shorter side link revolves and the other rocks (i.e., oscillates), it is
 called a crank-rocker mechanism.
 In this case, there is only a slight change, leave the smallest side and connect any of its adjacent
-side as the frame. Then (in figure) the smallest side ‘s’ will have full 360 degree revolution while
+side as the frame. Then (in figure) the smallest side <sup>,</sup>s<sup>,</sup> will have full 360 degree revolution while
 the other link adjacent to the frame has only oscillating motion (link p). This kind of mechanism
 is hence called a crank-lever mechanism or a crank-rocker mechanism or a rotary-oscillating
 converter.
@@ -209,8 +178,8 @@ converter.
 as a double-lever mechanism.
 This linkage results when the shortest side in the mechanism is made the coupler. The other two
 links only get to oscillate in their place. A linkage in which the sum of the longest and shortest
-link is less than the sum of the other two sides, is known as a Class I mechanism, otherwise it’s
-Class II. This mechanism is achieved when it is Class II. It’s also called rocker-rocker mechanism,
+link is less than the sum of the other two sides, is known as a Class I mechanism, otherwise it<sup>,</sup>s
+Class II. This mechanism is achieved when it is Class II. It<sup>,</sup>s also called rocker-rocker mechanism,
 double-rocker mechanism or oscillating oscillating-converter.
 </p>
 <h3>Parallel Crank Mechanism
@@ -225,32 +194,95 @@ of one wheel is transmitted to the other wheel.
 <h3>Position analysis of four bar mechanism
 </h3>
 <img src="../images/posn8.png"  style="width:794px;height:500px">
-<p>The position of the points on the links A (Ax, Ay) and B (Bx, By)
+<p>The position of the points on the links A (A<sub>x</sub>, A<sub>y</sub>) and B (B<sub>x</sub>, B<sub>y</sub>)
 The coordinates of the point A are found using trigonometry as follows:
 </p>
-$$A_x=a\cos\left(\theta_2\right)$$
-$$A_y=a\sin\left(\theta_2\right)$$
 
-$$b^2=(B_x-A_x)^2+(B_y-A_y)^2$$
-$$c^2=(B_x-d)^2+B_y^2$$
 
+
+
+
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp4/eqn1.jpg" style="width:124px;height:36px ; position: relative; bottom: -15px; " ><br><br>
+
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp4/eqn2.jpg" style="width:124px;height:35px ; position: relative; bottom: -15px; " >&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;   Eq.1<br><br>
 
 Similarly coordinates of point B are found using the equations of circle around A and O4.</br>
-$$B_x=\frac{a^2-b^2+c^2-d^2}{2(A_x-d)}-\frac{2A_yB_y}{2(A_x-d)}=S-\frac{2A_yB_y}{2(A_x-d)}$$
-$$B_y=\frac{-Q\pm\sqrt{Q^2-4PR}}{2P}$$
-where,
-$$P=\frac{{A^2}_y}{(A_x-d)^2}+1\;\;Q=\frac{2A_y(d-S)}{A_x-d}\;\;R=(d-S^2)-c^2\;\;S=\frac{a^2-b^2+c^2-d^2}{2(A_x-d)}$$</br>
-The link angles are given by
-$$\theta_3=\tan^{-1}\left(\frac{B_y-A_y}{B_x-A_x}\right)$$
-$$\theta_4=\tan^{-1}\left(\frac{B_y}{B_x-d}\right)$$  
+
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp4/eqn3.jpg" style="width:263px;height:39px ; position: relative; bottom: -15px; " ><br><br>
+
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp4/eqn4.jpg" style="width:210px;height:39px ; position: relative; bottom: -15px; " >&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;    Eq.2<br><br>
+
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp4/eqn5.jpg" style="width:472px;height:71px ; position: relative; bottom: -15px; " >&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;   Eq.3<br><br>
+
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp4/eqn6.jpg" style="width:224px;height:71px ; position: relative; bottom: -15px; " >&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;     Eq.4<br><br>
+where,<br>
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp4/eqn7.jpg" style="width:163px;height:73px ; position: relative; bottom: -15px; " >&nbsp; 
+
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp4/eqn8.jpg" style="width:155px;height:71px ; position: relative; bottom: -15px; " >&nbsp; 
+
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp4/eqn9.jpg" style="width:161px;height:38px ; position: relative; bottom: -15px; " >&nbsp; 
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp4/eqn10.jpg" style="width:200px;height:71px ; position: relative; bottom: -15px; " >&nbsp; <br><br>
+The link angles are given by<br><br>
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp4/eqn11.jpg" style="width:200px;height:71px ; position: relative; bottom: -15px; " >&nbsp; <br>
+
+&nbsp; &nbsp; &nbsp;
+<img src="../images/exp4/eqn12.jpg" style="width:200px;height:71px ; position: relative; bottom: -15px; " >&nbsp; 
 </p>
 
                         </section>
 
-                <section id="experiment-article-section-4">
+  <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg" style="padding-left: 20px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id="experiment-article-section-2-content">
+                        <div class="divContent" id="wrap">
+                        </div> 
+					</div>  						
+                   
+				</section> 
+				
+ <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/selfevaluation.jpg" style="padding-left:50px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Self Evaluation
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-3-content">
+                        <div class="divQuiz">
+                            
+                        </div>
+                    </div>
+                </section>
+  <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/simulation.jpg"></div>
+                    <img src="../images/simulation.jpg"  style="padding-left: 20px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-4-heading">
@@ -260,90 +292,48 @@ $$\theta_4=\tan^{-1}\left(\frac{B_y}{B_x-d}\right)$$
                     <div class="content" id=
                     "experiment-article-section-4-content">
                         <div class="divContent">
-                            <p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expN</a></p>
-<p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expR</a></p>
-<p><a href=
-                            "./FreeVibrationSDOF_expN_ver2.swf"
-                            target="_blank">expT</a></p>
+                           <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div> EXPLAIN for talking tutorial<br> <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarNonGrashofPosition.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarNonGrashofPosition.swf" type="application/x-shockwave-flash" width="800"></embed></object></div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarNonGrashof_Pos_Expl.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarNonGrashof_Pos_Expl.swf" type="application/x-shockwave-flash" width="800"></embed></object> <param name="quality" value="high" /> <param name="movie" value="../images/swf/FourBarNonGrashof_Pos_Expl_Step5.swf" /> </div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarNonGrashof_Pos_Expt.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarNonGrashof_Pos_Expt.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div></div> </div></p>
+
                         </div>
-                    </div>
+                    
 
 			
 
 
                 </section>
-
                 <section id="experiment-article-section-5">
                     <div class="icon" id="experiment-article-section-5-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/manual.jpg"></div>
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/assignment.jpg" style="padding-left: 20px;"></div>
+                    
 
                     <div class="heading" id=
                     "experiment-article-section-5-heading">
-                        Procedure
-                    </div>
+                        Assignment
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
 
                     <div class="content" id="experiment-article-section-5-content">
                         <div class="divContent">
-                        </div> 
-					</div>  						
-                   
-				</section> 
-				
-				
-                <section id="experiment-article-section-6">
+                            
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+               
+                
+  <section id="experiment-article-section-6">
                     <div class="icon" id="experiment-article-section-6-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/manual.jpg"></div>
-                  
+                   
+                    <img src="../images/reference.jpg"  style="padding-left: 15px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-6-heading">
-                        Post Test
-                    </div>
-
-                    <div class="content" id=
-                    "experiment-article-section-6-content">
-                        <div class="divQuiz">
-                            
-                        </div>
-                    </div>
-                </section>
-
-                <section id="experiment-article-section-7">
-                    <div class="icon" id="experiment-article-section-7-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-7-heading">
-                        Review Questions
-                    </div>
-
-                    <div class="content" id="experiment-article-section-7-content">
-                        <div class="divContent">
-                            
-                            
-                        </div>
-                    </div>
-                </section>
-
-                <section id="experiment-article-section-8">
-                    <div class="icon" id="experiment-article-section-8-icon">
-                   
-                    <img src="../images/quizzes.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-8-heading">
                         Reference
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-8-content">
+                    "experiment-article-section-6-content">
                         <div class="divContent">
                             
                         
@@ -351,22 +341,50 @@ $$\theta_4=\tan^{-1}\left(\frac{B_y}{B_x-d}\right)$$
                         </div>
                     </div>
                 </section>
+              
 
-                <section id="experiment-article-section-9">
-                    <div class="icon" id="experiment-article-section-9-icon">
+              
+				
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quizzes.jpg"></div>
+                    <img src="../images/video.jpg"></div>
+                  
 
                     <div class="heading" id=
-                    "experiment-article-section-9-heading">
-                        Photo Gallery
+                    "experiment-article-section-7-heading">
+                        Video 
                     </div>
 
                     <div class="content" id=
-                    "experiment-article-section-9-content">
-                      
+                    "experiment-article-section-7-content">
+                        <div class="divQuiz">
+                            
+                        </div>
                     </div>
                 </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quiz.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Quiz
+                    </div>
+
+                    <div class="content" id="experiment-article-section-8-content">
+                        <div class="divContent">
+                            
+                            
+                        </div>
+                    </div>
+                </section>
+
+              
+
+               
             </div>
         </article>
     </div>

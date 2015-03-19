@@ -128,10 +128,10 @@ edit -->
         element, You can also include images with <img> tag -->
 
                 
- <div class="content" id="lab-article-section-2-content">
+ <!--<div class="content" id="lab-article-section-2-content">
                         <ul id="list-of-experiments">
                             <li>
-                                <!--Link and name of the experiment 1 -->
+                                <!--Link and name of the experiment 1 
                                 <a href="exp2/index.html">Minor Losses - Gate Valve</a>
                             </li>
                         </ul>
@@ -140,11 +140,11 @@ edit -->
 <div class="content" id="lab-article-section-2-content">
                         <ul id="list-of-experiments">
                             <li>
-                                <!--Link and name of the experiment 1 -->
+                                <!--Link and name of the experiment 1 
                                 <a href="exp3/index.html">Impact of Jet - Inclined Flat Plate</a>
                             </li>
                         </ul>
-                    </div>
+                    </div>-->
 
 
     <div class="content" id="lab-article-section-2-content">
@@ -157,14 +157,14 @@ edit -->
                     </div>
 
 
-    <div class="content" id="lab-article-section-2-content">
+   <!-- <div class="content" id="lab-article-section-2-content">
                         <ul id="list-of-experiments">
                             <li>
-                                <!--Link and name of the experiment 1 -->
-                                <a href="exp4/index.html">List of experiments:</a>
+                                <!--Link and name of the experiment 1 
+                                <a href="listofexp/index.html">List of experiments:</a>
                             </li>
                         </ul>
-                    </div>
+                    </div>-->
 
 
 <!-- An article can have a sidebar that contain related 
