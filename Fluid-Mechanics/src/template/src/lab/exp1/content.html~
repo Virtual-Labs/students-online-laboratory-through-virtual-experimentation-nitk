@@ -7,15 +7,19 @@ edit -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+<meta name="viewport" content="width=device-width" />
+
+   <title></title>
 
 <style type="text/css">
+
+
 #wrap {
     width:85%;
 }
 
-
 </style>
+
 </head>
 
 <body>
@@ -122,7 +126,7 @@ The force exerted by the jet on the plate in the direction of the jet.<br>
 <img src="../images/impact of jets/eqn 4.png" style="width:549px;height:36px ; position: relative; bottom: -15px; " ><br><br>
 
 = (initial momentum- final momentum)/ time<br>
-<img src="../images/impact of jets/eqn 6.png" style="width:294px;height:36px ; position: relative; bottom: -15px; " ><br><br>
+<img src="../images/impact of jets/eqn 6.png" style="width:294px;height:36px ; position: relative; bottom: -15px;  " ><br><br>
 <img src="../images/impact of jets/eqn 7.png" style="width:282px;height:36px ; position: relative; bottom: -15px; " ><br><br>
 
 <img src="../images/impact of jets/eqn 8.jpg" style="width:125px;height:39px ; position: relative; bottom: -15px; " ><br><br>
@@ -362,7 +366,7 @@ mso-bidi-theme-font:minor-bidi;}
                     <div class="content" id=
                     "experiment-article-section-4-content">
                         <div class="divContent">
-                           <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="1400"><param name="quality" value="high" /><param name="movie" value="../images/swf/impactofjet.swf" /><embed height="700" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/impactofjet.swf" type="application/x-shockwave-flash" width="1000"></embed></object></p>
+                           <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="800" width="1400"><param name="quality" value="high" /><param name="movie" value="../images/swf/impactofjet.swf" /><embed height="700" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/impactofjet.swf" type="application/x-shockwave-flash" width="1000"></embed></object></p>
 
                         </div>
                     </div>

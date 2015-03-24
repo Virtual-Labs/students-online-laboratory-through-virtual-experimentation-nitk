@@ -21,8 +21,8 @@ edit -->
         <header id="lab-header">
             <div class="logo" id="lab-header-logo">
             <!-- Enclose the logo image of your lab or write it in 
-      text-->
-            <img src="images/logo.png">
+      text
+            <img src="images/logo.png">-->
 </div>
 
         

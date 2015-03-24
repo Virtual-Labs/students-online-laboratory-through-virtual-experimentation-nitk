@@ -10,6 +10,7 @@
   symbols, em-dashes and so forth will be properly displayed in
   most browsers.-->
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width" />
     <!-- The following meta element gives the appearance of using 
   Internet Explorer (IE) but actually renders the page in google 
   chrome thus rescuing the older IE versions and providing the 
@@ -65,7 +66,7 @@
 <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
    
 
-    <script src="js/modernizr-1.5.min.js" type="text/javascript"></script>
+    <script src="../js/modernizr-1.5.min.js" type="text/javascript"></script>
     <script src="../js/jquery-1.7.1.min.js"></script>
     <script type="text/javascript">
 $(document).ready(function() 

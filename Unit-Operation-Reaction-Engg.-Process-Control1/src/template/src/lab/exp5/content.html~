@@ -394,7 +394,19 @@ Comment on effect of superficial mass velocity on process drop across the bed an
                     "experiment-article-section-3-content">
                         <div class="divQuiz">
                             <div id="displayQuiz">
-                                <form id="form11" method="post" name="form11">
+                              
+
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="indexs.html">Self Evaluation</a>
+
+
+  <!--<form id="form11" method="post" name="form11">
                                 
                                   
                               
@@ -449,7 +461,7 @@ Comment on effect of superficial mass velocity on process drop across the bed an
 <BR>
 
    </p>          
-                         </form><br>
+                         </form><br>-->
                             </div><br>
                         </div>
                     </div>

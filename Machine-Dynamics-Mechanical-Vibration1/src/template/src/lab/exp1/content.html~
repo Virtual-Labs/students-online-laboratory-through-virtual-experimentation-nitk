@@ -105,11 +105,14 @@ Look at the few of the real systems shown below,try to make suitable assumptions
 </h4>
 </p>
 </br>
-<p><img src="../images/frvb1.png" style="width:350px;height:188px">
+<p>
+<figure>
+<img src="../images/frvb1.png" style="width:350px;height:188px;">
+<figcaption>hello</figcaption>
 
-<img src="../images/frvb2.png"   style="width:487px;height:393px"></br>
-
-
+<img src="../images/frvb2.png"   style="width:487px;height:393px">
+<figcaption>hello3</figcaption>
+</figure>
 </p>
 
 <h4>A tower crane  overhang is like a cantilever beam</h4>
@@ -363,18 +366,34 @@ References <br><br>
 
                
         
-                <section id="experiment-article-section-8">
+               <section id="experiment-article-section-8">
                     <div class="icon" id="experiment-article-section-8-icon">
                     <!-- Enclose the icon image of your lab.-->
                     <img src="../images/quiz.jpg"></div>
-                    
 
                     <div class="heading" id=
                     "experiment-article-section-8-heading">
                         Quiz 
                     </div>
 
-                    
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        <div class="divContent">
+                           
+                             <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index1.html">Get Started</a>
+
+
+
+                            
+                        </div>
+                    </div>
                 </section>
 
               

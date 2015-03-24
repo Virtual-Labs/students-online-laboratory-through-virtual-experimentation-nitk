@@ -29,18 +29,16 @@ jQuery.event.special.hover.speed = 100;
         <header id="lab-header">
             <div class="logo" id="lab-header-logo">
             <!-- Enclose the logo image of your lab or write it in 
-      text-->
+      text
            
 
 
-<!--
- <img src="images/logo.png">
--->
+
+ <img src="images/logo.png">-->
+
 
 
 </div>
-
-        
 
 
 <div id="pillmenu">
