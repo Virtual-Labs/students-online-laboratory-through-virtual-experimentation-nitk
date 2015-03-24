@@ -6,6 +6,8 @@
   <meta name="keywords" content="NITK Surathkal,solve, Students,Online,Laboratory, Virtual,Experimentation ,SOLVE" />
   <meta name="description" content="Students Online Laboratory through Virtual Experimentation - SOLVE, NITK Surathkal" />
   <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+
+<meta http-equiv="refresh" content="5; URL=index.php">
   <title>Welcome to SOLVE  - The Virtual Lab @ NITK Surathkal</title>
   <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
   <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
