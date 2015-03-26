@@ -569,7 +569,18 @@ The frequency factor (ko)= <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>
                     "experiment-article-section-3-content">
                         <div class="divQuiz">
                             <div id="displayQuiz">
-                                <form id="form11" method="post" name="form11">
+                               
+
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="indexs.html">Self Evaluation</a>
+<!--
+ <form id="form11" method="post" name="form11">
                                    
 
   <p >	
@@ -638,7 +649,7 @@ The conversion of a reactant, undergoing a first-order reaction, at a time equal
 
 
 
-                                </form><br>
+                                </form><br>-->
                             </div><br>
                         </div>
                     </div>
@@ -2467,10 +2478,10 @@ mso-bidi-theme-font:minor-bidi;}
 
 				<a class="avLightbox" href="#AVPlayerID_de112343" title="Click to view video in a lightbox popup">Dim lights</a>
 				
-				<!--<a class="avDownload" href="../images/videoSim/demo_batch.flv" title="Click to download media">Download</a>-->
+				<!--<a class="avDownload" href="../images/videoSim/demo_batch.flv" title="Click to download media">Download</a>
 		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_de112343" title="Click to select"><b>Embed this video on your site</b></span>
-				
+				Embed <span class="avEmbed" id="embed_AVPlayerID_de112343" title="Click to select"><b>Embed this video on your site</b></span>-->
+				Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/hj7MdoAmTUA?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
 	</span>
 </span>
 
@@ -2510,10 +2521,10 @@ mso-bidi-theme-font:minor-bidi;}
 
 				<a class="avLightbox" href="#AVPlayerID_50e57129" title="Click to view video in a lightbox popup">Dim lights</a>
 				
-				<a class="avDownload" href="../images/videoSim/batchreactor.flv" title="Click to download media">Download</a>
+				<!--<a class="avDownload" href="../images/videoSim/batchreactor.flv" title="Click to download media">Download</a>
 		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_50e57129" title="Click to select"><b>Embed this video on your site</b></span>
-				
+				Embed <span class="avEmbed" id="embed_AVPlayerID_50e57129" title="Click to select"><b>Embed this video on your site</b></span>-->
+				Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/hj7MdoAmTUA?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
 	</span>
 </span>
 

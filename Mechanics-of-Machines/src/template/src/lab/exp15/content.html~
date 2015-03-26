@@ -169,10 +169,10 @@ edit -->
 
 				<a class="avLightbox" href="#AVPlayerID_68fb157a" title="Click to view video in a lightbox popup">Dim lights</a>
 				
-				<a class="avDownload" href="../images/swf/Hart Straight Line Mechanism.flv" title="Click to download media">Download</a>
+				<!--<a class="avDownload" href="../images/swf/Hart Straight Line Mechanism.flv" title="Click to download media">Download</a>
 		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_68fb157a" title="Click to select"><b>Embed this video on your site</b></span>
-				
+				Embed <span class="avEmbed" id="embed_AVPlayerID_68fb157a" title="Click to select"><b>Embed this video on your site</b></span>-->
+				Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/DF2SSVURKek?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
 	</span>
 </span>
 

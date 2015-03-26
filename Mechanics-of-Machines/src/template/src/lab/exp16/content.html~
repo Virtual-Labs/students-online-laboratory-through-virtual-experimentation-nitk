@@ -147,10 +147,10 @@
 
 				<a class="avLightbox" href="#AVPlayerID_12db10af" title="Click to view video in a lightbox popup">Dim lights</a>
 				
-				<!--<a class="avDownload" href="../images/swf/Tchebichev Mechanism.flv" title="Click to download media">Download</a>-->
+				<!--<a class="avDownload" href="../images/swf/Tchebichev Mechanism.flv" title="Click to download media">Download</a>
 		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_c36d006d" title="Click to select"><input class="embedInput" id="embedInputAVPlayerID_c36d006d" name="" value="<object type=&quot;application/x-shockwave-flash&quot; style=&quot;width:800px;height:600px;&quot; data=&quot;http://solve.nitk.ac.in/plugins/content/jw_allvideos/includes/players/mediaplayer/player.swf&quot; title=&quot;JoomlaWorks AllVideos Player&quot;><param name=&quot;movie&quot; value=&quot;http://solve.nitk.ac.in/plugins/content/jw_allvideos/includes/players/mediaplayer/player.swf&quot;><param name=&quot;quality&quot; value=&quot;high&quot;><param name=&quot;wmode&quot; value=&quot;transparent&quot;><param name=&quot;bgcolor&quot; value=&quot;#010101&quot;><param name=&quot;autoplay&quot; value=&quot;false&quot;><param name=&quot;allowfullscreen&quot; value=&quot;true&quot;><param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;><param name=&quot;flashvars&quot; value=&quot;file=http://solve.nitk.ac.in/images/stories/videos/demo_fitt2.flv&amp;amp;image=http://solve.nitk.ac.in/images/stories/videos/demo_fitt2.jpg&amp;amp;autostart=false&amp;amp;fullscreen=true&quot;></object>" readonly="readonly" type="text"></span>
-				
+				Embed <span class="avEmbed" id="embed_AVPlayerID_12db10af" title="Click to select"><b>Embed this video on your site</b></span>-->
+				Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/5i5NCXKJ-XE?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
 
 
 	</span>

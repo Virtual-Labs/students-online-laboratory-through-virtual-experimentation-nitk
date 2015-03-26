@@ -1,80 +1,47 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="NITK Surathkal,solve, Students,Online,Laboratory, Virtual,Experimentation ,SOLVE" />
-  <meta name="description" content="Students Online Laboratory through Virtual Experimentation - SOLVE, NITK Surathkal" />
-  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+<!DOCTYPE html>
 
-<meta http-equiv="refresh" content="5; URL=index.php">
-  <title>Welcome to SOLVE  - The Virtual Lab @ NITK Surathkal</title>
-  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
-  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
-  <link rel="stylesheet" href="http://solve.nitk.ac.in/modules/mod_superfishmenu/tmpl/css/superfish.css" type="text/css" />
-  <link class="custom" href="images/favicon.png" rel="shortcut icon">
- <link href="css/default.css" rel="stylesheet">
+<html class="no-js" lang="en">
+<head>
+
+    <!--It is a good practice to declare the encoding even for an 
+  English Web site. One function of this is to tag is to "reset"
+  the user's browser back to Latin-1 and ensure proper font 
+  settings. The Unicode "utf-8" encoding also ensures that any 
+  special characters inserted such as "Smart quotes", currency 
+  symbols, em-dashes and so forth will be properly displayed in
+  most browsers.-->
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <!-- The following meta element gives the appearance of using 
+  Internet Explorer (IE) but actually renders the page in google 
+  chrome thus rescuing the older IE versions and providing the 
+  speed and standards compliance, and security of Chrome 
+  http://tech18.com/google-chrome-frame-rescue-older-ie.html -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <!-- The default title of the lab. -->
+
+    <title class="custom" id="page-title">Virtual Labs</title>
+    <!-- Following meta tags store the information about the 
+  author and any other relevant information about the  code -->
+    <meta class="custom" content="" name="author">
+    <meta class="custom" content="" name="description">
+    <!-- Place the relative address of the favicon 
+  ("images/logo.jpeg" here). All major browsers support the link
+  rel="shortcut icon"  tag to associate a small icon with the 
+  page -->
+    <link class="custom" href="images/favicon.png" rel="shortcut icon">
+    <!-- These are the stylesheets used for the lab. Please don't
+  edit them; If you do, you will lose the edits in subsequent 
+  releases of this User Interface. -->
+    <link href="css/default.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <!-- Instead add your custom styles to override the defaults 
   coming from the above style sheets. -->
     <link href="css/override.css" rel="stylesheet">
- <script type="text/javascript" src="js/modernizr-1.5.min.js" ></script>
-<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-
-
-<link rel="stylesheet" href="http://solve.nitk.ac.in/modules/mod_superfishmenu/tmpl/css/template.css" type="text/css" />
- 
-
+    <!-- ***************************************************** -->
+    <!-- All JavaScript at the bottom, except for Modernizr which
+  enables HTML5 elements & feature detects -->
  <style type="text/css">
-
-
-#pillmenu {
-	height:50px;
-	margin:0 auto;
-	padding:0;
-	width:1020px;
-}
-
-#pillmenu ul {
-	line-height:normal;
-	list-style:none outside none;
-	margin:0;
-	padding:0 0 0 15px;
-width: 1010px;
-}
-
-#pillmenu li {
-	background:url(images/img03.gif) no-repeat scroll right top transparent;
-	float:left;
-	height:50px;
-}
-
-#pillmenu li:hover {
-
-}
-
-#pillmenu li a#active_menu-nav {
-	
-}
-
-#pillmenu li a {
-	border:medium none;
-	color:#FFFFFF;
-	display:block;
-	font-family:Arial,Helvetica,sans-serif;
-	font-size:13px;
-	margin-right:3px;
-	margin-top:10px;
-	padding:7px 20px;
-	text-decoration:none;
-}
-
-#pillmenu li a:hover {
-	text-decoration:underline;
-}
-  </style>
- <style type="text/css">
-    
+  
 .sf-menu li:hover, .sf-menu li.sfHover,
 .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
 	background:none;
@@ -83,22 +50,98 @@ width: 1010px;
 
 .sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
 background:none;
-}
-    
-  </style>
-  <script type="text/javascript" src="/plugins/system/mtupgrade/mootools.js"></script>
-  <script type="text/javascript" src="/media/system/js/caption.js"></script>
-  <script type="text/javascript" src="http://solve.nitk.ac.in/modules/mod_superfishmenu/tmpl/js/jquery.js"></script>
-  <script type="text/javascript" src="http://solve.nitk.ac.in/modules/mod_superfishmenu/tmpl/js/jquery.event.hover.js"></script>
-  <script type="text/javascript" src="http://solve.nitk.ac.in/modules/mod_superfishmenu/tmpl/js/supersubs.js"></script>
-  <script type="text/javascript" src="http://solve.nitk.ac.in/modules/mod_superfishmenu/tmpl/js/superfish.js"></script>
-  <script type="text/javascript">
-jQuery.noConflict();
-jQuery(function($){ $("ul.sf-menu").supersubs({minWidth:10, maxWidth:30, extraWidth:0}).superfish({hoverClass:'sfHover', pathClass:'active', pathLevels:0, delay:800, animation:{height:'show'}, speed:'def', autoArrows:0, dropShadows:0}) });
-jQuery.event.special.hover.delay = 100;
-jQuery.event.special.hover.speed = 100;
+}</style>
+<style>
 
-  </script>
+nav ul {
+	background: #787878; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #787878 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+
+
+
+
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+nav ul li {
+	float: left;
+}
+	nav ul li:hover {
+		background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+	}
+		nav ul li:hover a {
+			color: #fff;
+		}
+	
+	nav ul li a {
+		display: block; padding: 25px 40px;
+		color: #fff; text-decoration: none;
+	}
+nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 15px 40px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: #4b545f;
+			}
+
+nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}
+
+nav ul ul ul li{
+	width:260px;
+}
+#pillmenu {
+    height: 0px;
+    margin: 0px auto;
+    padding: 0px;
+   
+}
+</style>
+    <script type="text/javascript" src="js/modernizr-1.5.min.js" ></script>
+   
+<script type="text/javascript" src="js/mootools.js"></script>
+  <script type="text/javascript" src="js/caption.js"></script>
+ <script type="text/javascript" src="js/jquery-1.2.6.js"></script>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.event.hover.js"></script>
+  <script type="text/javascript" src="js/supersubs.js"></script>
+  <script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/ga.js"></script>
+
+ 
+
 
 
     <script type="text/javascript">
@@ -178,22 +221,19 @@ $(document).ready(function()
     </script>
 
 
-<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
-<link rel="stylesheet" href="/templates/solvenitk_01/css/template.css" type="text/css" />
-
-<!--[if lte IE 6]>
-<link rel="stylesheet" href="/templates/solvenitk_01/css/ie6.css" type="text/css" />
-<![endif]-->
-
-
 
 </head>
-<body> 
 
-
-
-
- <div id="container"></div>
+<body>
+ 
+    <div id="container"></div>
     <div id="hidden-content"></div>
+    <!-- Javascript at the bottom for fast page loading -->
+    <!--<script type="text/javascript" src="js/MathJax/MathJax.js"> -->
+    <!-- </script> -->
+    <!-- ******* ADD/OVERRIDE JAVASCRIPT FILES HERE ********** -->
+    <!-- ***************************************************** -->
+
+
 </body>
 </html>

@@ -2645,8 +2645,8 @@ mso-bidi-theme-font:minor-bidi;}
 				
 				<!--<a class="avDownload" href="../images/videoSim/demo_fitt2.flv" title="Click to download media">Download</a>
 		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_c36d006d" title="Click to select"><b>Embed this video on your site</b>--></span>
-				
+				Embed <span class="avEmbed" id="embed_AVPlayerID_c36d006d" title="Click to select"><b>Embed this video on your site</b></span>-->
+				Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/H_SLQQNJJGg?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
 	</span>
 </span>
 
@@ -2676,10 +2676,10 @@ mso-bidi-theme-font:minor-bidi;}
 
 				<a class="avLightbox" href="#AVPlayerID_92a279e8" title="Click to view video in a lightbox popup">Dim lights</a>
 				
-				<!--<a class="avDownload" href="../images/videoSim/fittings.flv" title="Click to download media">Download</a>-->
+				<!--<a class="avDownload" href="../images/videoSim/fittings.flv" title="Click to download media">Download</a>
 		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_92a279e8" title="Click to select"><b>Embed this video on your site</b>--></span>
-				
+				Embed <span class="avEmbed" id="embed_AVPlayerID_92a279e8" title="Click to select"><b>Embed this video on your site</b></span>-->
+				Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/CHIfZ2pLm1Y?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
 	</span>
 </span>
 

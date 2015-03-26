@@ -363,7 +363,19 @@ Ergun’s equation. Comment on effect of superficial velocity on ΔP and ε.</br
                     "experiment-article-section-3-content">
                         <div class="divQuiz">
                             <div id="displayQuiz">
-                              <!--  <form id="form11" method="post" name="form11">
+                             
+
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="indexs.html">Self Evaluation</a>
+
+
+ <!--  <form id="form11" method="post" name="form11">
                                     <p >	
   <OL id="wrap">
 <LI> 	
@@ -1970,10 +1982,10 @@ mso-bidi-theme-font:minor-bidi;}
 
 				<a class="avLightbox" href="#AVPlayerID_d09049d1" title="Click to view video in a lightbox popup">Dim lights</a>
 				
-				<a class="avDownload" href="../images/videoSim/fluidized.flv" title="Click to download media">Download</a>
+				<!--<a class="avDownload" href="../images/videoSim/fluidized.flv" title="Click to download media">Download</a>
 		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_d09049d1" title="Click to select"><b>Embed this video on your site</b></span>
-				
+				Embed <span class="avEmbed" id="embed_AVPlayerID_d09049d1" title="Click to select"><b>Embed this video on your site</b></span>-->
+				Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/n2fxJAlNiQM?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
 	</span>
 </span>
 

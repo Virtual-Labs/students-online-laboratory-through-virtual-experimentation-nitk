@@ -156,10 +156,10 @@ edit -->
 
 				<a class="avLightbox" href="#AVPlayerID_baea2dc3" title="Click to view video in a lightbox popup">Dim lights</a>
 				
-				<!--<a class="avDownload" href="..images/swf/Slider Crank Mechanism position with offset.flv" title="Click to download media">Download</a>-->
+				<!--<a class="avDownload" href="..images/swf/Slider Crank Mechanism position with offset.flv" title="Click to download media">Download</a>
 		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_baea2dc3" title="Click to select"><b>Embed this video on your site</b></span>
-				
+				Embed <span class="avEmbed" id="embed_AVPlayerID_baea2dc3" title="Click to select"><b>Embed this video on your site</b></span>-->
+			Embed<input type="text" name="lastname" value="<iframe width="800" height="600" src="https://www.youtube.com/embed/I7pW6blaWTs?rel=0" frameborder="0" allowfullscreen></iframe>">	
 	</span>
 </span>
 
@@ -252,7 +252,14 @@ edit -->
                     "experiment-article-section-8-content">
                         <div class="divContent">
                            
-                            
+                              <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index1.html">Get Started</a>
                         </div>
                     </div>
                 </section>

@@ -1940,9 +1940,7 @@ mso-bidi-theme-font:minor-bidi;}
 				
 				<a class="avDownload" href="../images/videoSim/demo_packedbed_0.flv" title="Click to download media">Download</a>
 		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_307c950f" title="Click to select"><b>Embed this video on your site</b></span>
-				
-	</span>
+				Embed <span class=" yt-uix-form-input-container yt-uix-form-input-text-container "><input class="yt-uix-form-input-text share-embed-code" title="Embed code"></span>
 </span>
 
 <!-- JoomlaWorks "AllVideos" Plugin (v3.1) ends here -->
@@ -1981,10 +1979,10 @@ mso-bidi-theme-font:minor-bidi;}
 
 				<a class="avLightbox" href="#AVPlayerID_e9138396" title="Click to view video in a lightbox popup">Dim lights</a>
 				
-				<!--<a class="avDownload" href="../images/videoSim/packedbed.flv" title="Click to download media">Download</a>-->
+				<!--<a class="avDownload" href="../images/videoSim/packedbed.flv" title="Click to download media">Download</a>
 		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_e9138396" title="Click to select"><b>Embed this video on your site</b></span>
-				
+				Embed <span class="avEmbed" id="embed_AVPlayerID_e9138396" title="Click to select"><b>Embed this video on your site</b></span>-->
+				Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/JXQxdQt3Zac?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
 	</span>
 </span>
 

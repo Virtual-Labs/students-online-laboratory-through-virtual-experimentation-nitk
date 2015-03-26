@@ -325,11 +325,11 @@ In this type of inversion the slider B is held fixed and CE slides back and fort
 
 				<a class="avLightbox" href="#AVPlayerID_f6ecdb76" title="Click to view video in a lightbox popup">Dim lights</a>
 				
-				<!--<a class="avDownload" href="../images/swf/Slider Crank Mechanism Velocity.flv" title="Click to download media">Download</a>-->
+				<!--<a class="avDownload" href="../images/swf/Slider Crank Mechanism Velocity.flv" title="Click to download media">Download</a>
 		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_f6ecdb76" title="Click to select"><b>Embed this video on your site</b></span>
+				Embed <span class="avEmbed" id="embed_AVPlayerID_f6ecdb76" title="Click to select"><b>Embed this video on your site</b></span>-->
 			
-
+Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/ltvaoHeL5zs?rel=0&quot; frameborder="0" allowfullscreen></iframe>">
 	
 	</span>
 </span>
@@ -425,7 +425,14 @@ In this type of inversion the slider B is held fixed and CE slides back and fort
                     "experiment-article-section-8-content">
                         <div class="divContent">
                            
-
+  <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index1.html">Get Started</a>
                             
                         </div>
                     </div>

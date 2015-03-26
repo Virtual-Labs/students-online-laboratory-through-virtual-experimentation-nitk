@@ -2359,10 +2359,10 @@ mso-bidi-theme-font:minor-bidi;}
 
 				<a class="avLightbox" href="#AVPlayerID_aff77408" title="Click to view video in a lightbox popup">Dim lights</a>
 				
-				<!--<a class="avDownload" href="../images/videoSim/demo_ori2.flv" title="Click to download media">Download</a>-->
+				<!--<a class="avDownload" href="../images/videoSim/demo_ori2.flv" title="Click to download media">Download</a>
 		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_aff77408" title="Click to select"><b>Embed this video on your site</b></span>
-				
+				Embed <span class="avEmbed" id="embed_AVPlayerID_aff77408" title="Click to select"><b>Embed this video on your site</b></span>-->
+				Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/Q4cti4NylO8?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
 	</span>
 </span>
 
@@ -2406,10 +2406,10 @@ mso-bidi-theme-font:minor-bidi;}
 
 				<a class="avLightbox" href="#AVPlayerID_c9a2f088" title="Click to view video in a lightbox popup">Dim lights</a>
 				
-				<!--<a class="avDownload" href="../images/videoSim/orifice.flv" title="Click to download media">Download</a>-->
+				<!--<a class="avDownload" href="../images/videoSim/orifice.flv" title="Click to download media">Download</a>
 		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_c9a2f088" title="Click to select"><b>Embed this video on your site</b></span>
-				
+				Embed <span class="avEmbed" id="embed_AVPlayerID_c9a2f088" title="Click to select"><b>Embed this video on your site</b></span>-->
+				Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/ekzdEnr4UMA?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
 	</span>
 </span>
 
