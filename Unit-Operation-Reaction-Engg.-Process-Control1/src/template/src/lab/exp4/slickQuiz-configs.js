@@ -22,52 +22,52 @@ var quizJSON = {
                 {"option": "		Stokes law",      "correct": false}
                // {"option": "cannot say",      "correct": false}		// no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:empty tower velocity in packed bed</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:empty tower velocity in packed bed</p>" // no comma here
+            "correct": "<p><span>Right answer</span> Ans:Bernoullis principle</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Bernoullis principle</p>" // no comma here
         },
          { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
             "q": "For a venturimeter, if you plot log( flow rate) vs log(pressure drop),the slope of the straight  line is?",
             "a": [
                 {"option": "		0.2",               "correct": false},
                 {"option": "		2",   "correct": false},
-                {"option": "0.5",               "correct": false},
-               {"option": "		5", "correct": true} // no comma here
+                {"option": "0.5",               "correct": true},
+               {"option": "		5", "correct": false} // no comma here
             ],
             "select_any": true,
-            "correct": "<p><span>Right answer</span> Ans:Ergun equation</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Ergun equation</p>" // no comma here
+            "correct": "<p><span>Right answer</span> Ans:0.5</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:0.5</p>" // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
             "q": "  -------------------- is the characteristic of a venturimeter.",
             "a": [
-                {"option": "		vena contracta",           "correct": true},
-                {"option": "throat",                  "correct": false}
-              //  {"option": "a concentric hole",  "correct": false},		
-               // {"option": "		Nozzle",          "correct": false} // no comma here
+                {"option": "		vena contracta",           "correct": false},
+                {"option": "throat",                  "correct": true}
+               {"option": "a concentric hole",  "correct": false},		
+                {"option": "		Nozzle",          "correct": false} // no comma here
             ],
-             "correct": "<p><span>Right answer</span> Ans:same as</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:same as</p>" // no comma here
+             "correct": "<p><span>Right answer</span> Ans:throat</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:throat</p>" // no comma here
         },
         { // Question 4
             "q": " Around -----------% of pressure is recovered in venturimeter.",
             "a": [
                 {"option": "60%",    "correct": false},
-                {"option": "		40%",     "correct": true},
-		 {"option": "90%",     "correct": false},
+                {"option": "		40%",     "correct": false},
+		 {"option": "90%",     "correct": true},
 		 {"option": "10%",     "correct": false}
 		
 		
                // {"option": "Pressure gauge reading of tank 1 and that of tank 2 are same",      "correct": true}
                 //{"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:proportional to the velocity</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans is:proportional to the velocity</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:90%</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans is:90%</p>"  // no comma here
         },
        { // Question 5
             "q": " Pressure recovery takes place in ---------------of the venturimeter",
             "a": [
-                {"option": "throat",    "correct": false},
-                {"option": "diverging section",     "correct": true},
+                {"option": "throat",    "correct": true},
+                {"option": "diverging section",     "correct": false},
 		 {"option": "converging section",  "correct": false},
 
                 {"option": "all of the above",  "correct": false} 
@@ -75,8 +75,8 @@ var quizJSON = {
 
 // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:nonlinear</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:nonlinear</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:throat</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:throat</p>"  // no comma here
         } // no comma here
     ]
 };

@@ -22,8 +22,8 @@ var quizJSON = {
                 {"option": "equal to",      "correct": false},
                 {"option": "cannot say",      "correct": false}		// no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:less than</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:less than</p>" // no comma here
+            "correct": "<p><span>Right answer</span> Ans:empty tower velocity in packed bed</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:empty tower velocity in packed bed</p>" // no comma here
         },
          { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
             "q": " Orificemeter is -------------------------- type of flowmeter?",

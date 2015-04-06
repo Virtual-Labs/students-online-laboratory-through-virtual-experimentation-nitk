@@ -22,8 +22,8 @@ var quizJSON = {
                // {"option": "reactions are accompanied with release of energy",      "correct": false},
                // {"option": "none of the above ",      "correct": false}		// no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:True</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:True</p>" // no comma here
+            "correct": "<p><span>Right answer</span> Ans:empty tower velocity in packed bed</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:empty tower velocity in packed bed</p>" // no comma here
         },
          { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
             "q": " Under fluidized condition?",

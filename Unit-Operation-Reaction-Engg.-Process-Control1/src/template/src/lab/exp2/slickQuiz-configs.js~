@@ -75,8 +75,8 @@ var quizJSON = {
 
 // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:equivalent length of a straight pipe</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:equivalent length of a straight pipe</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:nonlinear</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:nonlinear</p>"  // no comma here
         } // no comma here
     ]
 };

@@ -122,7 +122,7 @@ var quizJSON = {
 // no comma here
             ],
             "correct": "<p><span>Right answer</span> Ans:umax = 2 uav</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:umax = 2 uav</p>"  // no comma here
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:nonlinear</p>"  // no comma here
         }  // no comma here
     ]
 };
