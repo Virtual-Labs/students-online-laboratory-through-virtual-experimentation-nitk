@@ -17,8 +17,8 @@ var quizJSON = {
         { // Question 1 - Multiple Choice, Single True Answer
             "q": " A body is said to undergo free vibration, when?",
             "a": [
-                {"option": "It  vibrates in free space",      "correct": true},
-                {"option": "It vibrates  freely with no force acting on it",     "correct": false},
+                {"option": "It  vibrates in free space",      "correct": false},
+                {"option": "It vibrates  freely with no force acting on it",     "correct": true},
                 {"option": "The force causing the initial displacement  is removed",      "correct": false},
                 {"option": "It vibrates freely with no resistive force acting on it",     "correct": false} // no comma here
             ],
@@ -62,9 +62,9 @@ var quizJSON = {
         { // Question 5 
             "q": " For a cantilever beam with a point load at the free end, The stiffness is ",
             "a": [
-                {"option": "48EI/L3 ",    "correct": true},
+                {"option": "48EI/L3 ",    "correct": false},
                 {"option": "192EI/L3",     "correct": false},
-		 {"option": "3EI/L3",  "correct": false},
+		 {"option": "3EI/L3",  "correct": true},
                 {"option": "EI/L3",  "correct": false} 
 
 
@@ -76,8 +76,8 @@ var quizJSON = {
  { // Question 5
             "q": "For a Fixed-Fixed beam with a point load at the middle, The stiffness is",
             "a": [
-                {"option": "48EI/L3 ",    "correct": true},
-                {"option": " 192EI/L3",     "correct": false},
+                {"option": "48EI/L3 ",    "correct": false},
+                {"option": " 192EI/L3",     "correct": true},
 		 {"option": "3EI/L3",  "correct": false},
                 {"option": "EI/L3",  "correct": false} 
 
@@ -90,16 +90,16 @@ var quizJSON = {
   { // Question 5
             "q": " In free vibration experiment the damping may occur due to",
             "a": [
-                {"option": "Friction at support",    "correct": true},
+                {"option": "Friction at support",    "correct": false},
                 {"option": "Hysteresis damping",     "correct": false},
-		 {"option": "Both a and b",  "correct": false},
+		 {"option": "Friction at support and Hysteresis damping",  "correct": true},
                 {"option": "None of the above",  "correct": false} 
 
 
 // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans: Both a and b</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans: Both a and b</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans: Friction at support and Hysteresis damping</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:Friction at support and Hysteresis damping</p>"  // no comma here
         },
  { // Question 5
             "q": " A FFT plot is a?",

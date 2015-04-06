@@ -62,9 +62,9 @@ var quizJSON = {
         { // Question 5 
             "q": " For a cantilever beam with a point load at the free end, The stiffness is ",
             "a": [
-                {"option": "48EI/L3 ",    "correct": true},
+                {"option": "48EI/L3 ",    "correct": false},
                 {"option": "192EI/L3",     "correct": false},
-		 {"option": "3EI/L3",  "correct": false},
+		 {"option": "3EI/L3",  "correct": true},
                 {"option": "EI/L3",  "correct": false} 
 
 
@@ -76,8 +76,8 @@ var quizJSON = {
  { // Question 5
             "q": "For a Fixed-Fixed beam with a point load at the middle, The stiffness is",
             "a": [
-                {"option": "48EI/L3 ",    "correct": true},
-                {"option": " 192EI/L3",     "correct": false},
+                {"option": "48EI/L3 ",    "correct": false},
+                {"option": " 192EI/L3",     "correct": true},
 		 {"option": "3EI/L3",  "correct": false},
                 {"option": "EI/L3",  "correct": false} 
 
@@ -90,9 +90,9 @@ var quizJSON = {
   { // Question 5
             "q": " In free vibration experiment the damping may occur due to",
             "a": [
-                {"option": "Friction at support",    "correct": true},
+                {"option": "Friction at support",    "correct": false},
                 {"option": "Hysteresis damping",     "correct": false},
-		 {"option": "Both a and b",  "correct": false},
+		 {"option": "Friction at support and Hysteresis damping",  "correct": true},
                 {"option": "None of the above",  "correct": false} 
 
 
@@ -126,8 +126,8 @@ var quizJSON = {
 
 // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans: kx+mx=0</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:kx+mx=0</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:  mx+kx=0</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans: mx+kx=0</p>"  // no comma here
         } ,
 { // Question 5
             "q": " The moment of inertia of the beam cross-section and for a circular cross-section it is given as,?",
@@ -140,8 +140,8 @@ var quizJSON = {
 
 // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans: I=pi/62d4</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:I=pi/62d4</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans: I=pi/64d4</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:I=pi/64d4</p>"  // no comma here
         }   
     ]
 };
