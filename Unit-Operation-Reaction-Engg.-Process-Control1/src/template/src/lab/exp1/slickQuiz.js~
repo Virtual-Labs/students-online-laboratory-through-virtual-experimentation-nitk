@@ -22,7 +22,7 @@
                 tryAgainText: '',
                 skipStartButton: false,
                 numberOfQuestions: 5,
-                randomSort: false,
+                randomSort: true,
                 randomSortQuestions: true,
                 randomSortAnswers: true,
                 preventUnanswered: false,

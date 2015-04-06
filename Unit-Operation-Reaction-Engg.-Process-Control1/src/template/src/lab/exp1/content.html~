@@ -1853,7 +1853,7 @@ mso-bidi-theme-font:minor-bidi;}
 "<iframe width="800" height="600" src="https://www.youtube.com/embed/CHIfZ2pLm1Y?rel=0" frameborder="0" allowfullscreen></iframe>"	</span></br>
 
 				<a class="avLightbox" href="#AVPlayerID_65ed5c82" title="Click to view video in a lightbox popup">Dim lights</a>
-				<input id="id_input_text16" type="text" placeholder="Ender Data" value ="<iframe width=  /"800/" ></iframe>"></input>
+				
 				<!--<a class="avDownload" href="../images/videoSim/demo_pipes2.flv" title="Click to download media">Download</a>
 		
 				Embed <span class="avEmbed" id="embed_AVPlayerID_65ed5c82" title="Click to select"><b>Embed this video on your site</b></span>-->

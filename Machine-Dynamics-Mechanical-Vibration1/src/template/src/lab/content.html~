@@ -33,8 +33,8 @@ jQuery.event.special.hover.speed = 100;
         <header id="lab-header">
             <div class="logo" id="lab-header-logo">
             <!-- Enclose the logo image of your lab or write it in 
-      text
-            <img src="images/logo.png">-->
+      text-->
+            <img src="images/logo.png">
 </div>
 
         
@@ -60,10 +60,10 @@ jQuery.event.special.hover.speed = 100;
 						</td>
 					</tr>
 				</table>
-		</div>-->
+		</div>
 
 
-          <!-- <div class="pillmenu" >
+          <div class="pillmenu" >
                 Write the name of your lab and link it to the home page
     of your lab. 
                 

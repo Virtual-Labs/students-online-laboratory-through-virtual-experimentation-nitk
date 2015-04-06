@@ -450,6 +450,14 @@ References <br><br>
 5. Vibration and Acoustics by “Sujatha” by Mc Graw Hill Education, 2010<br><br>
 
 6. Mechanical Vibrations by “G K Grover”, NEM Chand & Bros, 20009 <br><br>
+
+
+NPTEL LINKS :- <br><br>
+<a href="https://www.youtube.com/watch?v=tJNaPt5aPmg">https://www.youtube.com/watch?v=tJNaPt5aPmg
+</a> <br><br>
+<a href="https://www.youtube.com/watch?v=Pa6ugAJhrOY">https://www.youtube.com/watch?v=Pa6ugAJhrOY</a> <br><br>
+
+
 </p> 
                         </div>
                     </div>
@@ -474,24 +482,35 @@ References <br><br>
                     </div>
                 </section>
                
-                <section id="experiment-article-section-8">
+                 <section id="experiment-article-section-8">
                     <div class="icon" id="experiment-article-section-8-icon">
                     <!-- Enclose the icon image of your lab.-->
                     <img src="../images/quiz.jpg"></div>
-                    
 
                     <div class="heading" id=
                     "experiment-article-section-8-heading">
                         Quiz 
                     </div>
 
-                    <div class="content" id= "experiment-article-section-8-content">
-                        <div class="divQuiz">
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        <div class="divContent">
+                           
+                             <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index1.html">Get Started</a>
+
+
+
                             
                         </div>
                     </div>
                 </section>
-
              
 
               

@@ -118,7 +118,7 @@ height:100px;
 
 nav#lab-article-navigation ul, nav#experiment-article-navigation ul
 {
-	/*margin-left:21px;*/
+	/*margin-left:21px;*/margin-left: 30px;
 }
 
 nav#lab-article-navigation ul li, nav#experiment-article-navigation ul li
