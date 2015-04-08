@@ -27,7 +27,7 @@
                     }, 
                     "department": "", 
                     "institute": "NITK Surathkal", 
-                    "name": "Jawahar C.V", 
+                    "name": "Mohit tahiliani", 
                     "organization": "", 
                     "role": "Lab Developer", 
                     "title": "", 
@@ -52,11 +52,11 @@
                 }
             ], 
             "discipline": [
-                "Computer Science & Engineering"
+                "Strength-of-Materials"
             ], 
-            "id": "cse02", 
+            "id": "civ02", 
             "integration_level": 5, 
-            "name": "Computer Programming", 
+            "name": "Civil", 
             "server-side": true, 
             "status": "Released", 
             "type": ""

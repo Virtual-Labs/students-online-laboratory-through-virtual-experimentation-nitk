@@ -64,8 +64,8 @@ var quizJSON = {
             "a": [
                 {"option": " It is fast at returning once launched",    "correct": false},
                 {"option": "It brings back quick results",     "correct": false},
-		 {"option": " Its returning motion is quicker than its advancing motion",  "correct": false},
-                {"option": " It gives immediate feedback",  "correct": true} 
+		 {"option": " Its returning motion is quicker than its advancing motion",  "correct": true},
+                {"option": " It gives immediate feedback",  "correct": false} 
 
 
 // no comma here
