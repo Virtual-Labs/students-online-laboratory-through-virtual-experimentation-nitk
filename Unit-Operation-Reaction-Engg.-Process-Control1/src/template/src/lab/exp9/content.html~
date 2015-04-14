@@ -165,7 +165,7 @@
 <section id="experiment-article-section-2">
 	<div class="icon" id="experiment-article-section-2-icon">
 	<!-- Enclose the icon image of your lab.-->
-	<img src="../images/procedure.jpg" style="padding-left: 20px;"></div>
+	 <img src="../images/procedure.jpg" style="padding-left: 20px;"></div>
 	
 	<div class="heading" id=
 	"experiment-article-section-2-heading">
@@ -678,7 +678,7 @@ color: #FFF;
 background-color: #008B8B;
 border: 1px solid #FFF;
 border-radius: 5px;
-text-decoration: none;" href="index1.html">Get Started!</a>
+text-decoration: none;" href="index1.html">Get Started</a>
 
 <form id="form11" method="post" name="form11">
 	

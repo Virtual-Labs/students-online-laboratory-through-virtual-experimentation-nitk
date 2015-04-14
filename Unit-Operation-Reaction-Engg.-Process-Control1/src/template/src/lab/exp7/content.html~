@@ -555,7 +555,7 @@ The frequency factor (ko)= <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>
  <section id="experiment-article-section-3">
                     <div class="icon" id="experiment-article-section-3-icon">
                     <!-- Enclose the icon image of your lab. -->
-                     <img src="../images/selfevaluation.jpg" style="padding-left: 30px;"></div>
+                      <img src="../images/selfevaluation.jpg" style="padding-left:50px;"></div>
                     <!-- The heading for the section can be enclosed in a 
         div tag. -->
 
@@ -657,7 +657,7 @@ The conversion of a reactant, undergoing a first-order reaction, at a time equal
  <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
                     <!-- Enclose the icon image of your lab.-->
-                     <img src="../images/simulation.jpg" style="padding-left: 10px;"></div>
+                     <img src="../images/simulation.jpg" style="padding-left: 20px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-4-heading">
@@ -2571,7 +2571,7 @@ color: #FFF;
 background-color: #008B8B;
 border: 1px solid #FFF;
 border-radius: 5px;
-text-decoration: none;" href="index1.html">Get Started!</a>            
+text-decoration: none;" href="index1.html">Get Started</a>            
 
 
 

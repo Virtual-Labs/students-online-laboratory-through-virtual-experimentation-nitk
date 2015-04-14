@@ -334,7 +334,7 @@ Report equivalent length of the fitting and compare with other types.
   <section id="experiment-article-section-3">
                     <div class="icon" id="experiment-article-section-3-icon">
                     <!-- Enclose the icon image of your lab. -->
-                     <img src="../images/selfevaluation.jpg" style="padding-left: 30px;"></div>
+                    <img src="../images/selfevaluation.jpg" style="padding-left:50px;"></div>
                     <!-- The heading for the section can be enclosed in a 
         div tag. -->
 
@@ -487,7 +487,7 @@ Losses for flow through valves and fittings are expressed in terms of
                 <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/simulation.jpg" style="padding-left: 10px;"></div>
+                    <img src="../images/simulation.jpg" style="padding-left: 20px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-4-heading">
@@ -2727,7 +2727,7 @@ color: #FFF;
 background-color: #008B8B;
 border: 1px solid #FFF;
 border-radius: 5px;
-text-decoration: none;" href="index1.html">Get Started!</a>
+text-decoration: none;" href="index1.html">Get Started</a>
             
 
  <form id="form11" method="post" name="form11">

@@ -568,7 +568,7 @@ Discuss on effect of Reynolds number on friction factor.</br>
   <section id="experiment-article-section-3">
                     <div class="icon" id="experiment-article-section-3-icon">
                     <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/selfevaluation.jpg" style="padding-left: 30px;"></div>
+                   <img src="../images/selfevaluation.jpg" style="padding-left:50px;"></div>
                     <!-- The heading for the section can be enclosed in a 
         div tag. -->
 
@@ -661,7 +661,7 @@ Flow is laminar when Reynolds number is:
 <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/simulation.jpg" style="padding-left: 10px;"></div>
+                    <img src="../images/simulation.jpg" style="padding-left: 20px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-4-heading">
