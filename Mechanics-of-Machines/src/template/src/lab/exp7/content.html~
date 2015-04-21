@@ -316,7 +316,7 @@ In this type of inversion the slider B is held fixed and CE slides back and fort
 		
 				Embed <span class="avEmbed" id="embed_AVPlayerID_956d1d5e" title="Click to select"><b>Embed this video on your site</b></span>-->
 				
-<input type="text" name="lastname" value="<iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OOHsw3X-CAw?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
+Embed<input type="text" name="lastname" value="<iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OOHsw3X-CAw?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
 	</span>
 </span>
 
@@ -425,7 +425,38 @@ text-decoration: none;" href="index1.html">Get Started</a>
                     </div>
                 </section>
 
-              
+              <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/nptel_library_icon.png"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        NPTEL  
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+                        <div class="divContent">
+                           NPTEL LINKS:-<br>
+                             <a href="https://www.youtube.com/watch?v=tJNaPt5aPmg
+
+"> https://www.youtube.com/watch?v=fEdz91oWrts
+
+</a><br>
+  
+ <a href="https://www.youtube.com/watch?v=tJNaPt5aPmg
+
+"> https://www.youtube.com/watch?v=EVqBzOGQlkI
+
+</a><br>
+
+
+
+                            
+                        </div>
+                    </div>
+                </section>
 
               
             </div>

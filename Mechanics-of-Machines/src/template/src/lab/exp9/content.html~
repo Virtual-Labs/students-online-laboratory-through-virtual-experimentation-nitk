@@ -330,7 +330,7 @@ Example: Hand pump
 				<!--<a class="avDownload" href="../images/swf/Slider Crank Mechanism Acceleration.flv" title="Click to download media">Download</a>
 		
 				Embed <span class="avEmbed" id="embed_AVPlayerID_d0487505" title="Click to select"><b>Embed this video on your site</b></span>-->
-			Embed<input type="text" name="lastname" value="<iframe width="800" height="600" src="https://www.youtube.com/embed/Z0TsoYp3ZyM?rel=0" frameborder="0" allowfullscreen></iframe>">	
+			Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/Z0TsoYp3ZyM?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">	
 	</span>
 </span>
 <!-- JoomlaWorks "AllVideos" Plugin (v3.1) ends here -->
@@ -434,7 +434,38 @@ text-decoration: none;" href="index1.html">Get Started</a>
                     </div>
                 </section>
 
-              
+             <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/nptel_library_icon.png"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        NPTEL  
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+                        <div class="divContent">
+                           NPTEL LINKS:-<br>
+                             <a href="https://www.youtube.com/watch?v=tJNaPt5aPmg
+
+"> https://www.youtube.com/watch?v=fEdz91oWrts
+
+</a><br>
+  
+ <a href="https://www.youtube.com/watch?v=tJNaPt5aPmg
+
+"> https://www.youtube.com/watch?v=EVqBzOGQlkI
+
+</a><br>
+
+
+
+                            
+                        </div>
+                    </div>
+                </section>    
 
                 
             </div>

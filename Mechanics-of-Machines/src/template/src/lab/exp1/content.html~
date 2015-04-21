@@ -443,7 +443,18 @@ $$\gamma=\theta_4-\theta_3$$</br>
                     "experiment-article-section-8-content">
                         <div class="divQuiz">
                             <div id="displayQuiz">
-                                <form id="form11" method="post" name="form11">
+                               
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index1.html">Get Started</a>
+
+
+ <form id="form11" method="post" name="form11">
                                    
                                 </form><br>
                             </div><br>
@@ -451,7 +462,37 @@ $$\gamma=\theta_4-\theta_3$$</br>
                     </div>
                 </section>
         
-               
+                 <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/nptel_library_icon.png"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        NPTEL  
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+                        <div class="divContent">
+                           NPTEL LINKS:-<br>
+                             <a href="https://www.youtube.com/watch?v=tJNaPt5aPmg
+
+">https://www.youtube.com/watch?v=fEdz91oWrts
+
+</a><br>
+  <a href="https://www.youtube.com/watch?v=JZWf2sdKhS8
+
+">https://www.youtube.com/watch?v=JZWf2sdKhS8
+
+</a>
+
+
+
+                            
+                        </div>
+                    </div>
+                </section>
             </div>
         </article>
     </div>
