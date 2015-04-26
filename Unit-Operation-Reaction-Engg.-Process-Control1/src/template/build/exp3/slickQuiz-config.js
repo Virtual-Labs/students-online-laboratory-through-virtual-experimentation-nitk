@@ -20,7 +20,7 @@ var quizJSON = {
                 {"option": "Orifice Reynolds number only",      "correct": false},
                 {"option": "β ratio only",     "correct": false},
                 {"option": "Both Orifice Reynolds number and β ratio",      "correct": true},
-                {"option": "None of these ",      "correct": false}		// no comma here
+                {"option": "None",      "correct": false}		// no comma here
             ],
             "correct": "<p><span>Right answer</span> Ans:Both Orifice Reynolds number and β ratio</p>",
             "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Both Orifice Reynolds number and β ratio</p>" // no comma here

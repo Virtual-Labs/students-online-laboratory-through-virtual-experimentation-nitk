@@ -20,7 +20,7 @@ var quizJSON = {
                 {"option": "reactants are in gaseous phase",      "correct": true},
                 {"option": "sales demand of product is not steady",     "correct": false},
                 {"option": "reactions are accompanied with release of energy",      "correct": false},
-                {"option": "	none of the above ",      "correct": false}		// no comma here
+                {"option": "	none",      "correct": false}		// no comma here
             ],
             "correct": "<p><span>Right answer</span> Ans:empty tower velocity in packed bed</p>",
             "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:empty tower velocity in packed bed</p>" // no comma here
@@ -54,7 +54,7 @@ var quizJSON = {
                 {"option": "reactants are in gaseous phase",    "correct": false},
                 {"option": "	sales demand of product is not steady",     "correct": true},
 		 {"option": "reactions are accompanied with release of energy",     "correct": false},
-		 {"option": "none of the above",     "correct": false}
+		 {"option": "none",     "correct": false}
 		
 		
                // {"option": "Pressure gauge reading of tank 1 and that of tank 2 are same",      "correct": true}

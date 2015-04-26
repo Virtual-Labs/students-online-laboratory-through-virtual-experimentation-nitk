@@ -105,24 +105,18 @@ Look at the few of the real systems shown below,try to make suitable assumptions
 </h4>
 </p>
 </br>
-<p><img src="../images/frvb1.png" style="width:350px;height:188px">
 
-<img src="../images/frvb2.png"   style="width:487px;height:393px"></br></br>
-
-
-</p>
-
-<h4>A tower crane  overhang is like a cantilever beam
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-A
-double overhang folding bridge</h4>
-<p><img src="../images/frvb3.png"   style="width:564px;height:405px">
-
-<img src="../images/frvb4.png"    style="width:672px;height:374px"></br>
+<p>
+ <div style="width: 50%; height: 100%; float:left;"> <img src="../images/frvb1.png" style="width:350px;height:188px"><br><p>An aircraft wing as a cantilever beam</p> </div>
+    <div style="width: 50%; height: 50%;  float:right;"><img src="../images/frvb2.png"   style="width:487px;height:393px"><br><p>An atomic force probe </p>  </div>
+  </p><br>
+<div style="width: 50%; height: 50%; float:left;"> <img src="../images/frvb3.png"   style="width:564px;height:405px"><br><p>A tower crane  overhang is like a cantilever beam</p> </div>
+    <div style="width: 50%; height: 50%;  float:right;"><img src="../images/frvb4.png"    style="width:672px;height:374px"><br><p>A
+double overhang folding bridge</p>  </div>
+    
 
 
-</p>
+
 
 <p>
 	

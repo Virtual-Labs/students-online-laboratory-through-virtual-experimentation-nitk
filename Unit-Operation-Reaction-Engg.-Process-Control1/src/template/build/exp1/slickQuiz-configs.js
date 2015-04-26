@@ -85,7 +85,7 @@ var quizJSON = {
                 {"option": "	higher for the tube of dia 2 cm",     "correct": false},
 		 {"option": "	the same for both the tubes",  "correct": true},
 
-                {"option": "	none of the above",  "correct": false} 
+                {"option": "	none",  "correct": false} 
 
 
 // no comma here

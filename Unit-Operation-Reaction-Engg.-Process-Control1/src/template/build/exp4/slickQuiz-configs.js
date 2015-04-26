@@ -41,7 +41,7 @@ var quizJSON = {
             "q": "  -------------------- is the characteristic of a venturimeter.",
             "a": [
                 {"option": "		vena contracta",           "correct": false},
-                {"option": "throat",                  "correct": true}
+                {"option": "throat",                  "correct": true},
                {"option": "a concentric hole",  "correct": false},		
                 {"option": "		Nozzle",          "correct": false} // no comma here
             ],
@@ -70,7 +70,7 @@ var quizJSON = {
                 {"option": "diverging section",     "correct": false},
 		 {"option": "converging section",  "correct": false},
 
-                {"option": "all of the above",  "correct": false} 
+                {"option": "All",  "correct": false} 
 
 
 // no comma here

@@ -20,7 +20,7 @@ var quizJSON = {
                 {"option": "f = 24/ Re",      "correct": false},
                 {"option": "f = 18.5/ Re",     "correct": false},
                 {"option": "f = 16/ Re",      "correct": true},
-                {"option": " none of the above",     "correct": false} // no comma here
+                {"option": " none",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Right answer</span> Ans:f = 16/ Re</p>",
             "incorrect": "<p><span>wrong</span> It's wrong,Ans:f = 16/ Re</p>" // no comma here

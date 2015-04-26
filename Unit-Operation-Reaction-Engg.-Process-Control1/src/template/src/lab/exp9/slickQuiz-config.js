@@ -31,7 +31,7 @@ var quizJSON = {
                 {"option": "		100% conversion of the reactant is achieved in 5 minutes",               "correct": false},
                 {"option": "One reactor volume of feed at specified conditions is processed in 5 minutes.",   "correct": true},
                 {"option": "5% conversion is achieved in one minute",               "correct": false},
-              {"option": "		none of these", "correct": false} // no comma here
+              {"option": "		none", "correct": false} // no comma here
             ],
             "select_any": true,
             "correct": "<p><span>Right answer</span> Ans:One reactor volume of feed at specified conditions is processed in 5 minutes.</p>",
@@ -65,7 +65,7 @@ var quizJSON = {
                 {"option": "		zero",    "correct": true},
                 {"option": "		25% of the reactant concentration in the fluid entering the first reactor",     "correct": false},
 		 {"option": "		50% of the reactant concentration in the fluid entering the second reactor",  "correct": false},
-                {"option": "either (a) or (b)",  "correct": false} 
+                { "option": "either zero or 25% of the reactant concentration in the fluid entering the first reactor", "correct": false } 
 
 
 // no comma here

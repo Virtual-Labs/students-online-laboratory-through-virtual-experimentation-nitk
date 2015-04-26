@@ -30,7 +30,7 @@ var quizJSON = {
             "a": [
                 {"option": "		equivalent diameter of the particle",               "correct": false},
                 {"option": "		diameter of the column",   "correct": true},
-               {"option": "none of the above",               "correct": false}	
+               {"option": "none",               "correct": false}	
                // {"option": "0.2", "correct": false} // no comma here
             ],
             "select_any": true,
@@ -42,11 +42,11 @@ var quizJSON = {
             "a": [
                 {"option": "		size,shape and density of particles alone",           "correct": false},
                 {"option": "		density and viscosity of fluid",                  "correct": false},
-                {"option": "		Both( a) and (b)",  "correct": true}	
+                { "option": "		Both size,shape and density of particles alone and density and viscosity of fluid", "correct": true }	
                // {"option": "5",          "correct": false} // no comma here
             ],
-             "correct": "<p><span>Right answer</span> Ans:Both( a) and (b)</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Both( a) and (b)</p>" // no comma here
+                "correct": "<p><span>Right answer</span> Ans:Both size,shape and density of particles alone and density and viscosity of fluid</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Both size,shape and density of particles alone and density and viscosity of fluid</p>" // no comma here
         },
         { // Question 4
             "q": " The height of a fluidized bed at incipient fluidization is 0.075 m, and the corresponding voidage is 0.38.  If the voidage of the bed increases to 0.5, then the height of the bed would be",
