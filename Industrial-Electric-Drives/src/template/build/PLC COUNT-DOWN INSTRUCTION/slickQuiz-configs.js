@@ -42,7 +42,7 @@ var quizJSON = {
                 { "option": "Preset value", "correct": false },
                 { "option": "Accumulated value", "correct": false },
                 { "option": "Status bit", "correct": true },
-                { "option": "None of the above", "correct": false }		
+                { "option": "None", "correct": false }		
                // {"option": "5",          "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:Status bit</p>",
@@ -54,7 +54,7 @@ var quizJSON = {
                 { "option": "Preset value", "correct": false },
                 { "option": "Accumulated value", "correct": true },
                 { "option": "Status bit", "correct": false },
-                { "option": "None of the above", "correct": false }	
+                { "option": "None", "correct": false }	
 		
 		
                // {"option": "Pressure gauge reading of tank 1 and that of tank 2 are same",      "correct": true}
@@ -81,7 +81,7 @@ var quizJSON = {
                 { "option": "UN bit", "correct": true },
                 { "option": "UA bit", "correct": false },
                 { "option": "OV bit", "correct": false },
-                { "option": "None of the above", "correct": false }
+                { "option": "None", "correct": false }
             // {"option": "5",          "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:UN bit</p>",

@@ -20,7 +20,7 @@ var quizJSON = {
                 { "option": "Self-induction", "correct": false},
                   { "option": "Mutual induction", "correct": true },
 
-                { "option": "Both (a) and (b)", "correct": false }
+                { "option": "Both Self-induction and Mutual induction", "correct": false }
             ],
                 "correct": "<p><span>Right answer</span> Ans:Mutual induction</p>",
                 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Mutual induction</p>" // no comma here
@@ -30,7 +30,7 @@ var quizJSON = {
             "a": [
                 { "option": "Can", "correct": false },
                 { "option": "Connect", "correct": true },
-         				{ "option": "Both (a) and (b)", "correct": false }
+         				{ "option": "Both Can and Connect", "correct": false }
                 //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
 
@@ -43,7 +43,7 @@ var quizJSON = {
                 { "option": "Voltage transform ratio", "correct": true },
                 { "option": "Current ratio", "correct": false },
                 { "option": "Power ratio", "correct": false },
-                { "option": "All the above", "correct": false} // no comma here
+                { "option": "All", "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:Voltage transform ratio</p>",
                 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Voltage transform ratio</p>" // no comma here
@@ -64,18 +64,18 @@ var quizJSON = {
                 { "option": "It is cheap", "correct": false },
                 { "option": "It provides more safety", "correct": false },
 				{ "option": "It is not practicable to connect instruments and meters directly to the lines in high voltage circuits", "correct": false },
-                { "option": "Both (b) and (c)", "correct": true }
+                { "option": "Both it provides more safety and it is not practicable to connect instruments and meters directly to the lines in high voltage circuits", "correct": true }
                // {"option": "1291",   "correct": false} // no comma here
             ],
-                "correct": "<p><span>Right answer</span> Ans:Both (b) and (c)</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (b) and (c)</p>"  // no comma here
+                "correct": "<p><span>Right answer</span> Ans:Both it provides more safety and it is not practicable to connect instruments and meters directly to the lines in high voltage circuits</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both it provides more safety and it is not practicable to connect instruments and meters directly to the lines in high voltage circuits</p>"  // no comma here
         },
 		   { // Question 6
 		       "q": "A potential transformer is a ___________  ",
             "a": [
                 { "option": "Step up transformer", "correct": false },
                 { "option": "Step down transformer", "correct": true },
-                { "option": "Both (a) and (b)", "correct": false },
+                { "option": "Both Step up transformer and Step down transformer", "correct": false },
 				 { "option": "None", "correct":false }
                // {"option": "1291",   "correct": false} // no comma here
             ],
@@ -87,7 +87,7 @@ var quizJSON = {
         	       "a": [
                  { "option": "Step up transformer", "correct": true },
                 { "option": "Step down transformer", "correct": false },
-                { "option": "Both (a) and (b)", "correct": false },
+                { "option": "Both Step up transformer and Step down transformer", "correct": false },
 				 { "option": "None", "correct": false }
         	       // {"option": "1291",   "correct": false} // no comma here
             ],
@@ -124,7 +124,7 @@ var quizJSON = {
                 { "option": "The above statement is false", "correct": false },
                 { "option": "The above statement is false, because of the effect of magnetizing current", "correct": false },
                 { "option": "The above statement is true, because of the effect of magnetizing current", "correct": true },
-				 { "option": "None of the above", "correct": false}
+				 { "option": "None", "correct": false}
 		       // {"option": "1291",   "correct": false} // no comma here
             ],
 				 "correct": "<p><span>Right answer</span> Ans:The above statement is true, because of the effect of magnetizing current</p>",
@@ -135,12 +135,12 @@ var quizJSON = {
         	       "a": [
                 { "option": "Standard rated instruments may be used easily", "correct": false },
                 { "option": "It provides safety for operating personal", "correct": false },
-                { "option": "Both (a) and (b)", "correct": true },
+                { "option": "Both standard rated instruments may be used easily and it provides safety for operating personal", "correct": true },
 				 { "option": "None", "correct": false }
         	       // {"option": "1291",   "correct": false} // no comma here
             ],
-				 "correct": "<p><span>Right answer</span> Ans:Both (a) and (b</p>",
-				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b</p>"  // no comma here
+				 "correct": "<p><span>Right answer</span> Ans:Both standard rated instruments may be used easily and it provides safety for operating personal</p>",
+				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both standard rated instruments may be used easily and it provides safety for operating personal</p>"  // no comma here
         	   },
 	        { // Question 12
 	            "q": "Potential transformers are carefully designed to ensure ",

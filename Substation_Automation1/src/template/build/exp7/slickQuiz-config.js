@@ -20,7 +20,7 @@ var quizJSON = {
                 { "option": "Step down transformer", "correct": false },
             { "option": "Step up transformer", "correct": true },
             { "option": "Isolation transformer", "correct": false },
-                { "option": "All the above", "correct": false }
+                { "option": "All ", "correct": false }
             ],
             "correct": "<p><span>Right answer</span> Ans:Step up transformer</p>",
             "incorrect": "<p><span>wrong</span> It's wrong,Ans:Step up transformer</p>" // no comma here
@@ -31,7 +31,7 @@ var quizJSON = {
                  { "option": "Step down transformer", "correct": true },
             { "option": "Step up transformer", "correct": false },
             { "option": "Isolation transformer", "correct": false },
-                { "option": "All the above", "correct": false }
+                { "option": "All", "correct": false }
             //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
 
@@ -44,10 +44,10 @@ var quizJSON = {
                 { "option": "A conservator tank, buchholz relay", "correct": false },
                 { "option": "Breather of dehydrating type", "correct": false },
                 { "option": "Winding temperature-indicator, oil temperature indicatore", "correct": false },
-                { "option": "All the above", "correct": true} // no comma here
+                { "option": "All", "correct": true} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>" // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>" // no comma here
         },
         { // Question 4
             "q": "The tap changing control equipment includes _______ ",
@@ -55,11 +55,11 @@ var quizJSON = {
               { "option": "Control and paralleling equipment", "correct": false },
                 { "option": "Line drop compensator equipment used along with the current transformer to provide voltage control at a point remote from the measuring point", "correct": false },
                 { "option": "Automatic voltage regulating relay", "correct": false },
-                { "option": "All the above", "correct": true }
+                { "option": "All", "correct": true }
             // {"option": "1291",   "correct": false} // no comma here        
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
 		{ // Question 5
 		    "q": "32 step tap changes provide ________ voltage change in each step. ",
@@ -79,7 +79,7 @@ var quizJSON = {
       { "option": "Below the highest oil point", "correct": false },
                 { "option": "Ground level", "correct": false },
                 { "option": "Above the highest oil point", "correct": true },
-				 { "option": "Any of the above", "correct": false }
+				 { "option": "Any of the them", "correct": false }
 		       // {"option": "1291",   "correct": false} // no comma here
             ],
 		       "correct": "<p><span>Right answer</span> Ans:Above the highest oil point</p>",
@@ -91,7 +91,7 @@ var quizJSON = {
            { "option": "Low quality icon core operating at very low flex density so that the magnetizing current may be large", "correct": false },
                 { "option": "Magnesium dioxide breather", "correct": false },
                 { "option": "Silica gel breather", "correct": true },
-				 { "option": "Both (a) and (b)", "correct": false }
+				 { "option": "Both Low quality icon core operating at very low flex density so that the magnetizing current may be large and Magnesium dioxide breather", "correct": false }
 		       // {"option": "1291",   "correct": false} // no comma here
             ],
 		       "correct": "<p><span>Right answer</span> Ans:Silica gel breather</p>",
@@ -102,24 +102,24 @@ var quizJSON = {
              "a": [
                 { "option": "Standard rated instruments may be used easily", "correct": false },
                 { "option": "It provides safety for operating personal", "correct": false },
-                { "option": "Both (a) and (b)", "correct": true },
+                { "option": "Standard rated instruments may be used easily and It provides safety for operating personal", "correct": true },
 				{ "option": "None", "correct": false }
              //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
 
-             "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-             "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>" // no comma here
+				"correct": "<p><span>Right answer</span> Ans:Standard rated instruments may be used easily and It provides safety for operating personal</p>",
+				"incorrect": "<p><span>wrong</span> It's wrong,Ans:Standard rated instruments may be used easily and It provides safety for operating personal</p>" // no comma here
          },
         { // Question 9 - Multiple Choice, Multiple True Answers, Select All
             "q": "Instrument transformers are classified as: ",
             "a": [
                 { "option": "Potential transformer", "correct": false },
                 { "option": "Current transformer", "correct": false },
-                { "option": "Both (a) and (b)", "correct": true },
+                { "option": "Both Potential transformer and Current transformer", "correct": true },
                 { "option": "None", "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>" // no comma here
+                "correct": "<p><span>Right answer</span> Ans:Both Potential transformer and Current transformer</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both Potential transformer and Current transformer</p>" // no comma here
         },
         { // Question 10
             "q": "Potential transformers are made with ",
@@ -150,12 +150,12 @@ var quizJSON = {
 		       "a": [
                 { "option": "There will be no secondary m.m.f. and since the primary current (and m.m.f.) is fixed, the core flux will increase enormously. This will cause large amount of eddy current and hysteresis losses and the resulting high temperature may damage the insulation or even the core", "correct": false },
                 { "option": "As the secondary side is open, a very high voltage will be induced in the multi-turn secondary and this high voltage is dangerous to both life and to the insulation", "correct": false },
-                { "option": "Both (a) and (b)", "correct": true },
+                { "option": "There will be no secondary m.m.f. and since the primary current (and m.m.f.) is fixed, the core flux will increase enormously. This will cause large amount of eddy current and hysteresis losses and the resulting high temperature may damage the insulation or even the core and As the secondary side is open, a very high voltage will be induced in the multi-turn secondary and this high voltage is dangerous to both life and to the insulation", "correct": true },
 				 { "option": "None", "correct": false }
 		       // {"option": "1291",   "correct": false} // no comma here
             ],
-				 "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>"  // no comma here
+				 "correct": "<p><span>Right answer</span> Ans:There will be no secondary m.m.f. and since the primary current (and m.m.f.) is fixed, the core flux will increase enormously. This will cause large amount of eddy current and hysteresis losses and the resulting high temperature may damage the insulation or even the core and As the secondary side is open, a very high voltage will be induced in the multi-turn secondary and this high voltage is dangerous to both life and to the insulation</p>",
+				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:There will be no secondary m.m.f. and since the primary current (and m.m.f.) is fixed, the core flux will increase enormously. This will cause large amount of eddy current and hysteresis losses and the resulting high temperature may damage the insulation or even the core and As the secondary side is open, a very high voltage will be induced in the multi-turn secondary and this high voltage is dangerous to both life and to the insulation</p>"  // no comma here
 		   },
 		   { // Question 13
 		       "q": "In a power transformer, stepping down from 33kV to 11kV on load tap changes is provided along with 16 steps with 1.25% voltage changes in each step and a constant secondary voltage of 11kV is required. If the primary voltage changes from 33kV to 32kV then  ",

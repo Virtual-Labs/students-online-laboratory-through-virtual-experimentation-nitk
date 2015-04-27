@@ -20,7 +20,7 @@ var quizJSON = {
                 { "option": "Circuit Breaker", "correct": true },
                   { "option": "Isolator", "correct": false },
                     { "option": "Insulator", "correct": false },
-                { "option": "All the above", "correct": false }
+                { "option": "All", "correct": false }
             ],
             "correct": "<p><span>Right answer</span> Ans:Circuit Breaker</p>",
             "incorrect": "<p><span>wrong</span> It's wrong,Ans:Circuit Breaker</p>" // no comma here
@@ -31,12 +31,12 @@ var quizJSON = {
                 { "option": "High reliability electrically and mutually", "correct": false },
                 { "option": "Capability of interrupting capacitive and inductive circuits and fault currents of all values within their rating", "correct": false },
                 { "option": "Slower time response", "correct": false },
-				{ "option": "Both (a) and (b)", "correct": true }
+				{ "option": "Both High reliability electrically and mutually and Capability of interrupting capacitive and inductive circuits and fault currents of all values within their rating", "correct": true }
                 //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
-         
-            "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>" // no comma here
+
+				"correct": "<p><span>Right answer</span> Ans:Both High reliability electrically and mutually and Capability of interrupting capacitive and inductive circuits and fault currents of all values within their rating</p>",
+				"incorrect": "<p><span>wrong</span> It's wrong,Ans:Both High reliability electrically and mutually and Capability of interrupting capacitive and inductive circuits and fault currents of all values within their rating</p>" // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
             "q": "In oil circuit breaker (O.C.B) the range exists between ",
@@ -55,7 +55,7 @@ var quizJSON = {
                 {"option": "Current chopping",    "correct": false},
                 {"option": "Sensitivity to restricting voltage",     "correct": false},
                   {"option": "Short arc duration",     "correct": true},
-                {"option": "All the above",      "correct": false}
+                {"option": "All",      "correct": false}
                // {"option": "1291",   "correct": false} // no comma here
             ],
             "correct": "<p><span>Right answer</span> Ans:Short arc duration</p>",
@@ -67,11 +67,11 @@ var quizJSON = {
                 {"option": "Is an inert gas",    "correct": false},
                 {"option": "Has high dielectric strength",     "correct": false},
 				{"option": "Heat transfer property is about 16 times that of air because of high density",     "correct": false},
-                {"option": "All the above",      "correct": true}
+                {"option": "All",      "correct": true}
                // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
 		   { // Question 6
             "q": "In SF6 Circuit breaker ________ ",
@@ -79,11 +79,11 @@ var quizJSON = {
                 {"option": "No risk of fire",    "correct": false},
                 {"option": "No reduction of dielectric strength",     "correct": false},
                 {"option": "Current chopping tendency is minimized",      "correct": false},
-				 {"option": "All the above",      "correct": true}
+				 {"option": "All",      "correct": true}
                // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
 		   { // Question 7
             "q": "The voltage across the contacts during the arcing period is known as ______",
@@ -91,7 +91,7 @@ var quizJSON = {
                 {"option": "Recovery voltage",    "correct": false},
                 {"option": "Restriking voltage",     "correct": false},
                 {"option": "Arc voltage",     "correct": true},
-                {"option": "All the above",      "correct": false}
+                {"option": "All",      "correct": false}
                // {"option": "1291",   "correct": false} // no comma here
             ],
             "correct": "<p><span>Right answer</span> Ans:Arc voltage</p>",
@@ -103,7 +103,7 @@ var quizJSON = {
               {"option": "Recovery voltage",    "correct": false},
                 {"option": "Restriking voltage",     "correct": true},
                 {"option": "Arc voltage",     "correct": false},
-                {"option": "All the above",      "correct": false}
+                {"option": "All",      "correct": false}
             //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
 
@@ -127,11 +127,11 @@ var quizJSON = {
                 { "option": "Breaking capacity", "correct": false },
                 { "option": "Making capacity", "correct": false },
                 { "option": "Short-time capacity", "correct": false },
-                { "option": "None of the above", "correct": true }
+                { "option": "None", "correct": true }
             // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:None of the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:None of the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:None</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:None</p>"  // no comma here
         },
 		{ // Question 11
 		    "q": "The peak value of current (including the DC component) during first cycle of current wave after the closure of Circuit breaker is known as __________",
@@ -139,7 +139,7 @@ var quizJSON = {
          { "option": "Breaking capacity", "correct": false },
                 { "option": "Making capacity", "correct": true },
                 { "option": "Short-time capacity", "correct": false },
-                { "option": "None of the above", "correct": false }
+                { "option": "None", "correct": false }
 		    // {"option": "1291",   "correct": false} // no comma here
             ],
 		    "correct": "<p><span>Right answer</span> Ans:Making capacity</p>",
@@ -151,7 +151,7 @@ var quizJSON = {
          { "option": "Breaking capacity", "correct": true },
                 { "option": "Making capacity", "correct": false },
                 { "option": "Short-time capacity", "correct": false },
-                { "option": "None of the above", "correct": false }
+                { "option": "None", "correct": false }
 		       // {"option": "1291",   "correct": false} // no comma here
             ],
 		       "correct": "<p><span>Right answer</span> Ans:Breaking capacity</p>",
@@ -163,7 +163,7 @@ var quizJSON = {
            { "option": "Breaking capacity", "correct": false },
                 { "option": "Making capacity", "correct": false },
                 { "option": "Short-time capacity", "correct": true },
-                { "option": "None of the above", "correct": false }
+                { "option": "None", "correct": false }
 // no comma here
             ],
             "correct": "<p><span>Right answer</span> Ans:Short-time capacity</p>",

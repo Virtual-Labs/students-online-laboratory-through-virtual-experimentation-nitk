@@ -19,7 +19,7 @@ var quizJSON = {
             "a": [
                 { "option": "CU bit", "correct": false },
                 { "option": "CD bit", "correct": true },
-                        { "option": "None of the above", "correct": false }
+                        { "option": "None", "correct": false }
             ],
                         "correct": "<p><span>Right answer</span> Ans:CD bit</p>",
                         "incorrect": "<p><span>wrong</span> It's wrong,Ans:CD bit</p>" // no comma here
@@ -43,7 +43,7 @@ var quizJSON = {
                 { "option": "C5:12.CU", "correct": false },
                 { "option": "C5:12/CU", "correct": true },
                    { "option": "C5:12-CU", "correct": false },
-                  { "option": "None of the above", "correct": false} // no comma here
+                  { "option": "None", "correct": false} // no comma here
             ],
                   "correct": "<p><span>Right answer</span> Ans:C5:12/CU</p>",
                   "incorrect": "<p><span>wrong</span> It's wrong,Ans:C5:12/CU</p>" // no comma here
@@ -53,7 +53,7 @@ var quizJSON = {
             "a": [
                 { "option": "Input instruction", "correct": false},
                    { "option": "Output instruction", "correct": true },
-                             { "option": "Both (a) and (b)", "correct": false }
+                             { "option": "Both Input instruction and output instruction", "correct": false }
                // {"option": "1291",   "correct": false} // no comma here
             ],
                              "correct": "<p><span>Right answer</span> Ans:Output instruction</p>",

@@ -20,10 +20,10 @@ var quizJSON = {
                 { "option": "Accuracy and quality can be improved", "correct": false },
             { "option": "Productivity can be improved", "correct": false },
             { "option": "Makes it easy to work in difficult or hazardous environment", "correct": false },
-                { "option": "All the above", "correct": true }
+                { "option": "All", "correct": true }
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>" // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
             "q": "In the figure shown below, recognize the following part <br><img src=\"../images/PLC/1.jpg\"\height=300 width=450/>",
@@ -54,8 +54,8 @@ var quizJSON = {
             "a": [
                 { "option": "Connect and isolate ,low voltage input level to high-voltage signal", "correct": false },
                 { "option": "Connect and isolate, high voltage input level from field device to low-voltage signals", "correct": true },
-                { "option": "Both (a) and (b)", "correct": false },
-                { "option": "Neither (a) and (b)", "correct": false }
+                { "option": "Both Connect and isolate ,low voltage input level to high-voltage signal and Connect and isolate, high voltage input level from field device to low-voltage signals", "correct": false },
+                { "option": "Neither Connect and isolate ,low voltage input level to high-voltage signal and Connect and isolate, high voltage input level from field device to low-voltage signals", "correct": false }
                // {"option": "1291",   "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:Connect and isolate, high voltage input level from field device to low-voltage signals</p>",
@@ -91,7 +91,7 @@ var quizJSON = {
                 { "option": "A modular PLC", "correct": false },
                 { "option": "Motion PLC", "correct": false },
                  { "option": "Packaged controller", "correct": true },
-                {"option": "Both",      "correct": false}
+                {"option": "All",      "correct": false}
                // {"option": "1291",   "correct": false} // no comma here
             ],
             "correct": "<p><span>Right answer</span> Ans:Packaged controller</p>",
@@ -180,20 +180,115 @@ var quizJSON = {
             ],
                 "correct": "<p><span>Right answer</span> Ans:I: 2.1/0</p>",
                 "incorrect": "<p><span>wrong</span> It's wrong,Ans:I: 2.1/0</p>"  // no comma here
-		   		   },
-        { // Question 15
-            "q": "What is the address of screw terminal 19 on a 32-point input module in slot 2? ",
-            "a": [
+            },
+		   		   	{ // Question 15
+		   		   	    "q": "What is the address of screw terminal 19 on a 32-point input module in slot 2? ",
+		   		   	    "a": [
                 { "option": "I: 2.0/3", "correct": false },
                 { "option": "I: 2.1/3", "correct": true },
-		 { "option": "I: 2.0/19", "correct": false },
+		        { "option": "I: 2.0/19", "correct": false },
                 { "option": "I: 2.1/19", "correct": false } 
-
-
-// no comma here
+		   		   	    // {"option": "1291",   "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:I: 2.1/3</p>",
                 "incorrect": "<p><span>wrong</span> It's wrong,Ans:I: 2.1/3</p>"  // no comma here
+		   		   	},
+		   { // Question 16
+		       "q": "What is the address of screw terminal 31 on a 32-point input module in slot 1? ",
+		       "a": [
+                { "option": "I: 1.0/15", "correct": false },
+                { "option": "I: 1.0/16", "correct": false },
+                { "option": "I: 1.1/15", "correct": true },
+				 { "option": "I: 1.1/31", "correct": false }
+		       // {"option": "1291",   "correct": false} // no comma here
+            ],
+				 "correct": "<p><span>Right answer</span> Ans:I: 1.1/15</p>",
+				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:I: 1.1/15</p>"  // no comma here
+		   },
+		   { // Question 17
+		       "q": "What is the address of screw terminal 3 on an 8-point output module in slot 4?<br><img src=\"../images/PLC/q5.jpg\"\height=450 width=300/> ",
+		       "a": [
+                { "option": "O: 3.1/4", "correct": false },
+                { "option": "O: 4.0/3", "correct": true },
+                { "option": "O: 4.1/3", "correct": false },
+                { "option": "O: 3.0/4", "correct": false }
+		       // {"option": "1291",   "correct": false} // no comma here
+            ],
+                "correct": "<p><span>Right answer</span> Ans:O: 4.0/3</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:O: 4.0/3</p>"  // no comma here
+		   },
+		   { // Question 18
+		       "q": "What is the address of screw terminal 8 on a 16-point output module in slot 3?<br><img src=\"../images/PLC/q6.jpg\"\height=450 width=300/> ",
+		       "a": [
+                { "option": "I: 3.0/3", "correct": false },
+                { "option": "O: 3.1/8", "correct": false },
+                { "option": "O: 3.0/8", "correct": true },
+                { "option": "O: 3.0/7", "correct": false }
+		       // {"option": "1291",   "correct": false} // no comma here
+            ],
+                "correct": "<p><span>Right answer</span> Ans:O: 3.0/8</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:O: 3.0/8</p>"  // no comma here
+		   },
+		   	   { // Question 19
+		   	       "q": "What is the address of screw terminal 8 on a 32-point output module in slot 4?",
+		   	       "a": [
+                { "option": "O: 4.1/8", "correct": false },
+                { "option": "O: 4.8/1", "correct": false },
+                { "option": "O: 4.0/8", "correct": true },
+                { "option": " O: 4.8/0", "correct": false }
+		   	       // {"option": "1291",   "correct": false} // no comma here
+            ],
+                "correct": "<p><span>Right answer</span> Ans:O: 4.0/8</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:O: 4.0/8</p>"  // no comma here
+		   	   },
+		   		   	{ // Question 20
+		   		   	    "q": "What is the address of screw terminal 16 on a 32-point output module in slot 4? ",
+		   		   	    "a": [
+                { "option": "O: 4.0/16", "correct": false },
+                { "option": "O: 4.1/16", "correct": false },
+				{ "option": "O: 4.0/1", "correct": false },
+                { "option": "O: 4.1/0", "correct": true }
+		   		   	    // {"option": "1291",   "correct": false} // no comma here
+            ],
+                "correct": "<p><span>Right answer</span> Ans:O: 4.1/0</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:O: 4.1/0</p>"  // no comma here
+		   		   	},
+		   { // Question 21
+		       "q": "What is the address of screw terminal 22 on a 32-point output module in slot 4?",
+		       "a": [
+                { "option": "O: 4.0/22", "correct": false },
+                { "option": "O: 4.1/6", "correct": true },
+                { "option": "O: 4.0/22", "correct": false },
+				 { "option": "O: 4.0/6", "correct": false }
+		       // {"option": "1291",   "correct": false} // no comma here
+            ],
+				 "correct": "<p><span>Right answer</span> Ans:O: 4.1/6</p>",
+				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:O: 4.1/6</p>"  // no comma here
+		   },
+		   { // Question 22
+		       "q": "In a fixed PLC, with 16 inputs. What is the address for the input screw terminal 6?<br><img src=\"../images/PLC/q7.jpg\"\height=250 width=500/> ",
+		       "a": [
+                { "option": "I: 0/6", "correct": false },
+                { "option": "I: 0.0/6", "correct": false },
+                { "option": "I: 0.1/6", "correct": false },
+                { "option": "Both a and b", "correct": true }
+		       // {"option": "1291",   "correct": false} // no comma here
+            ],
+                "correct": "<p><span>Right answer</span> Ans:Both a and b</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both a and b</p>"  // no comma here
+		   },
+	        { // Question 23
+	            "q": "In a fixed PLC, with 16 outputs. What is the address for the output screw terminal 7? ",
+            "a": [
+                { "option": "O: 0.0/7", "correct": false },
+                { "option": "O: 0/7", "correct": false },
+		        { "option": "O: 0.1/7", "correct": false },
+                { "option": "Both a and b", "correct": true } 
+
+// no comma here
+            ],
+                "correct": "<p><span>Right answer</span> Ans:Both a and b</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both a and b</p>"  // no comma here
         } // no comma here
     ]
 };

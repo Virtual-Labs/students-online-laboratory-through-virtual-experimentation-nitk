@@ -20,10 +20,10 @@ var quizJSON = {
                 { "option": "400kV", "correct": false},
                   { "option": "220kV", "correct": false },
                     { "option": "132kV", "correct": false },
-                { "option": "All the above", "correct": true }
+                { "option": "All", "correct": true }
             ],
-                "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>" // no comma here
+                "correct": "<p><span>Right answer</span> Ans:All</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
             "q": "Transmission network is commonly known as ____________ ",
@@ -31,7 +31,7 @@ var quizJSON = {
                 { "option": "Pan", "correct": false },
                 { "option": "Lock-head", "correct": false },
                 { "option": "Grid", "correct": true },
-				{ "option": "All the above", "correct": false}
+				{ "option": "All", "correct": false}
                 //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
 
@@ -55,11 +55,11 @@ var quizJSON = {
                 { "option": "Cheaper in cost for operating voltage above 50kV", "correct": false },
                 { "option": "Flexibility is increased with suspension insulators", "correct": false },
                   { "option": "If line insulation needs to be increased, the additional insulators can be easily added to the string", "correct": false },
-                { "option": "All the above", "correct": true}
+                { "option": "All", "correct": true}
                // {"option": "1291",   "correct": false} // no comma here
             ],
-                "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>" // no comma here
+                "correct": "<p><span>Right answer</span> Ans:All</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>" // no comma here
         },
 		{ // Question 5
 		    "q": "Reason for failure of insulator is ________ . ",
@@ -67,35 +67,35 @@ var quizJSON = {
                 { "option": "Mechanical stress", "correct": false },
                 { "option": "Short circuits", "correct": false },
 				{ "option": "Flash-over", "correct": false },
-                { "option": "All the above", "correct": true }
+                { "option": "All", "correct": true }
                // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
 		   { // Question 6
 		       "q": "A circuit breaker is an automatically operated electrical switch designed to protect an electrical circuit from damage caused by ________ . ",
             "a": [
                 { "option": "Overhead", "correct": false },
                 { "option": "Short circuit", "correct": false },
-                { "option": "Both", "correct": true },
-				 { "option": "None of the above", "correct": false }
+                { "option": "Both Overhea and Short circuit", "correct": true },
+				 { "option": "None", "correct": false }
                // {"option": "1291",   "correct": false} // no comma here
             ],
-				 "correct": "<p><span>Right answer</span> Ans:Both</p>",
-				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both</p>"  // no comma here
+				 "correct": "<p><span>Right answer</span> Ans:Both Overhea and Short circuit</p>",
+				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both Overhea and Short circuit</p>"  // no comma here
         },
 	        { // Question 7
 	            "q": "The advantage of using oil in OCB as an arc quenching medium is: ",
             "a": [
            { "option": "It has high dielectric strength", "correct": false },
                 { "option": "As a result of decomposition of oil, it has good cooling property", "correct": false },
-                { "option": "Both (a) and (b)", "correct": true },
+                { "option": "Both It has high dielectric strength and As a result of decomposition of oil, it has good cooling property", "correct": true },
                 { "option": "Highly inflammable", "correct": false }
 // no comma here
             ],
-                "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>"  // no comma here
+                "correct": "<p><span>Right answer</span> Ans:Both It has high dielectric strength and As a result of decomposition of oil, it has good cooling property</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both It has high dielectric strength and As a result of decomposition of oil, it has good cooling property</p>"  // no comma here
         } // no comma here
     ]
 };

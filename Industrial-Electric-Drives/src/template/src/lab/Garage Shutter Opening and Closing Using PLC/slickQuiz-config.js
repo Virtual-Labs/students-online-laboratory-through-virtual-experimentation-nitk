@@ -30,8 +30,8 @@ var quizJSON = {
             "a": [
                 {"option": "LED, ON, OFF",              "correct": false},
                 {"option": "Push button, activated, deactivated",   "correct": true},
-                {"option": "Both (a) and (b)",               "correct": false},
-				{"option": "None of the above",               "correct": false}
+                { "option": "Both LED, ON, OFF and Push button, activated, deactivated", "correct": false },
+				{"option": "None",               "correct": false}
                 //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
          
@@ -44,10 +44,10 @@ var quizJSON = {
                 {"option": "Turning OFF of the light, when the refrigerator door is closed.",           "correct": false},
                 {"option": "Switching ON of car's dome lights when we open the door",                  "correct": false},
                 {"option": "Stopping of the washing machine when load becomes unbalanced",  "correct": false},
-                {"option": "All the above",          "correct": true} // no comma here
+                {"option": "All",          "correct": true} // no comma here
             ],
-             "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>" // no comma here
+             "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>" // no comma here
         },
         { // Question 4
             "q": "___________ is a device, that uses __________ and __________  to provide speed and torque conversions from a rotating power source to another device.",
@@ -55,11 +55,11 @@ var quizJSON = {
                 {"option": "Gear box, lever, pulley",    "correct": false},
                 {"option": "Gear box, shaft, pulley",     "correct": false},
 				{"option": "Gear box, gear, gear trains",     "correct": false},
-                {"option": "All the above",      "correct": true}
+                {"option": "All",      "correct": true}
                // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
 		{ // Question 5 - Multiple Choice, Multiple True Answers, Select Any
             "q": "If the mass of the garage shutter is 500kg, and the diameter of the shaft used to pull is 9.6cm. Calculate the torque required to pull the garage shutter? Assume g=10m/s2",
@@ -79,10 +79,10 @@ var quizJSON = {
             "a": [
                 {"option": "Magnetic",           "correct": false},
                 {"option": "Infrared",                  "correct": false},
-                {"option": "Both (a) and (b)",  "correct": true},
+                { "option": "Both Magnetic and infrared", "correct": true },
                 {"option": "None",          "correct": false} // no comma here
             ],
-             "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
+                "correct": "<p><span>Right answer</span> Ans:Both Magnetic and infrared</p>",
             "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>" // no comma here
         },
         { // Question 7
@@ -91,7 +91,7 @@ var quizJSON = {
                 {"option": "Motor, gear",    "correct": false},
                 {"option": "Gear train, shaft",     "correct": false},
                 {"option": "Coupling, shaft",      "correct": true},
-				{"option": "None of the above",     "correct": false}
+				{"option": "None",     "correct": false}
                // {"option": "1291",   "correct": false} // no comma here
             ],
             "correct": "<p><span>Right answer</span> Ans:Coupling, shaft</p>",
@@ -160,9 +160,6 @@ var quizJSON = {
             "incorrect": "<p><span>wrong</span> It's wrong,Ans:Normally open, normally closed</p>" // no comma here
         },
 
-	   
-	   
-	   
         { //	   Question 13
             "q": "If the diameter of the shaft used to pull the garage shutter is 9.6cm and the size of the garage shutter is 15feet*12 feet, rotation of the shaft is 1000rpm. Then calculate the time required by the garage shutter to open completely from its completely closed condition.",
             "a": [

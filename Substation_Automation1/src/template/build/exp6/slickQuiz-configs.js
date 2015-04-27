@@ -19,7 +19,7 @@ var quizJSON = {
             "a": [
                 { "option": "Can", "correct": false },
                   { "option": "Connect", "correct": true },
-                        { "option": "Both (a) and (b)", "correct": false }
+                        { "option": "Both Can and Connect", "correct": false }
             ],
                         "correct": "<p><span>Right answer</span> Ans:Connect</p>",
                         "incorrect": "<p><span>wrong</span> It's wrong,Ans:Connect</p>" // no comma here
@@ -41,29 +41,29 @@ var quizJSON = {
                 { "option": "It should have good thermal and chemical stability", "correct": false },
                 { "option": "It should have high dielectric strength and are extinguish ability", "correct": false },
                 { "option": "Non- in flammability and high thermal conductivity", "correct": false },
-                { "option": "All the above", "correct": true} // no comma here
+                { "option": "All", "correct": true} // no comma here
             ],
-                "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+                "correct": "<p><span>Right answer</span> Ans:All</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
         { // Question 4
             "q": "SF6 circuit breaker is ",
             "a": [
                 { "option": "Expensive", "correct": false },
                 { "option": "SF6 gas has to be reconditioned after every operation of the breaker and additional equipment is required for these purposes", "correct": false },
-                  { "option": "Both (a) and (b)", "correct": true },
-                { "option": "None of the above", "correct": false }
+                  { "option": "Both Expensiv and SF6 gas has to be reconditioned after every operation of the breaker and additional equipment is required for these purposes", "correct": true },
+                { "option": "None", "correct": false }
                // {"option": "1291",   "correct": false} // no comma here
             ],
-                "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>"  // no comma here
+                "correct": "<p><span>Right answer</span> Ans:Both Expensiv and SF6 gas has to be reconditioned after every operation of the breaker and additional equipment is required for these purposes</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both Expensiv and SF6 gas has to be reconditioned after every operation of the breaker and additional equipment is required for these purposes</p>"  // no comma here
         },
 		{ // Question 5
 		    "q": "A potential transformer is a  ",
             "a": [
                 { "option": "Step up transformer", "correct": false },
                 { "option": "Step down transformer", "correct": true },
-				{ "option": "Both (a) and (b)", "correct": false },
+				{ "option": "Both Step up transformer and Step down transformer", "correct": false },
                 { "option": "None", "correct": false }
                // {"option": "1291",   "correct": false} // no comma here
             ],
@@ -76,7 +76,7 @@ var quizJSON = {
                 { "option": "Circuit breaker", "correct": false },
                 { "option": "Isolator", "correct": true },
                 { "option": "Fuse", "correct": false },
-				 { "option": "None of the above", "correct": false }
+				 { "option": "None", "correct": false }
                // {"option": "1291",   "correct": false} // no comma here
             ],
 				 "correct": "<p><span>Right answer</span> Ans:Isolator</p>",
@@ -87,12 +87,12 @@ var quizJSON = {
         	       "a": [
                 { "option": "Manually operated", "correct": false },
                 { "option": "Motorized", "correct": false },
-                { "option": "Both (a) and (b)", "correct": true },
-				 { "option": "None of the above", "correct": false }
+                { "option": "Both Manually operated and Motorized", "correct": true },
+				 { "option": "None", "correct": false }
         	       // {"option": "1291",   "correct": false} // no comma here
             ],
-				 "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>"  // no comma here
+				 "correct": "<p><span>Right answer</span> Ans:Both Manually operated and Motorized</p>",
+				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both Manually operated and Motorized</p>"  // no comma here
         	   },
         	     { // Question 8
         	         "q": "In a transformer, if N2 is number of secondary winding N1 is the number of primary winding then, if (N2/N1) ratio is greater than 1.It is called as ________ ",
@@ -112,18 +112,18 @@ var quizJSON = {
                 { "option": "A conservator tank, buchholz relay", "correct": false },
                 { "option": "Breather of dehydrating type", "correct": false },
 				{ "option": "Winding temperature-indicator, oil temperature indicator", "correct": false },
-                { "option": "All the above", "correct": true }
+                { "option": "All", "correct": true }
 		    // {"option": "1291",   "correct": false} // no comma here
             ],
-		    "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-		    "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+		    "correct": "<p><span>Right answer</span> Ans:All</p>",
+		    "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
 		},
 		   { // Question 10
 		       "q": "In case of, OFF circuit taps, the transformer must be _________ before the tap changer mechanism is operated. ",
 		       "a": [
                 { "option": "Energized", "correct": false },
                 { "option": "De-energized", "correct": true},
-                { "option": "Both (a) and (b)", "correct": false }
+                { "option": "Both Energized and De-energized", "correct": false }
 
 		       // {"option": "1291",   "correct": false} // no comma here
             ],
@@ -135,7 +135,7 @@ var quizJSON = {
         	       "a": [
                 { "option": "Magnesium dioxide breather", "correct": false },
                 { "option": "Silica gel breather", "correct": true },
-                { "option": "Both (a) and (b)", "correct": false }
+                { "option": "Both Magnesium dioxide breather and Silica gel breather", "correct": false }
 		
         	       // {"option": "1291",   "correct": false} // no comma here
             ],

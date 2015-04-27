@@ -20,7 +20,7 @@ var quizJSON = {
                 { "option": "Step down transformer", "correct": false },
             { "option": "Step up transformer", "correct": true },
             { "option": "Isolation transformer", "correct": false },
-                { "option": "All the above", "correct": false }
+                { "option": "All", "correct": false }
             ],
                 "correct": "<p><span>Right answer</span> Ans:Step up transformer</p>",
                 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Step up transformer</p>" // no comma here
@@ -31,7 +31,7 @@ var quizJSON = {
                   { "option": "Step down transformer", "correct": false },
             { "option": "Step up transformer", "correct": false },
             { "option": "Isolation transformer", "correct": true },
-                { "option": "All the above", "correct": false }
+                { "option": "All", "correct": false }
             ],
 
                 "correct": "<p><span>Right answer</span> Ans:Isolation transformer</p>",
@@ -43,10 +43,10 @@ var quizJSON = {
                 { "option": "Control and paralleling equipment", "correct": false },
                 { "option": "Line drop compensator equipment used along with the current transformer to provide voltage control at a point remote from the measuring point", "correct": false },
                 { "option": "Automatic voltage regulating relay", "correct": false },
-                { "option": "All the above", "correct": true} // no comma here
+                { "option": "All", "correct": true} // no comma here
             ],
-             "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>" // no comma here
+             "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>" // no comma here
         },
         { // Question 4
             "q": "16 step tap changes provide ________ voltage change in each step.  ",
@@ -65,7 +65,7 @@ var quizJSON = {
             "a": [
                 { "option": "Energized", "correct": false },
                 { "option": "De-energized", "correct": true },
-                { "option": "Both (a) and (b)", "correct": false }
+                { "option": "Both Energized and De-energized", "correct": false }
                            // {"option": "1291",   "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:De-energized</p>",
@@ -76,12 +76,12 @@ var quizJSON = {
             "a": [
                 { "option": "Standard rated instruments may be used easily", "correct": false },
                 { "option": "It provides safety for operating personal", "correct": false },
-                { "option": "Both (a) and (b)", "correct": true },
+                { "option": "Both Standard rated instruments may be used easily and It provides safety for operating personal", "correct": true },
 				 { "option": "None", "correct": false }
                // {"option": "1291",   "correct": false} // no comma here
             ],
-				 "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>"  // no comma here
+				 "correct": "<p><span>Right answer</span> Ans:Both Standard rated instruments may be used easily and It provides safety for operating personal</p>",
+				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both Standard rated instruments may be used easily and It provides safety for operating personal</p>"  // no comma here
         },
 		   { // Question 7
 		       "q": "Potential transformers are made with ",
@@ -114,7 +114,7 @@ var quizJSON = {
                 { "option": "The above statement is false", "correct": false },
                 { "option": "The above statement is false, because of the effect of magnetizing current", "correct": false },
                 { "option": "The above statement is true, because of the effect of magnetizing current", "correct": true },
-                { "option": "None of the above", "correct": false} // no comma here
+                { "option": "None", "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:The above statement is true, because of the effect of magnetizing current</p>",
                 "incorrect": "<p><span>wrong</span> It's wrong,Ans:The above statement is true, because of the effect of magnetizing current</p>" // no comma here
@@ -124,12 +124,12 @@ var quizJSON = {
             "a": [
                 { "option": "There will be no secondary m.m.f. and since the primary current (and m.m.f.) is fixed, the core flux will increase enormously. This will cause large amount of eddy current and hysteresis losses and the resulting high temperature may damage the insulation or even the core", "correct": false },
                 { "option": "As the secondary side is open, a very high voltage will be induced in the multi-turn secondary and this high voltage is dangerous to both life and to the insulation", "correct": false },
-                { "option": "Both (a) and (b)", "correct": true },
+                { "option": "There will be no secondary m.m.f. and since the primary current (and m.m.f.) is fixed, the core flux will increase enormously. This will cause large amount of eddy current and hysteresis losses and the resulting high temperature may damage the insulation or even the core and As the secondary side is open, a very high voltage will be induced in the multi-turn secondary and this high voltage is dangerous to both life and to the insulation", "correct": true },
                 { "option": "None", "correct": false }
             // {"option": "1291",   "correct": false} // no comma here
             ],
-                "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>"  // no comma here
+                "correct": "<p><span>Right answer</span> Ans:There will be no secondary m.m.f. and since the primary current (and m.m.f.) is fixed, the core flux will increase enormously. This will cause large amount of eddy current and hysteresis losses and the resulting high temperature may damage the insulation or even the core and As the secondary side is open, a very high voltage will be induced in the multi-turn secondary and this high voltage is dangerous to both life and to the insulation</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:There will be no secondary m.m.f. and since the primary current (and m.m.f.) is fixed, the core flux will increase enormously. This will cause large amount of eddy current and hysteresis losses and the resulting high temperature may damage the insulation or even the core and As the secondary side is open, a very high voltage will be induced in the multi-turn secondary and this high voltage is dangerous to both life and to the insulation</p>"  // no comma here
         },
 		{ // Question 11
 		    "q": "_______ is used to make sure that an electrical circuit can be completely de-energized for service or maintenance.",
@@ -137,7 +137,7 @@ var quizJSON = {
                 { "option": "Circuit breaker", "correct": false },
                 { "option": "Isolator", "correct": true },
 				{ "option": "Fuse", "correct": false },
-                { "option": "None of the above", "correct": false }
+                { "option": "None", "correct": false }
 		    // {"option": "1291",   "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:Isolator</p>",
@@ -148,12 +148,12 @@ var quizJSON = {
 		       "a": [
            { "option": "Manually operated", "correct": false },
                 { "option": "Motorized", "correct": false },
-                { "option": "Both (a) and (b)", "correct": true },
-				 { "option": "None of the above", "correct": false }
+                { "option": "Both Manually operated and Motorized", "correct": true },
+				 { "option": "None", "correct": false }
 		       // {"option": "1291",   "correct": false} // no comma here
             ],
-				 "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>"  // no comma here
+				 "correct": "<p><span>Right answer</span> Ans:Both Manually operated and Motorized</p>",
+				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both Manually operated and Motorized</p>"  // no comma here
 		   },
 		   { // Question 13
 		       "q": "Characteristic of high voltage rating Circuit Breaker :- ",
@@ -161,11 +161,11 @@ var quizJSON = {
                 { "option": "High reliability electrically and mutually", "correct": false },
                 { "option": "Capability of interrupting capacitive and inductive circuits and fault currents of all values within their rating", "correct": false },
 				  { "option": "Slower time response", "correct": false },
-			                { "option": "Both (a) and (b)", "correct": true }
+			                { "option": "Both High reliability electrically and mutually and Capability of interrupting capacitive and inductive circuits and fault currents of all values within their rating", "correct": true }
 		   		       // {"option": "1291",   "correct": false} // no comma here
             ],
-			                "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-			                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>"  // no comma here
+			                "correct": "<p><span>Right answer</span> Ans:Both High reliability electrically and mutually and Capability of interrupting capacitive and inductive circuits and fault currents of all values within their rating</p>",
+			                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both High reliability electrically and mutually and Capability of interrupting capacitive and inductive circuits and fault currents of all values within their rating</p>"  // no comma here
 		   		   },
 		  { // Question 14
 		      "q": "In oil circuit breaker (O.C.B) the range exists between ",
@@ -178,18 +178,87 @@ var quizJSON = {
             ],
                 "correct": "<p><span>Right answer</span> Ans:25MVA at 2.5 kV and 5000MVA at 250kV</p>",
                 "incorrect": "<p><span>wrong</span> It's wrong,Ans:25MVA at 2.5 kV and 5000MVA at 250kV</p>"  // no comma here
-		   		      },
-        { // Question 15
-            "q": "In SF6 Circuit breaker",
-            "a": [
+            },
+		   { // Question 15 - Multiple Choice, Multiple True Answers, Select Any
+		       "q": "In SF6 Circuit breaker",
+		       "a": [
                 { "option": "No risk of fire", "correct": false },
 				 { "option": "No reduction of dielectric strength", "correct": false },
 				  { "option": "Current chopping tendency is minimized", "correct": false },
-                { "option": "All the above", "correct": true }
+                { "option": "All", "correct": true }
+            ],
+                "correct": "<p><span>Right answer</span> Ans:All</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>" // no comma here
+		   		        },
+        { // Question 16 - Multiple Choice, Multiple True Answers, Select All
+            "q": "The voltage across the contacts during the arcing period is known as ",
+            "a": [
+                { "option": "Recovery voltage", "correct": false },
+                { "option": "Restriking voltage", "correct": false },
+                { "option": "Arc voltage", "correct": true },
+                { "option": "All", "correct": false} // no comma here
+            ],
+                "correct": "<p><span>Right answer</span> Ans:Arc voltage</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Arc voltage</p>" // no comma here
+        },
+        { // Question 17
+            "q": "The peak value of current (including the DC component) during first cycle of current wave after the closure of Circuit breaker is known as __________ ",
+            "a": [
+              { "option": "Breaking capacity", "correct": false },
+                { "option": "Making capacity", "correct": true },
+                { "option": "Short-time capacity", "correct": false },
+                { "option": "None", "correct": false }
+            // {"option": "1291",   "correct": false} // no comma here
+            ],
+                "correct": "<p><span>Right answer</span> Ans:Making capacity</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Making capacity</p>"  // no comma here
+        },
+		{ // Question 18
+		    "q": "__________ of a Circuit breaker depends upon its ability to withstand the temperature rise and the electromagnetic force effects.",
+		    "a": [
+              { "option": "Breaking capacity", "correct": false },
+                { "option": "Making capacity", "correct": false },
+                { "option": "Short-time capacity", "correct": true },
+                { "option": "None", "correct": false }
+		    // {"option": "1291",   "correct": false} // no comma here
+            ],
+                "correct": "<p><span>Right answer</span> Ans:Short-time capacity</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Short-time capacity</p>"  // no comma here
+		},
+		   { // Question 19
+		       "q": "The major advantage of single bus-bar system is that fault on one part of the bus–bar or system does not completely shut down the whole station. ",
+		       "a": [
+                { "option": "False", "correct": false },
+       				 { "option": "True", "correct": true }
+		       // {"option": "1291",   "correct": false} // no comma here
+            ],
+		       "correct": "<p><span>Right answer</span> Ans:True</p>",
+		       "incorrect": "<p><span>wrong</span> It's wrong,Ans:True</p>"  // no comma here
+		   },
+		   
+		   { // Question 20
+		       "q": "Bus bar can be arranged in __________ ",
+		       "a": [
+                { "option": "Single bus-bar system", "correct": false },
+                { "option": "Double bus-bar system with sectionalisation", "correct": false },
+			    { "option": "Both Single bus-bar system and Double bus-bar system with sectionalisation", "correct": true }
+		       // {"option": "1291",   "correct": false} // no comma here
+            ],
+			    "correct": "<p><span>Right answer</span> Ans:Both Single bus-bar system and Double bus-bar system with sectionalisation</p>",
+			    "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both Single bus-bar system and Double bus-bar system with sectionalisation</p>"  // no comma here
+		   },
+
+        { // Question 21
+            "q": "_________ is a device which is used to switch from one bus to the other without any interruption in power supply and without creating hazardous arcs.",
+            "a": [
+                { "option": "Isolator", "correct": false },
+				 { "option": "Circuit breaker", "correct": false },
+				  { "option": "Bus coupler", "correct": true },
+                { "option": "Any of them", "correct": false }
 // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+                "correct": "<p><span>Right answer</span> Ans:Bus coupler</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Bus coupler</p>"  // no comma here
         } // no comma here
     ]
 };

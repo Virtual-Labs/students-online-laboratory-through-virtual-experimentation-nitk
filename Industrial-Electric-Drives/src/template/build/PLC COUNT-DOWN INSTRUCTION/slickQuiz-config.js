@@ -19,7 +19,7 @@ var quizJSON = {
             "a": [
                 { "option": "CD bit", "correct": false },
                 { "option": "CU bit", "correct": true },
-                        { "option": "None of the above", "correct": false }
+                        { "option": "None", "correct": false }
             ],
                         "correct": "<p><span>Right answer</span> Ans:CU bit</p>",
                         "incorrect": "<p><span>wrong</span> It's wrong,Ans:CU bit</p>" // no comma here
@@ -30,7 +30,7 @@ var quizJSON = {
                 { "option": "C5:12.EN", "correct": false },
                 { "option": "C5:12.en", "correct": false },
                 { "option": "C5:12-EN", "correct": false },
-				{ "option": "None of the above", "correct": true }
+				{ "option": "None", "correct": true }
                 //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
 
@@ -42,7 +42,7 @@ var quizJSON = {
             "a": [
                 { "option": "True or false", "correct": false },
                 { "option": "False to true", "correct": true },
-                  { "option": "Both (a) and (b)", "correct": false} // no comma here
+                  { "option": "Both true or false and false to true", "correct": false} // no comma here
             ],
                   "correct": "<p><span>Right answer</span> Ans:False to true</p>",
                   "incorrect": "<p><span>wrong</span> It's wrong,Ans:False to true</p>" // no comma here
@@ -98,7 +98,7 @@ var quizJSON = {
                 { "option": "C5:14/PRE", "correct": false },
                 { "option": "C5:14.PRE", "correct": true },
                 { "option": "C5:14-PRE", "correct": false },
-                  { "option": "All the above", "correct": false }
+                  { "option": "All", "correct": false }
         	       // {"option": "1291",   "correct": false} // no comma here
             ],
                   "correct": "<p><span>Right answer</span> Ans:C5:14.PRE</p>",

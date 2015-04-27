@@ -20,7 +20,7 @@ var quizJSON = {
                 { "option": "Electrochemical, gas", "correct": false },
                 { "option": "Electrochemical, liquid", "correct": false },
                 { "option": "Electromechanical, gas and liquid", "correct": true },
-                { "option": "All the above", "correct": false }
+                { "option": "All", "correct": false }
                // {"option": "Pitot tube ",      "correct": false}		// no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:Electromechanical, gas and liquid</p>",
@@ -32,11 +32,11 @@ var quizJSON = {
                 { "option": "Liquids", "correct": false },
                 { "option": "Slurries", "correct": false },
                 { "option": "Granular material", "correct": false },
-               { "option": "All the above", "correct": true} // no comma here
+               { "option": "All", "correct": true} // no comma here
             ],
             "select_any": true,
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:All the above</p>" // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:All</p>" // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
             "q": "Sensors which are available for point level detection of solids are : ",
@@ -44,11 +44,11 @@ var quizJSON = {
                 { "option": "Vibrating point", "correct": false },
                 { "option": "Rotating paddle", "correct": false },
                 { "option": "Admittance type", "correct": false },
-                { "option": "All the above", "correct": true}		
+                { "option": "All", "correct": true}		
                // {"option": "5",          "correct": false} // no comma here
             ],
-                "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:All the above</p>" // no comma here
+                "correct": "<p><span>Right answer</span> Ans:All</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:All</p>" // no comma here
         },
         { // Question 4
             "q": "A proximity sensor is a sensor able to detect the presence of nearby objects __________ . ",
@@ -65,14 +65,9 @@ var quizJSON = {
                 { // Question 5
                     "q": " The maximum distance that proximity sensor can detect is defined as__________ ",
                     "a": [
-       
-                { "option": "Midrange", "correct": true },
+                       { "option": "Midrange", "correct": true },
 		 { "option": "Nominal range", "correct": false },
-		 { "option": "Both (a) and (b)", "correct": false }
-
-
-                    // {"option": "Pressure gauge reading of tank 1 and that of tank 2 are same",      "correct": true}
-                    //{"option": "1291",   "correct": false} // no comma here
+		 { "option": "Both Midrange and Nominal range", "correct": false }
             ],
 		 "correct": "<p><span>Right answer</span> Ans:Nominal range</p>",
 		 "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans is:Nominal range</p>"  // no comma here
@@ -82,9 +77,6 @@ var quizJSON = {
             "a": [
                 { "option": "The above statement is false", "correct": false },
                 { "option": "The above statement is true", "correct": true } 
-
-
-// no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:The above statement is true</p>",
                 "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:The above statement is true</p>"  // no comma here

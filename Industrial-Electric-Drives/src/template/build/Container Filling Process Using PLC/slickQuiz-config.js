@@ -42,21 +42,21 @@ var quizJSON = {
                 {"option": "Ultrasonic",           "correct": false},
                 {"option": "Capacitance",                  "correct": false},
                 {"option": "Optical interface and microwave",  "correct": false},
-                {"option": "All the above",          "correct": true} // no comma here
+                {"option": "All",          "correct": true} // no comma here
             ],
-             "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>" // no comma here
+             "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>" // no comma here
         },
         { // Question 4
             "q": "______________ is useful in applications involving the transportation of heavy or bulky materials.",
             "a": [
                 {"option": "Conveyor system",    "correct": false},
                 {"option": "Chain system",     "correct": false},
-                {"option": "All the above",      "correct": true}
+                {"option": "All",      "correct": true}
                // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
 		{ // Question 5
             "q": "The selection criteria for level sensor include _________",
@@ -64,11 +64,11 @@ var quizJSON = {
                 {"option": "Physical phase(liquid, solid or slurry)",    "correct": false},
                 {"option": "Temperature, pressure ,chemistry",     "correct": false},
 				{"option": "Dielectric constant of the medium, specific gravity of medium",     "correct": false},
-                {"option": "All the above",      "correct": true}
+                {"option": "All",      "correct": true}
                // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
 		   { // Question 6
             "q": "Sensors for continuous level measurement of liquids:",
@@ -76,22 +76,22 @@ var quizJSON = {
                 {"option": "Magnetostrictive",    "correct": false},
                 {"option": "Magnetostrictive",     "correct": false},
                 {"option": "Air bubbler",      "correct": false},
-				 {"option": "All the above",      "correct": true}
+				 {"option": "All",      "correct": true}
                // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
 		   { // Question 7
             "q": "The measurement of level using level sensor can be _______",
             "a": [
                 {"option": "Continuous value",    "correct": false},
                 {"option": "Point value",     "correct": false},
-                {"option": "All the above",      "correct": true}
+                {"option": "All",      "correct": true}
                // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
         { // Question 8
             "q": "Sensors which are available for point level detection of liquids are :",
@@ -99,13 +99,13 @@ var quizJSON = {
                 {"option": "Pulse-wave ultrasonic( Non-Invasive)",    "correct": false},
                 {"option": "Magnetic and mechanical float",     "correct": false},
 		 {"option": "Pneumatic and conductive",  "correct": false},
-                {"option": "All the above",  "correct": true} 
+                {"option": "All",  "correct": true} 
 
 
 // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         } // no comma here
     ]
 };

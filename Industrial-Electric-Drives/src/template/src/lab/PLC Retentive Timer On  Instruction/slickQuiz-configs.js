@@ -31,7 +31,7 @@ var quizJSON = {
              "a": [
                 { "option": "Preset value", "correct": true },
                 { "option": "Accumulated value", "correct": false },
-                          { "option": "Status bits", "correct": false } 
+                { "option": "Status bits", "correct": false } 
             ],
             "select_any": true,
             "correct": "<p><span>Right answer</span> Ans:Preset value</p>",
@@ -69,14 +69,14 @@ var quizJSON = {
                 { "option": "When processor losses power", "correct": false },
                 { "option": "When the processor operating mode is changed from remote run or remote test to remote program mode", "correct": false },
                 { "option": "Timer-enable bit", "correct": false },
-		 { "option": "All the above", "correct": true }
+		 { "option": "All", "correct": true }
 
 
                    // {"option": "Pressure gauge reading of tank 1 and that of tank 2 are same",      "correct": true}
                    //{"option": "1291",   "correct": false} // no comma here
             ],
-		 "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-		 "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans is:All the above</p>"  // no comma here
+		 "correct": "<p><span>Right answer</span> Ans:All</p>",
+		 "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans is:All</p>"  // no comma here
                },
        { // Question 6
            "q": "Only one timer address is allowed per reset instruction. ",

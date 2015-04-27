@@ -31,7 +31,7 @@ var quizJSON = {
              "a": [
                 { "option": "Preset value", "correct": true },
                 { "option": "Accumulated value", "correct": false },
-                          { "option": "Status bits", "correct": false} // no comma here
+                { "option": "Status bits", "correct": false} // no comma here
             ],
              "select_any": true,
              "correct": "<p><span>Right answer</span> Ans:Preset value</p>",
@@ -42,8 +42,8 @@ var quizJSON = {
                 "a": [
                 { "option": "T4:9/PRE", "correct": false },
                 { "option": "T9:4/PRE", "correct": false },
-		 { "option": "T4:9/PRE", "correct": false },
-		 { "option": "T4:9.PRE", "correct": true }
+		        { "option": "T4:9/PRE", "correct": false },
+		        { "option": "T4:9.PRE", "correct": true }
 
 
                 // {"option": "Pressure gauge reading of tank 1 and that of tank 2 are same",      "correct": true}
@@ -57,7 +57,7 @@ var quizJSON = {
            "a": [
                 { "option": "T3:4.DN", "correct": false },
                 { "option": "T3:4/DN", "correct": false },
-		 { "option": "T4:3.DN", "correct": false },
+		        { "option": "T4:3.DN", "correct": false },
                 { "option": "T4:3/DN", "correct": true }
 
 

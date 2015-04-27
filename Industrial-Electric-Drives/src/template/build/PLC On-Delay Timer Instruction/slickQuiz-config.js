@@ -20,19 +20,18 @@ var quizJSON = {
                   {"option": "Used to delay an action",    "correct": false},
 				   {"option": "Used to run an operation for a predetermined period of time",    "correct": false},
 				    {"option": "Used to record the total accumulated time of continuous or inter-mediate events",    "correct": false},
-                {"option": "All the above",     "correct": true}
+                {"option": "All",     "correct": true}
                    // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the abov</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the abov</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
 				  		{ // Question 2
             "q": "________ are used when an action is to begin a specified time after the input becomes true. ",
             "a": [
                   {"option": "Off-delay timers",    "correct": false},
                 {"option": "On-delay timers",     "correct": true}
-		
-                             // {"option": "1291",   "correct": false} // no comma here
+
             ],
             "correct": "<p><span>Right answer</span> Ans:On-delay timers</p>",
             "incorrect": "<p><span>wrong</span> It's wrong,Ans:On-delay timers</p>"  // no comma here

@@ -20,10 +20,10 @@ var quizJSON = {
                 { "option": "400kV", "correct": false },
                   { "option": "220kV", "correct": false },
                     { "option": "132kV", "correct": false },
-                { "option": "All the above", "correct": true }
+                { "option": "All", "correct": true }
             ],
-                "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>" // no comma here
+                "correct": "<p><span>Right answer</span> Ans:All</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
             "q": "Transmission network is commonly known as ____________ ",
@@ -31,7 +31,7 @@ var quizJSON = {
                 { "option": "Pan", "correct": false },
                 { "option": "Lock-head", "correct": false },
                 { "option": "Grid", "correct": true },
-				{ "option": "All the above", "correct": false }
+				{ "option": "All", "correct": false }
                 //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
 
@@ -79,11 +79,11 @@ var quizJSON = {
                 { "option": "Cheaper in cost for operating voltage above 50kV", "correct": false },
                 { "option": "Flexibility is increased with suspension insulators", "correct": false },
                 { "option": "If line insulation needs to be increased, the additional insulators can be easily added to the string", "correct": false },
-				 {"option": "All the above",      "correct": true}
+				 {"option": "All",      "correct": true}
                // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
 	        { // Question 7
 	            "q": "Reason for failure of insulator is _________ ",
@@ -91,11 +91,11 @@ var quizJSON = {
            { "option": "Mechanical stress", "correct": false },
                 { "option": "Short circuits", "correct": false },
                 { "option": "Flash-over", "correct": false },
-                { "option": "All the above", "correct": true }
+                { "option": "All", "correct": true }
 // no comma here
             ],
-                "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+                "correct": "<p><span>Right answer</span> Ans:All</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         } // no comma here
     ]
 };

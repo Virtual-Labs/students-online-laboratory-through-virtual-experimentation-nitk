@@ -19,7 +19,7 @@ var quizJSON = {
             "a": [
                 { "option": "Self-induction", "correct": false},
                   { "option": "Mutual induction", "correct": true },
-                  { "option": "Both (a) and (b)", "correct": false }
+                  { "option": "Both Self-induction and Mutual induction", "correct": false }
             ],
                   "correct": "<p><span>Right answer</span> Ans:Mutual induction</p>",
                   "incorrect": "<p><span>wrong</span> It's wrong,Ans:Mutual induction</p>" // no comma here
@@ -30,7 +30,7 @@ var quizJSON = {
                 { "option": "Voltage transform ratio", "correct": true },
                 { "option": "Current ratio", "correct": false },
                 { "option": "Power ratio", "correct": false },
-				{ "option": "All the above", "correct": false }
+				{ "option": "All", "correct": false }
                 //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
 
@@ -43,17 +43,17 @@ var quizJSON = {
                 { "option": "It is cheap", "correct": false },
                 { "option": "It provides more safety", "correct": false },
                 { "option": "It is not practicable to connect instruments and meters directly to the lines in high voltage circuits", "correct": false },
-                { "option": "Both (b) and (c)", "correct": true} // no comma here
+                { "option": "It provides more safety and It is not practicable to connect instruments and meters directly to the lines in high voltage circuits", "correct": true} // no comma here
             ],
-                "correct": "<p><span>Right answer</span> Ans:Both (b) and (c)</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (b) and (c)</p>" // no comma here
+                "correct": "<p><span>Right answer</span> Ans:It provides more safety and It is not practicable to connect instruments and meters directly to the lines in high voltage circuits</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:It provides more safety and It is not practicable to connect instruments and meters directly to the lines in high voltage circuits</p>" // no comma here
         },
         { // Question 4
             "q": "A current transformer is a ________",
             "a": [
                 { "option": "Step up transformer", "correct": true },
                 { "option": "Step down transformer", "correct": false },
-                  { "option": "Both (a) and (b)", "correct": false},
+                  { "option": "Both Step up transformer and Step down transformer", "correct": false },
                 { "option": "None", "correct": false }
                // {"option": "1291",   "correct": false} // no comma here
             ],
@@ -66,23 +66,23 @@ var quizJSON = {
                 { "option": "It should have good thermal and chemical stability", "correct": false },
                 { "option": "It should have high dielectric strength and are extinguish ability", "correct": false },
 				{ "option": "Non- inflammability and high thermal conductivity", "correct": false },
-                { "option": "All the above", "correct": true }
+                { "option": "All", "correct": true }
                // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
 		   { // Question 6
 		       "q": "SF6 circuit breaker is ",
             "a": [
                 { "option": "Expensive", "correct": false },
                 { "option": "SF6 gas has to be reconditioned after every operation of the breaker and additional equipment is required for these purposes", "correct": false },
-                { "option": "Both (a) and (b)", "correct": true },
+                { "option": "Both Expensive and SF6 gas has to be reconditioned after every operation of the breaker and additional equipment is required for these purposes", "correct": true },
 				 { "option": "None of the above", "correct": false }
                // {"option": "1291",   "correct": false} // no comma here
             ],
-				 "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>"  // no comma here
+				 "correct": "<p><span>Right answer</span> Ans:Both Expensive and SF6 gas has to be reconditioned after every operation of the breaker and additional equipment is required for these purposes</p>",
+				 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both Expensive and SF6 gas has to be reconditioned after every operation of the breaker and additional equipment is required for these purposes</p>"  // no comma here
         },
         	   { // Question 7
         	       "q": "In double bus–bar system ,there is a provision of a bus-bar coupling switch for transferring operation from one bus-bar to another _________ ",
@@ -100,7 +100,7 @@ var quizJSON = {
            { "option": "Isolator", "correct": false },
                 { "option": "Circuit breaker", "correct": false },
                 { "option": "Bus coupler", "correct": true },
-                { "option": "Any of the above", "correct": false }
+                { "option": "Any of the them", "correct": false }
 // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:Bus coupler</p>",

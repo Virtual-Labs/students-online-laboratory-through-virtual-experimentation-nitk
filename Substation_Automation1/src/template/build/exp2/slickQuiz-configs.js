@@ -19,11 +19,11 @@ var quizJSON = {
             "a": [
                 { "option": "Manually operated", "correct": false },
                   { "option": "Motorized", "correct": false },
-                    { "option": "Both (a) and (b)", "correct": true },
-                { "option": "None of the above", "correct": false }
+                    { "option": "Both Manually operated and Motorized", "correct": true },
+                { "option": "None", "correct": false }
             ],
-                "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>" // no comma here
+                "correct": "<p><span>Right answer</span> Ans:Both Manually operated and Motorized</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both Manually operated and Motorized</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
             "q": "Gas Insulated Switchgear (GIS) offers ",
@@ -55,11 +55,11 @@ var quizJSON = {
            { "option": "To localize the effects of faults by operation of protective equipment and so automatically disconnect faulty point from the system", "correct": false },
                 { "option": "To break efficiently the short circuits without giving rise to dangerous conditions", "correct": false },
                 { "option": "To facilitate the redistribution of local, inspection and maintenance on the system", "correct": false },
-                { "option": "All the above", "correct": true }
+                { "option": "All", "correct": true }
 // no comma here
             ],
-                "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+                "correct": "<p><span>Right answer</span> Ans:All</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         } // no comma here
     ]
 };

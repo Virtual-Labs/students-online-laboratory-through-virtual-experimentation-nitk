@@ -20,7 +20,7 @@ var quizJSON = {
                 { "option": "Circuit Breaker", "correct": false },
                 { "option": "Isolator", "correct": true },
                 { "option": "Fuse", "correct": false },
-                { "option": "None of the above", "correct": false }
+                { "option": "None", "correct": false }
             ],
                 "correct": "<p><span>Right answer</span> Ans:Isolator</p>",
             "incorrect": "<p><span>wrong</span> It's wrong,Ans:Isolator</p>" // no comma here
@@ -30,8 +30,8 @@ var quizJSON = {
             "a": [
                 { "option": "A CB is an off load device insulated to be opened only after current has been interrupted by some other after control device", "correct": false },
                 { "option": "An isolator is an off load device intended to be opened only after current has been interrupted by some other control device", "correct": true },
-                { "option": "Both (a) and (b)", "correct": false },
-				{ "option": "None of the above", "correct": false }
+                { "option": "Both A CB is an off load device insulated to be opened only after current has been interrupted by some other after control device and An isolator is an off load device intended to be opened only after current has been interrupted by some other control device", "correct": false },
+				{ "option": "None", "correct": false }
             //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
 
@@ -43,8 +43,8 @@ var quizJSON = {
             "a": [
                 { "option": "Circuit breaker is taken out first and isolators are taken out second", "correct": true },
                 { "option": "Isolators are taken out first and circuit breaker is taken out second", "correct": false },
-                { "option": "Both (a) and (b) are true", "correct": false },
-                { "option": "None of the above", "correct": false} // no comma here
+                { "option": "Both Circuit breaker is taken out first and isolators are taken out second and Isolators are taken out first and circuit breaker is taken out second are true", "correct": false },
+                { "option": "None", "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:Circuit breaker is taken out first and isolators are taken out second</p>",
                 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Circuit breaker is taken out first and isolators are taken out second</p>" // no comma here
@@ -79,11 +79,11 @@ var quizJSON = {
                 { "option": "Switched, Fuses, CB, isolators", "correct": false },
                 { "option": "Relay, control panels, metering panels", "correct": false },
                 { "option": "Lightning arrestors, current transformers potential transformer etc", "correct": false },
-				 { "option": "All the above", "correct": true }
+				 { "option": "All", "correct": true }
 		       // {"option": "1291",   "correct": false} // no comma here
             ],
-		       "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-		       "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+		       "correct": "<p><span>Right answer</span> Ans:All</p>",
+		       "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
 		   },
         { // Question 7
             "q": "Essential features of switchgear are",
@@ -91,13 +91,13 @@ var quizJSON = {
                 { "option": "The switchgear must be able to discriminate between faulty and healthy section", "correct": false },
                 { "option": "The switchgear must be able to discriminate between faulty and healthy section", "correct": false },
 		 { "option": "Provision for manual control and instruments", "correct": false },
-                { "option": "All the above", "correct": true }
+                { "option": "All", "correct": true }
 
 
             // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
 } // no comma here
     ]
 };

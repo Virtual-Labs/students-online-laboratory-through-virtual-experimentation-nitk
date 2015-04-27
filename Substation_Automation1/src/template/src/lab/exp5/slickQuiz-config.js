@@ -19,11 +19,11 @@ var quizJSON = {
             "a": [
                 { "option": "Potential transformer", "correct": false },
             { "option": "Current transformer", "correct": false },
-            { "option": "Both (a) and (b)", "correct": true },
+            { "option": "Both Potential transformer and Current transformer", "correct": true },
                 { "option": "None", "correct": false }
             ],
-                "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>" // no comma here
+                "correct": "<p><span>Right answer</span> Ans:Both Potential transformer and Current transformer</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both Potential transformer and Current transformer</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
             "q": "Potential transformers are made with",
@@ -55,7 +55,7 @@ var quizJSON = {
               { "option": "Step down transformer", "correct": true },
                 { "option": "Step up transformer", "correct": false },
                 { "option": "Isolation transformer", "correct": false },
-                { "option": "All the above", "correct": false } 
+                { "option": "All", "correct": false } 
                // {"option": "1291",   "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:Step down transformer</p>",
@@ -67,11 +67,11 @@ var quizJSON = {
                 { "option": "There are no losses", "correct": false },
                 { "option": "Windings have zero resistance", "correct": false },
                 { "option": "Leakage flex is zero", "correct": false },
-                { "option": "All the above", "correct": true }
+                { "option": "All", "correct": true }
                // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
 		   { // Question 6
 		       "q": "Oil transformer usually consist of,",
@@ -79,11 +79,11 @@ var quizJSON = {
                 { "option": "A conservator tank, buchholz relay", "correct": false },
                 { "option": "Breather of dehydrating type", "correct": false },
                 { "option": "Winding temperature-indicator, oil temperature indicator", "correct": false },
-				 { "option": "All the above", "correct": true }
+				 { "option": "All", "correct": true }
                // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
 		   { // Question 7
 		       "q": "32 step tap changes provide ________ voltage change in each step.",
@@ -103,7 +103,7 @@ var quizJSON = {
                 { "option": "Below the highest oil point", "correct": false },
                 { "option": "Ground level", "correct": false },
                 { "option": "Above the highest oil point", "correct": true },
-				{ "option": "Any of the above", "correct": false }
+				{ "option": "Any of them", "correct": false }
              //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
 
@@ -116,7 +116,7 @@ var quizJSON = {
                 { "option": "Circuit Breaker", "correct": true },
                 { "option": "Isolator", "correct": false },
                 { "option": "Insulator", "correct": false },
-                { "option": "All the above", "correct": false} // no comma here
+                { "option": "All", "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:Circuit Breaker</p>",
                 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Circuit Breaker</p>" // no comma here
@@ -127,7 +127,7 @@ var quizJSON = {
                 { "option": "Current chopping", "correct": false },
                 { "option": "Sensitivity to restricting voltage", "correct": false },
                 { "option": "Short arc duration", "correct": true },
-                { "option": "All the above", "correct": false }
+                { "option": "All", "correct": false }
             // {"option": "1291",   "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:Short arc duration</p>",
@@ -151,7 +151,7 @@ var quizJSON = {
                 { "option": "Breaking capacity", "correct": true },
                 { "option": "Making capacity", "correct": false },
                 { "option": "Short-time capacity", "correct": false },
-				 { "option": "None of the above", "correct": false }
+				 { "option": "None", "correct": false }
 		       // {"option": "1291",   "correct": false} // no comma here
             ],
 				 "correct": "<p><span>Right answer</span> Ans:Breaking capacity</p>",
@@ -163,7 +163,7 @@ var quizJSON = {
            { "option": "Breaking capacity", "correct": false },
                 { "option": "Making capacity", "correct": false },
                 { "option": "Short-time capacity", "correct": true },
-				 { "option": "None of the above", "correct": false }
+				 { "option": "None", "correct": false }
 		       // {"option": "1291",   "correct": false} // no comma here
             ],
 				 "correct": "<p><span>Right answer</span> Ans:Short-time capacity</p>",
@@ -174,11 +174,11 @@ var quizJSON = {
 		   		       "a": [
                 { "option": "Single bus-bar system", "correct": false },
                 { "option": "Double bus-bar system with sectionalisation", "correct": false },
-                { "option": "Both (a) and (b)", "correct": true }
+                { "option": "Both Single bus-bar system and Double bus-bar system with sectionalisation", "correct": true }
 		   		       // {"option": "1291",   "correct": false} // no comma here
             ],
-                "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>"  // no comma here
+                "correct": "<p><span>Right answer</span> Ans:Both Single bus-bar system and Double bus-bar system with sectionalisation</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both Single bus-bar system and Double bus-bar system with sectionalisation</p>"  // no comma here
 		   		   },
         { // Question 15
             "q": "The major advantage of single bus-bar system is that fault on one part of the bus–bar or system does not completely shut down the whole station.",

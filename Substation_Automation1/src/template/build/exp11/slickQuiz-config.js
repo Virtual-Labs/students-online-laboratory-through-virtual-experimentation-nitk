@@ -19,11 +19,11 @@ var quizJSON = {
             "a": [
                 { "option": "It has inbuilt breaker", "correct": false },
             { "option": "It has more number of shot capability", "correct": false },
-            { "option": "Both (a) and (b)", "correct": true },
+            { "option": "Both it has inbuilt breaker and it has more number of shot capability", "correct": true },
                 { "option": "None of the above", "correct": false }
             ],
-                "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>" // no comma here
+                "correct": "<p><span>Right answer</span> Ans:Both it has inbuilt breaker and it has more number of shot capability</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both it has inbuilt breaker and it has more number of shot capability</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
               "q": "From below figure, the speed ratio of 20K and 20T fuses are respectively<br><img src=\"../images/recquiz/1.jpg\"\height=300 width=400/>",
@@ -43,7 +43,7 @@ var quizJSON = {
                 { "option": "Reclosing time", "correct": true },
                 { "option": "Lockout time", "correct": false },
                 { "option": "Total operating time", "correct": false },
-                { "option": "All the above", "correct": false} // no comma here
+                { "option": "All", "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:Reclosing time</p>",
                 "incorrect": "<p><span>wrong</span> It's wrong,Ans:Reclosing time</p>" // no comma here
@@ -63,12 +63,12 @@ var quizJSON = {
             "a": [
                 { "option": "Minimum melting time", "correct": false },
                 { "option": "Maximum clearing time", "correct": false },
-                { "option": "Both (a) and (b)", "correct": true },
-                { "option": "None of these", "correct": false }
+                { "option": "Both minimum melting time and maximum clearing time", "correct": true },
+                { "option": "None", "correct": false }
                // {"option": "1291",   "correct": false} // no comma here
             ],
-                "correct": "<p><span>Right answer</span> Ans:Both (a) and (b)</p>",
-                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both (a) and (b)</p>"  // no comma here
+                "correct": "<p><span>Right answer</span> Ans:Both minimum melting time and maximum clearing time</p>",
+                "incorrect": "<p><span>wrong</span> It's wrong,Ans:Both minimum melting time and maximum clearing time</p>"  // no comma here
         },
 		   { // Question 6
 		       "q": "Consider 5P20 class CT ratio: 1000/1, Normal rated current of 900 A. Consider a overloading of 10 % while calculating plug setting of the relay. Let the initial set TMS be 0.15. Relay settings has ranges for PSM of 50% to 200% in steps of 25% and TMS setting range of 0.1 to 1.1 in step of 0.05. The operating time for a three phase fault of 10 kA is less for  ",

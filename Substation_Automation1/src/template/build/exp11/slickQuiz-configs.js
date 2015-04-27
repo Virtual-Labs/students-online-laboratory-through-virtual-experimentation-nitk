@@ -20,7 +20,7 @@ var quizJSON = {
                 { "option": "H type", "correct": false },
                 { "option": "K type", "correct": true },
                 { "option": "T type", "correct": false },
-                 { "option": "Anyone of the above", "correct": false }
+                 { "option": "Anyone of them", "correct": false }
                // {"option": "Pitot tube ",      "correct": false}		// no comma here
             ],
                  "correct": "<p><span>Right answer</span> Ans:K type</p>",
@@ -32,7 +32,7 @@ var quizJSON = {
                 { "option": "Ring type network", "correct": true },
                 { "option": "Radial type network", "correct": false },
                 { "option": "Same in both type of network", "correct": false },
-               { "option": "All the above", "correct": false} // no comma here
+               { "option": "All", "correct": false} // no comma here
             ],
             "select_any": true,
             "correct": "<p><span>Right answer</span> Ans:Ring type network</p>",

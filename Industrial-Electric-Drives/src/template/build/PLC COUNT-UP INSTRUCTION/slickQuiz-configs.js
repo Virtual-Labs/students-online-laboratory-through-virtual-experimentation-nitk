@@ -42,7 +42,7 @@ var quizJSON = {
            { "option": "File 6", "correct": false },
                 { "option": "File 7", "correct": true },
                 { "option": "File 8", "correct": false },
-                { "option": "None of the above", "correct": false }		
+                { "option": "None", "correct": false }		
                // {"option": "5",          "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:File 7</p>",
@@ -54,7 +54,7 @@ var quizJSON = {
                 { "option": "Preset value", "correct": true },
                 { "option": "Accumulated value", "correct":false },
                 { "option": "Status bit", "correct": false },
-                { "option": "None of the above", "correct": false }	
+                { "option": "None", "correct": false }	
 		
 		
                // {"option": "Pressure gauge reading of tank 1 and that of tank 2 are same",      "correct": true}
@@ -69,7 +69,7 @@ var quizJSON = {
                 { "option": "C5:12.PRE", "correct": true },
                 { "option": "C5:12/PRE", "correct": false },
                 { "option": "C5:12-PRE", "correct": false },
-               { "option": "All the above", "correct": false} // no comma here
+               { "option": "All", "correct": false} // no comma here
             ],
                    "select_any": true,
                    "correct": "<p><span>Right answer</span> Ans:C5:12.PRE</p>",
@@ -81,7 +81,7 @@ var quizJSON = {
                 { "option": "UN bit", "correct": false },
                 { "option": "UA bit", "correct": true },
                 { "option": "OV bit", "correct": false },
-                { "option": "None of the above", "correct": false }
+                { "option": "None", "correct": false }
             // {"option": "5",          "correct": false} // no comma here
             ],
                 "correct": "<p><span>Right answer</span> Ans:UA bit</p>",

@@ -30,11 +30,11 @@ var quizJSON = {
                   {"option": "Used to delay an action",    "correct": false},
                 {"option": "Used to run an operation for a predetermined period of time",     "correct": false},
 				{"option": "Used to record the total accumulated time of continuous or inter-mediate events",     "correct": false},
-				     {"option": "All the above",    "correct": true}
+				     {"option": "All",    "correct": true}
                              // {"option": "1291",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:All the above</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All the above</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans:All</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:All</p>"  // no comma here
         },
 				  		{ // Question 3
             "q": "The timer 3, in default timer file 4, can be addressed as ________ ",
