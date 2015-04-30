@@ -38,7 +38,7 @@ font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Arial,s
     <link href="../css/override.css" rel="stylesheet">
 </head>
 
-<body style="padding-right: 150px;font: 17px/1.22 sans-serif;">
+<body style="padding-right: 150px;font-size: 15px;">
 <div id="container">
   <div id="experiment">
         <!-- The Experiment Document Container-->
