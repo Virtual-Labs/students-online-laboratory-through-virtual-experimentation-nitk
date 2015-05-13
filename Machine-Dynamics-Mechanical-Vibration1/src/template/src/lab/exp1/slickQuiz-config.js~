@@ -217,9 +217,70 @@ var quizJSON = {
             ],
             "correct": "<p><span>Right answer</span> Ans:<img src=\"../images/equations/vib6.png\"\height=50 width=50/> </p>",
             "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:<img src=\"../images/equations/vib6.png\"\height=50 width=50/></p>"  // no comma here
+        },
+
+{ // Question 13
+            "q": " For a viscous damper with damping constant c, the damping force is _____",
+            "a": [
+                {"option": " <img src=\"../images/equations/vib7.png\"\height=50 width=150/>",    "correct": false},
+                {"option": " <img src=\"../images/equations/vib8.png\"\height=50 width=50/> ",     "correct": true}
+		
+               
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:<img src=\"../images/equations/vib8.png\"\height=50 width=50/> </p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:<img src=\"../images/equations/vib8.png\"\height=50 width=50/></p>"  // no comma here
+        },
+{ // Question 13
+            "q": " The mechanical clock represents a _____ pendulum.",
+            "a": [
+                {"option": " simple",    "correct": true},
+                {"option": "compound",     "correct": false},
+		{"option": "complex",     "correct": false},
+		{"option": "normal",     "correct": false}
+		
+               
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:simple</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:simple</p>"  // no comma here
+        },
+{ // Question 13
+            "q": " Any two successive displacements of the system, separated by a cycle, can be used to find the _____ decrement.",
+            "a": [
+                {"option": " Exponential",    "correct": true},
+                {"option": "logarithmic",     "correct": false},
+		{"option": "velocity",     "correct": false},
+		{"option": "acceleration",     "correct": false}
+		
+               
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:Exponential</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Exponential</p>"  // no comma here
+        },
+{ // Question 13
+            "q": "  Systems undergo dangerously large oscillations at _____",
+            "a": [
+                {"option": " Resonance",    "correct": true},
+                {"option": "excitation",     "correct": false},
+		{"option": "damped frequency",     "correct": false},
+		{"option": "logarithmic decrement ",     "correct": false}
+		
+               
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:Exponential</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Exponential</p>"  // no comma here
         }
-
-
   
     ]
 };

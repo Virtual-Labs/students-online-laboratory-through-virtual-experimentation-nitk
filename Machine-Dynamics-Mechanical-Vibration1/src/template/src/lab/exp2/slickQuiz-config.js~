@@ -98,8 +98,8 @@ var quizJSON = {
 
 // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans: Both a and b</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans: Both a and b</p>"  // no comma here
+            "correct": "<p><span>Right answer</span> Ans: Friction at support and Hysteresis damping</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans: Friction at support and Hysteresis damping</p>"  // no comma here
         },
  { // Question 5
             "q": " A FFT plot is a?",

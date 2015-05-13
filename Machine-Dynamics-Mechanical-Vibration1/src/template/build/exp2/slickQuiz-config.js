@@ -17,8 +17,8 @@ var quizJSON = {
         { // Question 1 - Multiple Choice, Single True Answer
             "q": " A body is said to undergo free vibration, when?",
             "a": [
-                {"option": "It  vibrates in free space",      "correct": true},
-                {"option": "It vibrates  freely with no force acting on it",     "correct": false},
+                {"option": "It  vibrates in free space",      "correct": false},
+                {"option": "It vibrates  freely with no force acting on it",     "correct": true},
                 {"option": "The force causing the initial displacement  is removed",      "correct": false},
                 {"option": "It vibrates freely with no resistive force acting on it",     "correct": false} // no comma here
             ],
@@ -73,7 +73,7 @@ var quizJSON = {
             "correct": "<p><span>Right answer</span> Ans: 3EI/L3 </p>",
             "incorrect": "<p><span>wrong</span> It's wrong,Ans:3EI/L3</p>"  // no comma here
         },
- { // Question 5
+ { // Question 6
             "q": "For a Fixed-Fixed beam with a point load at the middle, The stiffness is",
             "a": [
                 {"option": "48EI/L3 ",    "correct": false},
@@ -87,7 +87,7 @@ var quizJSON = {
             "correct": "<p><span>Right answer</span> Ans:192EI/L3</p>",
             "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:192EI/L3</p>"  // no comma here
         },
-  { // Question 5
+  { // Question 7
             "q": " In free vibration experiment the damping may occur due to",
             "a": [
                 {"option": "Friction at support",    "correct": false},
@@ -99,9 +99,9 @@ var quizJSON = {
 // no comma here
             ],
             "correct": "<p><span>Right answer</span> Ans: Friction at support and Hysteresis damping</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans: Friction at support and Hysteresis damping</p>"  // no comma here
+            "incorrect": "<p><span>wrong</span> It's wrong,Ans:Friction at support and Hysteresis damping</p>"  // no comma here
         },
- { // Question 5
+ { // Question 8
             "q": " A FFT plot is a?",
             "a": [
                 {"option": "Frequency domain plot ",    "correct": true},
@@ -115,7 +115,7 @@ var quizJSON = {
             "correct": "<p><span>Right answer</span> Ans:Frequency domain plot </p>",
             "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Frequency domain plot </p>"  // no comma here
         } ,  // no comma here
-{ // Question 5
+{ // Question 9
             "q": " When a system is subjected to free vibration and the system is considered as a discrete system in which the beam is considered as mass-less and the whole mass is concentrated at the free end of the beam. The governing equation of motion for such system will be,?",
             "a": [
                 {"option": " mx+kx=0",    "correct": true},
@@ -129,7 +129,7 @@ var quizJSON = {
             "correct": "<p><span>Right answer</span> Ans:  mx+kx=0</p>",
             "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans: mx+kx=0</p>"  // no comma here
         } ,
-{ // Question 5
+{ // Question 10
             "q": " The moment of inertia of the beam cross-section and for a circular cross-section it is given as,?",
             "a": [
                 {"option": "I=pi/64d4",    "correct": true},
@@ -142,6 +142,145 @@ var quizJSON = {
             ],
             "correct": "<p><span>Right answer</span> Ans: I=pi/64d4</p>",
             "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:I=pi/64d4</p>"  // no comma here
-        }   
+        } ,
+
+{ // Question 11
+            "q": "The natural frequency of a system with mass m and stiffness k is given by _____",
+            "a": [
+                {"option": " k/m",    "correct": false},
+                {"option": " sqrt k/m",     "correct": false},
+		 {"option": "Sqrt m/k",  "correct": true},
+                {"option": " Sqrt m/l",  "correct": false} 
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:  Sqrt m/k</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Sqrt m/k</p>"  // no comma here
+        } ,
+{ // Question 12
+            "q": "Vibration can be classified in _____",
+            "a": [
+                {"option": " One way",    "correct": false},
+                {"option": " Two ways ",     "correct": false},
+		 {"option": "Several ways",  "correct": true}
+               
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans: Several ways</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Several ways</p>"  // no comma here
+        },
+ 
+{ // Question 13
+            "q": " When a system vibrates in a fluid medium, the damping is _____",
+            "a": [
+                {"option": " Viscous",    "correct": true},
+                {"option": " Coulomb ",     "correct": false},
+		 {"option": "solid",  "correct": false},
+		{"option": "structural",  "correct": false}
+               
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:Viscous</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Viscous</p>"  // no comma here
+        },
+{ // Question 13
+            "q": "For a Fixed-Fixed beam with a point load at the middle, The stiffness is",
+            "a": [
+                {"option": " <img src=\"../images/equations/abc.png\"\height=50 width=50/>",    "correct": true},
+                {"option": " <img src=\"../images/equations/vib2.png\"\height=50 width=50/> ",     "correct": false},
+		 {"option": "<img src=\"../images/equations/vib3.png\"\height=50 width=50/>",  "correct": false},
+		{"option": "<img src=\"../images/equations/vib4.png\"\height=50 width=50/>",  "correct": false}
+               
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:<img src=\"../images/equations/vib2.png\"\height=50 width=50/> </p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:<img src=\"../images/equations/vib2.png\"\height=50 width=50/> </p>"  // no comma here
+        },
+
+{ // Question 13
+            "q": " The spring constant of a cantilever beam with an end mass m is _____",
+            "a": [
+                {"option": " <img src=\"../images/equations/vib5.png\"\height=50 width=150/>",    "correct": false},
+                {"option": " <img src=\"../images/equations/vib6.png\"\height=50 width=50/> ",     "correct": true}
+		
+               
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:<img src=\"../images/equations/vib6.png\"\height=50 width=50/> </p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:<img src=\"../images/equations/vib6.png\"\height=50 width=50/></p>"  // no comma here
+        },
+
+{ // Question 13
+            "q": " For a viscous damper with damping constant c, the damping force is _____",
+            "a": [
+                {"option": " <img src=\"../images/equations/vib7.png\"\height=50 width=150/>",    "correct": false},
+                {"option": " <img src=\"../images/equations/vib8.png\"\height=50 width=50/> ",     "correct": true}
+		
+               
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:<img src=\"../images/equations/vib8.png\"\height=50 width=50/> </p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:<img src=\"../images/equations/vib8.png\"\height=50 width=50/></p>"  // no comma here
+        },
+{ // Question 13
+            "q": " The mechanical clock represents a _____ pendulum.",
+            "a": [
+                {"option": " simple",    "correct": true},
+                {"option": "compound",     "correct": false},
+		{"option": "complex",     "correct": false},
+		{"option": "normal",     "correct": false}
+		
+               
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:simple</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:simple</p>"  // no comma here
+        },
+{ // Question 13
+            "q": " Any two successive displacements of the system, separated by a cycle, can be used to find the _____ decrement.",
+            "a": [
+                {"option": " Exponential",    "correct": true},
+                {"option": "logarithmic",     "correct": false},
+		{"option": "velocity",     "correct": false},
+		{"option": "acceleration",     "correct": false}
+		
+               
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:Exponential</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Exponential</p>"  // no comma here
+        },
+{ // Question 13
+            "q": "  Systems undergo dangerously large oscillations at _____",
+            "a": [
+                {"option": " Resonance",    "correct": true},
+                {"option": "excitation",     "correct": false},
+		{"option": "damped frequency",     "correct": false},
+		{"option": "logarithmic decrement ",     "correct": false}
+		
+               
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:Resonance</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Resonance</p>"  // no comma here
+        }
+  
     ]
 };
