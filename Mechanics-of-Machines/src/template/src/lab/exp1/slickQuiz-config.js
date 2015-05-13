@@ -88,7 +88,7 @@ var quizJSON = {
             "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Connecting rod</p>"  // no comma here
         },
   { // Question 5
-            "q": " Beam engine is……",
+            "q": " Beam engine is",
             "a": [
                 {"option": "Crank and lever mechanism",    "correct": true},
                 {"option": " Crank and crank mechanism",     "correct": false},
