@@ -422,6 +422,98 @@ var quizJSON = {
             ],
             "correct": "<p><span>Right answer</span> Ans:natural</p>",
             "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:natural</p>"  // no comma here
+        },
+{ // Question 13
+            "q": " The number of degrees of freedom of a simple pendulum is",
+            "a": [
+                {"option": "one",    "correct": false},
+                {"option": "two",     "correct": false},
+		{"option": "infinite",    "correct": true},
+                {"option": "multi-degrees",     "correct": false}
+
+		
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:one</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:one</p>"  // no comma here
+        },
+{ // Question 13
+            "q": " The amplitude of an undamped system will not change with time.",
+            "a": [
+                {"option": "true",    "correct": true},
+                {"option": "false",     "correct": false}
+		
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:true</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:true</p>"  // no comma here
+        },
+{ // Question 13
+            "q": " When the frequency of excitation coincides with the natural frequency of the system, the condition is known as _____",
+            "a": [
+                {"option": "Resonance",    "correct": true},
+                {"option": "logrithmic decreme",     "correct": false},
+		 {"option": "beats",    "correct": false},
+                {"option": "Damping",     "correct": false}
+		
+		
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:Resonance</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Resonance</p>"  // no comma here
+        },
+{ // Question 13
+            "q": " The magnification factor is also known as _____ factor.",
+            "a": [
+                {"option": "Amplification factor ",    "correct": false},
+                {"option": "static deflection factor",     "correct": false},
+		 {"option": "tramsmissibilty",    "correct": true},
+                {"option": "Resonance",     "correct": false}
+		
+		
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:tramsmissibilty</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:tramsmissibilty</p>"  // no comma here
+        },
+{ // Question 13
+            "q": " The response of an undamped system under resonance will be",
+            "a": [
+                {"option": " very large  ",    "correct": false},
+                {"option": "infinity",     "correct": true},
+		 {"option": "zero",    "correct": false},
+                {"option": "small",     "correct": false}
+		
+		
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:infinity</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:infinity</p>"  // no comma here
+        },
+
+{ // Question 13
+            "q": " The magnification factor is the ratio of maximum amplitude and static deflection.",
+            "a": [
+                {"option": " true",    "correct": true},
+                {"option": "false",     "correct": false}
+		 
+		
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span> Ans:true</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:true</p>"  // no comma here
         }
 
 
